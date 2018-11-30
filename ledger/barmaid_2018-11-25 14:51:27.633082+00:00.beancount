@@ -68,3 +68,283 @@
   Liabilities:Bar:Members:Elvis   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2018-11-25 txn "Elvis bought 1 items for €0.50"
+  timestamp: "2018-11-25 20:49:41.021431"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 MNM
+  Liabilities:Bar:Members:Elvis      1 MNM
+  Liabilities:Bar:Members:Elvis   0.50 EUR
+  Income:Bar                     -0.50 EUR
+
+2018-11-25 txn "Evils bought 1 items for €0.60"
+  timestamp: "2018-11-25 22:26:56.708385"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 KING
+  Liabilities:Bar:Members:Elvis      1 KING
+  Liabilities:Bar:Members:Elvis   0.60 EUR 
+  Income:Bar                     -0.60 EUR 
+
+2018-11-27 txn "Els deposited €40.00"
+  timestamp: "2018-11-27 13:39:19.891636"
+  type: "deposit"
+  Liabilities:Bar:Members:Els  -40.00 EUR
+  Assets:Cash:Bar               40.00 EUR
+
+2018-11-27 txn "--CASH-- deposited €50.00"
+  timestamp: "2018-11-27 13:39:26.939986"
+  type: "deposit"
+  Assets:Cash:Bar  -50.00 EUR
+  Assets:Cash:Bar   50.00 EUR
+
+2018-11-27 txn "Els bought 1 items for €2.00"
+  timestamp: "2018-11-27 13:40:38.775740"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM 
+  Liabilities:Bar:Members:Els      1 CM 
+  Liabilities:Bar:Members:Els   2.00 EUR
+  Income:Bar                   -2.00 EUR
+
+2018-11-29 txn "--CASH-- bought 2 items for €2.60"
+  timestamp: "2018-11-29 17:46:35.864343"
+  type: "purchase"
+  Assets:Inventory:Bar     -1 CM  
+  Assets:Cash:Bar           1 CM  
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Cash:Bar        2.60 EUR 
+  Income:Bar            -2.60 EUR 
+
+2018-11-29 txn "Merlijn bought 1 items for €0.60"
+  timestamp: "2018-11-29 18:10:42.340501"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 TWIX
+  Liabilities:Bar:Members:Merlijn      1 TWIX
+  Liabilities:Bar:Members:Merlijn   0.60 EUR 
+  Income:Bar                       -0.60 EUR 
+
+2018-11-29 txn "Evils bought 1 items for €2.00"
+  timestamp: "2018-11-29 18:11:23.948087"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 CMRED
+  Liabilities:Bar:Members:Elvis      1 CMRED
+  Liabilities:Bar:Members:Elvis   2.00 EUR  
+  Income:Bar                     -2.00 EUR  
+
+2018-11-29 txn "Merlijn bought 1 items for €0.50"
+  timestamp: "2018-11-29 18:16:07.494374"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 WATER
+  Liabilities:Bar:Members:Merlijn      1 WATER
+  Liabilities:Bar:Members:Merlijn   0.50 EUR  
+  Income:Bar                       -0.50 EUR  
+
+2018-11-29 txn "--CASH-- bought 1 items for €0.60"
+  timestamp: "2018-11-29 18:30:51.118398"
+  type: "purchase"
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Cash:Bar        0.60 EUR 
+  Income:Bar            -0.60 EUR 
+
+2018-11-29 txn "ruleant bought 1 items for €1.50"
+  timestamp: "2018-11-29 18:32:53.493778"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 FANTA
+  Liabilities:Bar:Members:Ruleant      1 FANTA
+  Liabilities:Bar:Members:Ruleant   1.50 EUR  
+  Income:Bar                       -1.50 EUR  
+
+2018-11-29 txn "Merlijn bought 1 items for €0.60"
+  timestamp: "2018-11-29 18:34:37.701973"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 CHIP
+  Liabilities:Bar:Members:Merlijn      1 CHIP
+  Liabilities:Bar:Members:Merlijn   0.60 EUR 
+  Income:Bar                       -0.60 EUR 
+
+2018-11-29 txn "TQ bought 1 items for €2.00"
+  timestamp: "2018-11-29 18:53:18.551810"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 CM 
+  Liabilities:Bar:Members:Thequux      1 CM 
+  Liabilities:Bar:Members:Thequux   2.00 EUR
+  Income:Bar                       -2.00 EUR
+
+2018-11-29 txn "Stefaan bought 1 items for €0.60"
+  timestamp: "2018-11-29 19:01:59.650908"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 KITKAT
+  Liabilities:Bar:Members:Stefaan      1 KITKAT
+  Liabilities:Bar:Members:Stefaan   0.60 EUR   
+  Income:Bar                       -0.60 EUR   
+
+2018-11-29 txn "Maja deposited €20.00"
+  timestamp: "2018-11-29 19:08:14.914975"
+  type: "deposit"
+  Liabilities:Bar:Members:Maja  -20.00 EUR
+  Assets:Cash:Bar                20.00 EUR
+
+2018-11-29 txn "Evils deposited €12.00"
+  timestamp: "2018-11-29 19:27:26.027857"
+  type: "deposit"
+  Liabilities:Bar:Members:Elvis  -12.00 EUR
+  Assets:Cash:Bar                 12.00 EUR
+
+2018-11-29 txn "Bloemist deposited €4.50"
+  timestamp: "2018-11-29 19:28:25.603911"
+  type: "deposit"
+  Liabilities:Bar:Members:Bloemist  -4.50 EUR
+  Assets:Cash:Bar                    4.50 EUR
+
+2018-11-29 txn "Stefaan bought 2 items for €2.10"
+  timestamp: "2018-11-29 19:34:06.592393"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 TWIX 
+  Liabilities:Bar:Members:Stefaan      1 TWIX 
+  Assets:Inventory:Bar                -1 FANTA
+  Liabilities:Bar:Members:Stefaan      1 FANTA
+  Liabilities:Bar:Members:Stefaan   2.10 EUR  
+  Income:Bar                       -2.10 EUR  
+
+2018-11-29 txn "Bloemist bought 1 items for €1.50"
+  timestamp: "2018-11-29 19:36:23.677404"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 JUPILER
+  Liabilities:Bar:Members:Bloemist      1 JUPILER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR    
+  Income:Bar                        -1.50 EUR    
+
+2018-11-29 txn "Joris bought 2 items for €2.10"
+  timestamp: "2018-11-29 19:49:54.131455"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SCWEPPES
+  Liabilities:Bar:Members:Joris      1 SCWEPPES
+  Assets:Inventory:Bar              -1 KITKAT  
+  Liabilities:Bar:Members:Joris      1 KITKAT  
+  Liabilities:Bar:Members:Joris   2.10 EUR     
+  Income:Bar                     -2.10 EUR     
+
+2018-11-29 txn "Ewaut bought 1 items for €1.50"
+  timestamp: "2018-11-29 20:04:12.663848"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 ICETEA
+  Liabilities:Bar:Members:Ewaut      1 ICETEA
+  Liabilities:Bar:Members:Ewaut   1.50 EUR   
+  Income:Bar                     -1.50 EUR   
+
+2018-11-29 txn "Maja bought 2 items for €3.00"
+  timestamp: "2018-11-29 20:41:36.992252"
+  type: "purchase"
+  Assets:Inventory:Bar             -2 ICETEA
+  Liabilities:Bar:Members:Maja      2 ICETEA
+  Liabilities:Bar:Members:Maja   3.00 EUR   
+  Income:Bar                    -3.00 EUR   
+
+2018-11-29 txn "Ewaut bought 1 items for €1.50"
+  timestamp: "2018-11-29 20:54:12.579767"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 ICETEA
+  Liabilities:Bar:Members:Ewaut      1 ICETEA
+  Liabilities:Bar:Members:Ewaut   1.50 EUR   
+  Income:Bar                     -1.50 EUR   
+
+2018-11-29 txn "Joris bought 2 items for €2.10"
+  timestamp: "2018-11-29 20:56:44.288427"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 FANTA
+  Liabilities:Bar:Members:Joris      1 FANTA
+  Assets:Inventory:Bar              -1 CHIP 
+  Liabilities:Bar:Members:Joris      1 CHIP 
+  Liabilities:Bar:Members:Joris   2.10 EUR  
+  Income:Bar                     -2.10 EUR  
+
+2018-11-29 txn "ruleant bought 1 items for €4.00"
+  timestamp: "2018-11-29 20:59:07.904244"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 CHIMAY
+  Liabilities:Bar:Members:Ruleant      1 CHIMAY
+  Liabilities:Bar:Members:Ruleant   4.00 EUR   
+  Income:Bar                       -4.00 EUR   
+
+2018-11-29 txn "--CASH-- bought 1 items for €0.60"
+  timestamp: "2018-11-29 21:14:36.069830"
+  type: "purchase"
+  Assets:Inventory:Bar     -1 KITKAT
+  Assets:Cash:Bar           1 KITKAT
+  Assets:Cash:Bar        0.60 EUR   
+  Income:Bar            -0.60 EUR   
+
+2018-11-29 txn "--CASH-- bought 1 items for €0.60"
+  timestamp: "2018-11-29 21:19:47.540000"
+  type: "purchase"
+  Assets:Inventory:Bar     -1 KITKAT
+  Assets:Cash:Bar           1 KITKAT
+  Assets:Cash:Bar        0.60 EUR   
+  Income:Bar            -0.60 EUR   
+
+2018-11-29 txn "Evils bought 1 items for €0.60"
+  timestamp: "2018-11-29 21:23:17.455741"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 MNM
+  Liabilities:Bar:Members:Elvis      1 MNM
+  Liabilities:Bar:Members:Elvis   0.60 EUR
+  Income:Bar                     -0.60 EUR
+
+2018-11-29 txn "Bloemist bought 1 items for €1.50"
+  timestamp: "2018-11-29 21:29:20.751057"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 JUPILER
+  Liabilities:Bar:Members:Bloemist      1 JUPILER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR    
+  Income:Bar                        -1.50 EUR    
+
+2018-11-29 txn "TQ bought 2 items for €2.10"
+  timestamp: "2018-11-29 21:49:35.495390"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 JUPILER
+  Liabilities:Bar:Members:Thequux      1 JUPILER
+  Assets:Inventory:Bar                -1 MARS   
+  Liabilities:Bar:Members:Thequux      1 MARS   
+  Liabilities:Bar:Members:Thequux   2.10 EUR    
+  Income:Bar                       -2.10 EUR    
+
+2018-11-29 txn "Evils bought 1 items for €0.60"
+  timestamp: "2018-11-29 22:50:52.143554"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 KITKAT
+  Liabilities:Bar:Members:Elvis      1 KITKAT
+  Liabilities:Bar:Members:Elvis   0.60 EUR   
+  Income:Bar                     -0.60 EUR   
+
+2018-11-29 txn "TQ bought 1 items for €2.50"
+  timestamp: "2018-11-29 22:52:26.191083"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 DUVEL
+  Liabilities:Bar:Members:Thequux      1 DUVEL
+  Liabilities:Bar:Members:Thequux   2.50 EUR  
+  Income:Bar                       -2.50 EUR  
+
+2018-11-29 txn "Bloemist bought 1 items for €1.50"
+  timestamp: "2018-11-29 23:07:02.456225"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 COKE
+  Liabilities:Bar:Members:Bloemist      1 COKE
+  Liabilities:Bar:Members:Bloemist   1.50 EUR 
+  Income:Bar                        -1.50 EUR 
+
+2018-11-29 txn "Evils bought 1 items for €0.60"
+  timestamp: "2018-11-29 23:59:27.580064"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Elvis      1 SNACK
+  Liabilities:Bar:Members:Elvis   0.60 EUR  
+  Income:Bar                     -0.60 EUR  
+
+2018-11-30 txn "Maja bought 1 items for €1.50"
+  timestamp: "2018-11-30 00:07:43.581234"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 COKE
+  Liabilities:Bar:Members:Maja      1 COKE
+  Liabilities:Bar:Members:Maja   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
