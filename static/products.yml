@@ -242,12 +242,12 @@
   event_price: 1.20
   currency: ICE_CREAM
   category: food
-- name: Pizza
-  # Also listed as 3.50
-  price: 2.00
-  event_price: 3.50
-  currency: PIZZA
-  category: food
+#- name: Pizza
+# Also listed as 3.50
+#  price: 2.00
+#  event_price: 3.50
+#  currency: PIZZA
+#  category: food
 
 # swag
 - name: Wristband
