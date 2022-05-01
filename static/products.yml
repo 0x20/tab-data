@@ -237,11 +237,11 @@
   category: food
 
 # frozen goods
-- name: Ice Cream
-  price: 0.60
-  event_price: 1.20
-  currency: ICE_CREAM
-  category: food
+#- name: Ice Cream
+#  price: 0.60
+#  event_price: 1.20
+#  currency: ICE_CREAM
+#  category: food
 #- name: Pizza
 # Also listed as 3.50
 #  price: 2.00
