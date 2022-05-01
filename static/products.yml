@@ -202,11 +202,11 @@
 #  event_price: 0.90
 #  category: food
 #  currency: ROLO
-- name: Popcorn
-  price: 0.50
-  event_price: 0.50
-  currency: POPCORN
-  category: food
+#- name: Popcorn
+#  price: 0.50
+#  event_price: 0.50
+#  currency: POPCORN
+#  category: food
 - name: Bounty
   price: 0.60
   event_price: 0.90
