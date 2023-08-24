@@ -632,3 +632,9 @@
   Liabilities:Bar:Members:Miker   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2023-08-24 txn "Miker gave DJefke a gift of €34.80"
+  timestamp: "2023-08-24 19:24:55.217740"
+  type: "transfer"
+  Liabilities:Bar:Members:Miker    34.80 EUR
+  Liabilities:Bar:Members:DJefke  -34.80 EUR
+
