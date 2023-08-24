@@ -608,3 +608,11 @@
   Liabilities:Bar:Members:Err0r  -10.00 EUR
   Assets:Cash:Bar                 10.00 EUR
 
+2023-08-24 txn "Err0r bought 1 items for €2.50"
+  timestamp: "2023-08-24 18:37:54.216883"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Err0r      1 GERMAN
+  Liabilities:Bar:Members:Err0r   2.50 EUR   
+  Income:Bar                     -2.50 EUR   
+
