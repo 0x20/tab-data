@@ -602,3 +602,9 @@
   Liabilities:Bar:Members:Sander   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2023-08-24 txn "Err0r deposited €10.00"
+  timestamp: "2023-08-24 18:37:38.900631"
+  type: "deposit"
+  Liabilities:Bar:Members:Err0r  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
