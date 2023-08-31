@@ -842,3 +842,11 @@
   Liabilities:Bar:Members:Err0r   5.00 EUR   
   Income:Bar                     -5.00 EUR   
 
+2023-08-31 txn "Thijs bought 1 items for €1.50"
+  timestamp: "2023-08-31 21:02:43.052547"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Thijs      1 BEER
+  Liabilities:Bar:Members:Thijs   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
