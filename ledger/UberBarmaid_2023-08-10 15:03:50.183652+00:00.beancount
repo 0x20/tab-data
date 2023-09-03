@@ -1032,3 +1032,9 @@
   Liabilities:Bar:Members:Fearless   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2023-09-03 txn "Matth deposited €10.00"
+  timestamp: "2023-09-03 17:57:17.327476"
+  type: "deposit"
+  Liabilities:Bar:Members:Matth  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
