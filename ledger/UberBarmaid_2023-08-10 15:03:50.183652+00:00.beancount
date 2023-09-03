@@ -1008,3 +1008,11 @@
   Liabilities:Bar:Members:Matth   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2023-09-03 txn "qwaxys bought 1 items for €4.00"
+  timestamp: "2023-09-03 16:59:31.187087"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 COCKTAIL
+  Liabilities:Bar:Members:Bart      1 COCKTAIL
+  Liabilities:Bar:Members:Bart   4.00 EUR     
+  Income:Bar                    -4.00 EUR     
+
