@@ -920,3 +920,9 @@
   Liabilities:Bar:Members:Bart   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2023-09-03 txn "Fearless gave qwaxys a gift of €15.00"
+  timestamp: "2023-09-03 12:56:09.698089"
+  type: "transfer"
+  Liabilities:Bar:Members:Fearless   15.00 EUR
+  Liabilities:Bar:Members:Bart      -15.00 EUR
+
