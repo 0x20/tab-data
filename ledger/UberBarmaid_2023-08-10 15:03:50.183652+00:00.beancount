@@ -1024,3 +1024,11 @@
   Liabilities:Bar:Members:Yvan   5.00 EUR   
   Income:Bar                    -5.00 EUR   
 
+2023-09-03 txn "Fearless bought 1 items for €1.50"
+  timestamp: "2023-09-03 17:17:06.532656"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Fearless      1 BEER
+  Liabilities:Bar:Members:Fearless   1.50 EUR 
+  Income:Bar                        -1.50 EUR 
+
