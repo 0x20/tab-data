@@ -1104,3 +1104,13 @@
   Liabilities:Bar:Members:Els   1.50 EUR 
   Income:Bar                   -1.50 EUR 
 
+2023-09-05 txn "Els bought 2 items for €3.33"
+  timestamp: "2023-09-05 13:44:31.672557"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CIDER
+  Liabilities:Bar:Members:Els      1 CIDER
+  Assets:Inventory:Bar            -1 CARA 
+  Liabilities:Bar:Members:Els      1 CARA 
+  Liabilities:Bar:Members:Els   3.33 EUR  
+  Income:Bar                   -3.33 EUR  
+
