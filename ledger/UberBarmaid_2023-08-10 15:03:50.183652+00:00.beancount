@@ -1114,3 +1114,9 @@
   Liabilities:Bar:Members:Els   3.33 EUR  
   Income:Bar                   -3.33 EUR  
 
+2023-09-05 txn "Els deposited €3.33"
+  timestamp: "2023-09-05 13:44:51.457826"
+  type: "deposit"
+  Liabilities:Bar:Members:Els  -3.33 EUR
+  Assets:Cash:Bar               3.33 EUR
+
