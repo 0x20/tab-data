@@ -1184,3 +1184,11 @@
   Liabilities:Bar:Members:Yvan   2.50 EUR   
   Income:Bar                    -2.50 EUR   
 
+2023-09-07 txn "Thijs bought 1 items for €3.00"
+  timestamp: "2023-09-07 18:54:46.585151"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 CM 
+  Liabilities:Bar:Members:Thijs      1 CM 
+  Liabilities:Bar:Members:Thijs   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
