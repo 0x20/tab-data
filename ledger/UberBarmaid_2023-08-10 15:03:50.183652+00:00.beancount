@@ -1254,3 +1254,9 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2023-09-07 txn "Err0r deposited €1.50"
+  timestamp: "2023-09-07 21:35:07.666085"
+  type: "deposit"
+  Liabilities:Bar:Members:Err0r  -1.50 EUR
+  Assets:Cash:Bar                 1.50 EUR
+
