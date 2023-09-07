@@ -1208,3 +1208,11 @@
   Liabilities:Bar:Members:Maja   3.10 EUR   
   Income:Bar                    -3.10 EUR   
 
+2023-09-07 txn "Frp bought 1 items for €3.00"
+  timestamp: "2023-09-07 19:00:25.328773"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM 
+  Liabilities:Bar:Members:Frp      1 CM 
+  Liabilities:Bar:Members:Frp   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
