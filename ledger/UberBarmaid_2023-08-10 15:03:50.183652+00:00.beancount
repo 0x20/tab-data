@@ -1426,3 +1426,9 @@
   Liabilities:Bar:Members:Yvan   3.10 EUR   
   Income:Bar                    -3.10 EUR   
 
+2023-09-14 txn "Thijs gave Sander a gift of €7.25"
+  timestamp: "2023-09-14 19:40:14.664910"
+  type: "transfer"
+  Liabilities:Bar:Members:Thijs    7.25 EUR
+  Liabilities:Bar:Members:Sander  -7.25 EUR
+
