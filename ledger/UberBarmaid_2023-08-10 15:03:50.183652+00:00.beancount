@@ -1438,3 +1438,11 @@
   Liabilities:Bar:Members:Thijs  -50.00 EUR
   Assets:Cash:Bar                 50.00 EUR
 
+2023-09-14 txn "Frp bought 1 items for €3.00"
+  timestamp: "2023-09-14 19:46:58.801766"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM 
+  Liabilities:Bar:Members:Frp      1 CM 
+  Liabilities:Bar:Members:Frp   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
