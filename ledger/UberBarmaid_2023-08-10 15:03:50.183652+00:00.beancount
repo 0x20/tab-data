@@ -1432,3 +1432,9 @@
   Liabilities:Bar:Members:Thijs    7.25 EUR
   Liabilities:Bar:Members:Sander  -7.25 EUR
 
+2023-09-14 txn "Thijs deposited €50.00"
+  timestamp: "2023-09-14 19:40:19.611505"
+  type: "deposit"
+  Liabilities:Bar:Members:Thijs  -50.00 EUR
+  Assets:Cash:Bar                 50.00 EUR
+
