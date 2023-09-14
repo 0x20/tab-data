@@ -1374,3 +1374,11 @@
   Liabilities:Bar:Members:Thijs   0.60 EUR  
   Income:Bar                     -0.60 EUR  
 
+2023-09-14 txn "Sander bought 1 items for €3.00"
+  timestamp: "2023-09-14 12:35:00.278604"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 CM 
+  Liabilities:Bar:Members:Sander      1 CM 
+  Liabilities:Bar:Members:Sander   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
