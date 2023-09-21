@@ -1620,3 +1620,11 @@
   Liabilities:Bar:Members:Yvan   4.00 EUR 
   Income:Bar                    -4.00 EUR 
 
+2023-09-21 txn "Els bought 2 items for €3.00"
+  timestamp: "2023-09-21 15:47:38.798339"
+  type: "purchase"
+  Assets:Inventory:Bar            -2 SODA
+  Liabilities:Bar:Members:Els      2 SODA
+  Liabilities:Bar:Members:Els   3.00 EUR 
+  Income:Bar                   -3.00 EUR 
+
