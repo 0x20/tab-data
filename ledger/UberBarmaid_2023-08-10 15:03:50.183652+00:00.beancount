@@ -1610,3 +1610,13 @@
   Liabilities:Bar:Members:Yvan   3.50 EUR   
   Income:Bar                    -3.50 EUR   
 
+2023-09-21 txn "Yvan bought 2 items for €4.00"
+  timestamp: "2023-09-21 15:23:00.405158"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 CM  
+  Liabilities:Bar:Members:Yvan      1 CM  
+  Assets:Inventory:Bar             -1 CHIP
+  Liabilities:Bar:Members:Yvan      1 CHIP
+  Liabilities:Bar:Members:Yvan   4.00 EUR 
+  Income:Bar                    -4.00 EUR 
+
