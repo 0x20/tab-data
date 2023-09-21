@@ -1688,3 +1688,9 @@
   Liabilities:Bar:Members:Mateo   27.50 EUR   
   Income:Bar                     -27.50 EUR   
 
+2023-09-21 txn "Bloemist deposited €20.00"
+  timestamp: "2023-09-21 19:18:39.681029"
+  type: "deposit"
+  Liabilities:Bar:Members:Bloemist  -20.00 EUR
+  Assets:Cash:Bar                    20.00 EUR
+
