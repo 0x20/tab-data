@@ -1652,3 +1652,11 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR   
   Income:Bar                      -2.50 EUR   
 
+2023-09-21 txn "Bloemist bought 1 items for €1.33"
+  timestamp: "2023-09-21 18:19:41.211215"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 CARA
+  Liabilities:Bar:Members:Bloemist      1 CARA
+  Liabilities:Bar:Members:Bloemist   1.33 EUR 
+  Income:Bar                        -1.33 EUR 
+
