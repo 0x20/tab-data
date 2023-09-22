@@ -1788,3 +1788,11 @@
   Liabilities:Bar:Members:Mateo   0.60 EUR  
   Income:Bar                     -0.60 EUR  
 
+2023-09-22 txn "Els bought 1 items for €3.00"
+  timestamp: "2023-09-22 10:36:54.468966"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM 
+  Liabilities:Bar:Members:Els      1 CM 
+  Liabilities:Bar:Members:Els   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
