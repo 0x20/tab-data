@@ -1912,3 +1912,9 @@
   Liabilities:Bar:Members:Mateo   0.60 EUR  
   Income:Bar                     -0.60 EUR  
 
+2023-09-24 txn "Err0r deposited €10.00"
+  timestamp: "2023-09-24 19:20:47.932470"
+  type: "deposit"
+  Liabilities:Bar:Members:Err0r  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
