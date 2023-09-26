@@ -1968,3 +1968,11 @@
   Assets:Cash:Bar        3.00 EUR
   Income:Bar            -3.00 EUR
 
+2023-09-26 txn "Els bought 1 items for €1.50"
+  timestamp: "2023-09-26 12:29:33.187983"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 SODA
+  Liabilities:Bar:Members:Els      1 SODA
+  Liabilities:Bar:Members:Els   1.50 EUR 
+  Income:Bar                   -1.50 EUR 
+
