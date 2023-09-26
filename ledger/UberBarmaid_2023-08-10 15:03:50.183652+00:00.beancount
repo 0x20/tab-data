@@ -1942,3 +1942,13 @@
   Liabilities:Bar:Members:Mateo   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2023-09-26 txn "Els bought 3 items for €4.20"
+  timestamp: "2023-09-26 07:37:00.843980"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM   
+  Liabilities:Bar:Members:Els      1 CM   
+  Assets:Inventory:Bar            -2 SNACK
+  Liabilities:Bar:Members:Els      2 SNACK
+  Liabilities:Bar:Members:Els   4.20 EUR  
+  Income:Bar                   -4.20 EUR  
+
