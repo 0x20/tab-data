@@ -1984,3 +1984,11 @@
   Liabilities:Bar:Members:Els   1.50 EUR 
   Income:Bar                   -1.50 EUR 
 
+2023-09-27 txn "Els bought 2 items for €1.20"
+  timestamp: "2023-09-27 11:55:55.315979"
+  type: "purchase"
+  Assets:Inventory:Bar            -2 SNACK
+  Liabilities:Bar:Members:Els      2 SNACK
+  Liabilities:Bar:Members:Els   1.20 EUR  
+  Income:Bar                   -1.20 EUR  
+
