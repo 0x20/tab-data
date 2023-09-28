@@ -2162,3 +2162,11 @@
   Liabilities:Bar:Members:Els   1.50 EUR 
   Income:Bar                   -1.50 EUR 
 
+2023-09-28 txn "ON8LTE bought 1 items for €2.50"
+  timestamp: "2023-09-28 20:51:25.016673"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:ON8LTE      1 GERMAN
+  Liabilities:Bar:Members:ON8LTE   2.50 EUR   
+  Income:Bar                      -2.50 EUR   
+
