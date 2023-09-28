@@ -2084,3 +2084,9 @@
   Liabilities:Bar:Members:Mateo  -20.00 EUR
   Assets:Cash:Bar                 20.00 EUR
 
+2023-09-28 txn "Mateo gave DJefke a gift of €16.55"
+  timestamp: "2023-09-28 18:28:10.208981"
+  type: "transfer"
+  Liabilities:Bar:Members:Mateo    16.55 EUR
+  Liabilities:Bar:Members:DJefke  -16.55 EUR
+
