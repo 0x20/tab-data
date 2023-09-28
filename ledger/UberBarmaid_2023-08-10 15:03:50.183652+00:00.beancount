@@ -2098,3 +2098,11 @@
   Liabilities:Bar:Members:Thijs   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2023-09-28 txn "Miker bought 1 items for €3.00"
+  timestamp: "2023-09-28 18:53:05.278987"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 CM 
+  Liabilities:Bar:Members:Miker      1 CM 
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
