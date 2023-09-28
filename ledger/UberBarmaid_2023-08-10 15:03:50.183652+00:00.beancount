@@ -2078,3 +2078,9 @@
   Liabilities:Bar:Members:Sander   1.50 EUR 
   Income:Bar                      -1.50 EUR 
 
+2023-09-28 txn "Mateo deposited €20.00"
+  timestamp: "2023-09-28 18:27:05.812914"
+  type: "deposit"
+  Liabilities:Bar:Members:Mateo  -20.00 EUR
+  Assets:Cash:Bar                 20.00 EUR
+
