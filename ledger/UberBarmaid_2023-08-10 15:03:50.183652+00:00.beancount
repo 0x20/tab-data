@@ -2282,3 +2282,11 @@
   Liabilities:Bar:Members:Fearless   2.50 EUR   
   Income:Bar                        -2.50 EUR   
 
+2023-10-05 txn "Els bought 1 items for €1.50"
+  timestamp: "2023-10-05 12:03:03.444303"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 SODA
+  Liabilities:Bar:Members:Els      1 SODA
+  Liabilities:Bar:Members:Els   1.50 EUR 
+  Income:Bar                   -1.50 EUR 
+
