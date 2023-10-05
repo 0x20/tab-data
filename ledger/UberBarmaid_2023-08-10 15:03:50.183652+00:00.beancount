@@ -2356,3 +2356,11 @@
   Liabilities:Bar:Members:Miker   0.60 EUR  
   Income:Bar                     -0.60 EUR  
 
+2023-10-05 txn "Frp bought 1 items for €2.50"
+  timestamp: "2023-10-05 19:59:36.353272"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 GERMAN
+  Liabilities:Bar:Members:Frp      1 GERMAN
+  Liabilities:Bar:Members:Frp   2.50 EUR   
+  Income:Bar                   -2.50 EUR   
+
