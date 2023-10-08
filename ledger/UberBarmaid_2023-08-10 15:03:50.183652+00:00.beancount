@@ -2414,3 +2414,9 @@
   Liabilities:Bar:Members:Koen  -10.00 EUR
   Assets:Cash:Bar                10.00 EUR
 
+2023-10-08 txn "Sander deposited €5.00"
+  timestamp: "2023-10-08 17:37:43.303802"
+  type: "deposit"
+  Liabilities:Bar:Members:Sander  -5.00 EUR
+  Assets:Cash:Bar                  5.00 EUR
+
