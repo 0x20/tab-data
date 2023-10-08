@@ -1,0 +1,8 @@
+2023-10-08 txn "Sander bought 1 items for €1.50"
+  timestamp: "2023-10-08 19:23:08.776032"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   1.50 EUR 
+  Income:Bar                      -1.50 EUR 
+
