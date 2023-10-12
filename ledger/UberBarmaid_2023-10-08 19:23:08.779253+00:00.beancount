@@ -50,3 +50,11 @@
   Liabilities:Bar:Members:Yvan   75.00 EUR
   Assets:Cash:Bar               -75.00 EUR
 
+2023-10-12 txn "Wouter bought 1 items for €1.00"
+  timestamp: "2023-10-12 10:37:42.709087"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Wouter      1 CHIP
+  Liabilities:Bar:Members:Wouter   1.00 EUR 
+  Income:Bar                      -1.00 EUR 
+
