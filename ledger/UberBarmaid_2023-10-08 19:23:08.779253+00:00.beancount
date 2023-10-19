@@ -246,3 +246,13 @@
   Liabilities:Bar:Members:Miker   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2023-10-19 txn "Yvan bought 3 items for €3.70"
+  timestamp: "2023-10-19 18:44:33.168070"
+  type: "purchase"
+  Assets:Inventory:Bar             -2 SNACK 
+  Liabilities:Bar:Members:Yvan      2 SNACK 
+  Assets:Inventory:Bar             -1 GERMAN
+  Liabilities:Bar:Members:Yvan      1 GERMAN
+  Liabilities:Bar:Members:Yvan   3.70 EUR   
+  Income:Bar                    -3.70 EUR   
+
