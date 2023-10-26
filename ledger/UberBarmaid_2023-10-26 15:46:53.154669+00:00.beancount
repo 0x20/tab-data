@@ -126,3 +126,11 @@
   Liabilities:Bar:Members:Koen  -0.50 EUR
   Assets:Cash:Bar                0.50 EUR
 
+2023-10-26 txn "Thijs bought 2 items for €5.00"
+  timestamp: "2023-10-26 19:31:03.790937"
+  type: "purchase"
+  Assets:Inventory:Bar              -2 DUVEL
+  Liabilities:Bar:Members:Thijs      2 DUVEL
+  Liabilities:Bar:Members:Thijs   5.00 EUR  
+  Income:Bar                     -5.00 EUR  
+
