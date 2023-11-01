@@ -258,3 +258,9 @@
   Liabilities:Bar:Members:Yvan   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2023-11-01 txn "Fearless gave Yvan a gift of €5.00"
+  timestamp: "2023-11-01 14:18:58.748972"
+  type: "transfer"
+  Liabilities:Bar:Members:Fearless   5.00 EUR
+  Liabilities:Bar:Members:Yvan      -5.00 EUR
+
