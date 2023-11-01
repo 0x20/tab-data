@@ -212,3 +212,9 @@
   Liabilities:Bar:Members:Yvan   3.10 EUR   
   Income:Bar                    -3.10 EUR   
 
+2023-11-01 txn "Nachtvlinder deposited €30.00"
+  timestamp: "2023-11-01 12:23:30.649369"
+  type: "deposit"
+  Liabilities:Bar:Members:Maja  -30.00 EUR
+  Assets:Cash:Bar                30.00 EUR
+
