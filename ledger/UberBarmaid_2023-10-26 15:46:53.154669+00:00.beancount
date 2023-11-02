@@ -334,3 +334,11 @@
   Liabilities:Bar:Members:Gust   0.60 EUR  
   Income:Bar                    -0.60 EUR  
 
+2023-11-02 txn "Gust bought 1 items for €1.50"
+  timestamp: "2023-11-02 17:06:35.280555"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Gust      1 SODA
+  Liabilities:Bar:Members:Gust   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
