@@ -422,3 +422,15 @@
   Liabilities:Bar:Members:Frp   2.50 EUR   
   Income:Bar                   -2.50 EUR   
 
+2023-11-04 txn "Yvan bought 5 items for €5.30"
+  timestamp: "2023-11-04 15:34:19.303676"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 CHIP  
+  Liabilities:Bar:Members:Yvan      1 CHIP  
+  Assets:Inventory:Bar             -3 SNACK 
+  Liabilities:Bar:Members:Yvan      3 SNACK 
+  Assets:Inventory:Bar             -1 GERMAN
+  Liabilities:Bar:Members:Yvan      1 GERMAN
+  Liabilities:Bar:Members:Yvan   5.30 EUR   
+  Income:Bar                    -5.30 EUR   
+
