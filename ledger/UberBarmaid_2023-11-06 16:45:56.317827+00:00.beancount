@@ -1,0 +1,6 @@
+2023-11-06 txn "Koen deposited €8.00"
+  timestamp: "2023-11-06 16:45:56.314500"
+  type: "deposit"
+  Liabilities:Bar:Members:Koen  -8.00 EUR
+  Assets:Cash:Bar                8.00 EUR
+
