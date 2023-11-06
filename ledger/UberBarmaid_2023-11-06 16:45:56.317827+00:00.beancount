@@ -4,3 +4,11 @@
   Liabilities:Bar:Members:Koen  -8.00 EUR
   Assets:Cash:Bar                8.00 EUR
 
+2023-11-06 txn "Els bought 1 items for €3.00"
+  timestamp: "2023-11-06 17:03:18.553980"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM 
+  Liabilities:Bar:Members:Els      1 CM 
+  Liabilities:Bar:Members:Els   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
