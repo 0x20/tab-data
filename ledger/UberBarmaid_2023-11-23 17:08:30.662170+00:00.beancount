@@ -70,3 +70,11 @@
   Liabilities:Bar:Members:Yvan     9.50 EUR
   Liabilities:Bar:Members:Sander  -9.50 EUR
 
+2023-11-23 txn "Els bought 1 items for €1.50"
+  timestamp: "2023-11-23 19:09:02.858058"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 SODA
+  Liabilities:Bar:Members:Els      1 SODA
+  Liabilities:Bar:Members:Els   1.50 EUR 
+  Income:Bar                   -1.50 EUR 
+
