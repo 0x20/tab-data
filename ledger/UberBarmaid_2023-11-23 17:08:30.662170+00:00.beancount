@@ -78,3 +78,14 @@
   Liabilities:Bar:Members:Els   1.50 EUR 
   Income:Bar                   -1.50 EUR 
 
+2023-11-23 txn "Matth bought 2 items for €27.50"
+  timestamp: "2023-11-23 19:20:18.847327"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 HOODIE  
+  Liabilities:Bar:Members:Matth       1 HOODIE  
+  Assets:Inventory:Bar               -1 PASSPORT
+  Liabilities:Bar:Members:Matth       1 PASSPORT
+  Liabilities:Bar:Members:Matth   27.50 EUR     
+  Liabilities:Bar:Members:Bart    -1.20 EUR     
+  Income:Bar                     -26.30 EUR     
+
