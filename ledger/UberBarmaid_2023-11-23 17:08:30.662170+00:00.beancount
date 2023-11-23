@@ -95,3 +95,11 @@
   Liabilities:Bar:Members:Matth  -27.50 EUR
   Assets:Cash:Bar                 27.50 EUR
 
+2023-11-23 txn "Matth bought 1 items for €1.50"
+  timestamp: "2023-11-23 19:21:27.627990"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Matth      1 BEER
+  Liabilities:Bar:Members:Matth   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
