@@ -243,3 +243,11 @@
   Liabilities:Bar:Members:DJefke   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2023-11-26 txn "Panda bought 1 items for €1.50"
+  timestamp: "2023-11-26 19:09:17.755676"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Panda      1 BEER
+  Liabilities:Bar:Members:Panda   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
