@@ -417,3 +417,11 @@
   Liabilities:Bar:Members:Err0r   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2023-11-26 txn "Fearless bought 1 items for €2.50"
+  timestamp: "2023-11-26 22:03:12.656444"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 GERMAN
+  Liabilities:Bar:Members:Fearless      1 GERMAN
+  Liabilities:Bar:Members:Fearless   2.50 EUR   
+  Income:Bar                        -2.50 EUR   
+
