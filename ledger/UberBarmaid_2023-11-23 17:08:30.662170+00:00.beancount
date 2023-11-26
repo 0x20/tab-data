@@ -383,3 +383,9 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2023-11-26 txn "Yvan gave Fearless a gift of €5.00"
+  timestamp: "2023-11-26 21:38:53.682157"
+  type: "transfer"
+  Liabilities:Bar:Members:Yvan       5.00 EUR
+  Liabilities:Bar:Members:Fearless  -5.00 EUR
+
