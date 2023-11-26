@@ -361,3 +361,9 @@
   Liabilities:Bar:Members:Fearless   19.00 EUR
   Liabilities:Bar:Members:Aris      -19.00 EUR
 
+2023-11-26 txn "--CASH-- gave Fearless a gift of €5.00"
+  timestamp: "2023-11-26 21:29:48.322003"
+  type: "transfer"
+  Assets:Cash:Bar                    5.00 EUR
+  Liabilities:Bar:Members:Fearless  -5.00 EUR
+
