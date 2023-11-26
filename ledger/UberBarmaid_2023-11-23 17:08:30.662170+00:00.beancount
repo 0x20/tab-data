@@ -367,3 +367,11 @@
   Assets:Cash:Bar                    5.00 EUR
   Liabilities:Bar:Members:Fearless  -5.00 EUR
 
+2023-11-26 txn "DJefke bought 1 items for €0.60"
+  timestamp: "2023-11-26 21:36:05.386690"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   0.60 EUR  
+  Income:Bar                      -0.60 EUR  
+
