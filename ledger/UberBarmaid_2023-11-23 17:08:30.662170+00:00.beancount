@@ -257,3 +257,11 @@
   Liabilities:Bar:Members:Panda  -1.50 EUR
   Assets:Cash:Bar                 1.50 EUR
 
+2023-11-26 txn "Matth bought 1 items for €1.50"
+  timestamp: "2023-11-26 19:09:47.780678"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Matth      1 BEER
+  Liabilities:Bar:Members:Matth   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
