@@ -221,3 +221,9 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2023-11-26 txn "Matth deposited €10.00"
+  timestamp: "2023-11-26 18:19:24.231216"
+  type: "deposit"
+  Liabilities:Bar:Members:Matth  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
