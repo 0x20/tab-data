@@ -251,3 +251,9 @@
   Liabilities:Bar:Members:Panda   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2023-11-26 txn "Panda deposited €1.50"
+  timestamp: "2023-11-26 19:09:41.747915"
+  type: "deposit"
+  Liabilities:Bar:Members:Panda  -1.50 EUR
+  Assets:Cash:Bar                 1.50 EUR
+
