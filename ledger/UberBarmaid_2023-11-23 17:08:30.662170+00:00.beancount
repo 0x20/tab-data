@@ -537,3 +537,9 @@
   Liabilities:Bar:Members:Miker   0.60 EUR  
   Income:Bar                     -0.60 EUR  
 
+2023-11-30 txn "Miker gave Mateo a gift of €36.68"
+  timestamp: "2023-11-30 23:14:08.940188"
+  type: "transfer"
+  Liabilities:Bar:Members:Miker   36.68 EUR
+  Liabilities:Bar:Members:Mateo  -36.68 EUR
+
