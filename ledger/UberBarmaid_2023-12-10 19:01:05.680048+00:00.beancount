@@ -122,3 +122,11 @@
   Liabilities:Bar:Members:Mateo   1.00 EUR 
   Income:Bar                     -1.00 EUR 
 
+2023-12-10 txn "Thijs bought 1 items for €2.50"
+  timestamp: "2023-12-10 20:41:48.922475"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 DUVEL
+  Liabilities:Bar:Members:Thijs      1 DUVEL
+  Liabilities:Bar:Members:Thijs   2.50 EUR  
+  Income:Bar                     -2.50 EUR  
+
