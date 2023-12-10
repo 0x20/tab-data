@@ -162,3 +162,9 @@
   Liabilities:Bar:Members:Joris   0.60 EUR  
   Income:Bar                     -0.60 EUR  
 
+2023-12-10 txn "Miker gave Joris a gift of €0.60"
+  timestamp: "2023-12-10 22:06:13.545666"
+  type: "transfer"
+  Liabilities:Bar:Members:Miker   0.60 EUR
+  Liabilities:Bar:Members:Joris  -0.60 EUR
+
