@@ -154,3 +154,11 @@
   Liabilities:Bar:Members:Sander   2.50 EUR   
   Income:Bar                      -2.50 EUR   
 
+2023-12-10 txn "Joris bought 1 items for €0.60"
+  timestamp: "2023-12-10 22:05:47.375510"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Joris      1 SNACK
+  Liabilities:Bar:Members:Joris   0.60 EUR  
+  Income:Bar                     -0.60 EUR  
+
