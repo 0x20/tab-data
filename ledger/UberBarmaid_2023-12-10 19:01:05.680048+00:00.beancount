@@ -260,3 +260,11 @@
   Liabilities:Bar:Members:Joris   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2023-12-14 txn "ON8LTE bought 1 items for €2.50"
+  timestamp: "2023-12-14 20:20:47.360912"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:ON8LTE      1 GERMAN
+  Liabilities:Bar:Members:ON8LTE   2.50 EUR   
+  Income:Bar                      -2.50 EUR   
+
