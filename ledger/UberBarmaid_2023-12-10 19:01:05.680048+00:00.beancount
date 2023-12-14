@@ -268,3 +268,11 @@
   Liabilities:Bar:Members:ON8LTE   2.50 EUR   
   Income:Bar                      -2.50 EUR   
 
+2023-12-14 txn "Frp bought 1 items for €3.00"
+  timestamp: "2023-12-14 20:27:29.338310"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM 
+  Liabilities:Bar:Members:Frp      1 CM 
+  Liabilities:Bar:Members:Frp   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
