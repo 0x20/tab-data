@@ -370,3 +370,13 @@
   Liabilities:Bar:Members:Els   3.00 EUR
   Income:Bar                   -3.00 EUR
 
+2023-12-19 txn "Els bought 2 items for €4.00"
+  timestamp: "2023-12-19 19:06:37.625136"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 DUVEL
+  Liabilities:Bar:Members:Els      1 DUVEL
+  Assets:Inventory:Bar            -1 SODA 
+  Liabilities:Bar:Members:Els      1 SODA 
+  Liabilities:Bar:Members:Els   4.00 EUR  
+  Income:Bar                   -4.00 EUR  
+
