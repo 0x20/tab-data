@@ -314,3 +314,11 @@
   Liabilities:Bar:Members:Stefaan  -20.00 EUR
   Assets:Cash:Bar                   20.00 EUR
 
+2023-12-28 txn "Bloemist bought 1 items for €1.50"
+  timestamp: "2023-12-28 21:17:30.347886"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Bloemist      1 BEER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR 
+  Income:Bar                        -1.50 EUR 
+
