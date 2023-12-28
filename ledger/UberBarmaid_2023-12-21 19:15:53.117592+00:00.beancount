@@ -348,3 +348,11 @@
   Liabilities:Bar:Members:Stefaan   0.60 EUR  
   Income:Bar                       -0.60 EUR  
 
+2023-12-28 txn "DJefke bought 1 items for €0.60"
+  timestamp: "2023-12-28 22:45:01.434666"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   0.60 EUR  
+  Income:Bar                      -0.60 EUR  
+
