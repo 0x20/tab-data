@@ -332,3 +332,11 @@
   Liabilities:Bar:Members:Stefaan   3.10 EUR   
   Income:Bar                       -3.10 EUR   
 
+2023-12-28 txn "Thomas bought 1 items for €1.00"
+  timestamp: "2023-12-28 21:21:13.779899"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Thomas      1 CHIP
+  Liabilities:Bar:Members:Thomas   1.00 EUR 
+  Income:Bar                      -1.00 EUR 
+
