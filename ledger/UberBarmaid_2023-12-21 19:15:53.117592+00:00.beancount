@@ -278,3 +278,11 @@
   Liabilities:Bar:Members:DJefke  -50.00 EUR
   Assets:Cash:Bar                  50.00 EUR
 
+2023-12-28 txn "Sasja bought 1 items for €2.50"
+  timestamp: "2023-12-28 20:30:36.992965"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Sasja      1 GERMAN
+  Liabilities:Bar:Members:Sasja   2.50 EUR   
+  Income:Bar                     -2.50 EUR   
+
