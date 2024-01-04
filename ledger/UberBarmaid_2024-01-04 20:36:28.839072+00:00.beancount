@@ -144,3 +144,9 @@
   Liabilities:Bar:Members:Sasja   12.25 EUR
   Liabilities:Bar:Members:Matth  -12.25 EUR
 
+2024-01-04 txn "Sasja deposited €20.00"
+  timestamp: "2024-01-04 23:22:03.015081"
+  type: "deposit"
+  Liabilities:Bar:Members:Sasja  -20.00 EUR
+  Assets:Cash:Bar                 20.00 EUR
+
