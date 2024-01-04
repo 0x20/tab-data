@@ -62,3 +62,11 @@
   Liabilities:Bar:Members:Bloemist   5.00 EUR
   Liabilities:Bar:Members:Err0r     -5.00 EUR
 
+2024-01-04 txn "Mateo bought 1 items for €0.60"
+  timestamp: "2024-01-04 22:09:48.078975"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   0.60 EUR  
+  Income:Bar                     -0.60 EUR  
+
