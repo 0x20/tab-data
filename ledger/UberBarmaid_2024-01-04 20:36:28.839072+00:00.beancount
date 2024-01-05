@@ -172,3 +172,11 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-01-05 txn "Sasja bought 1 items for €1.50"
+  timestamp: "2024-01-05 00:52:41.472283"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Sasja      1 BEER
+  Liabilities:Bar:Members:Sasja   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
