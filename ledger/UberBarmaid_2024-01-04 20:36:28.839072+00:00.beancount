@@ -226,3 +226,13 @@
   Liabilities:Bar:Members:ON8LTE   2.50 EUR   
   Income:Bar                      -2.50 EUR   
 
+2024-01-11 txn "--CASH-- bought 2 items for €5.50"
+  timestamp: "2024-01-11 19:42:07.748102"
+  type: "purchase"
+  Assets:Inventory:Bar     -1 GERMAN
+  Assets:Cash:Bar           1 GERMAN
+  Assets:Inventory:Bar     -1 CM    
+  Assets:Cash:Bar           1 CM    
+  Assets:Cash:Bar        5.50 EUR   
+  Income:Bar            -5.50 EUR   
+
