@@ -310,3 +310,11 @@
   Liabilities:Bar:Members:Miker   2.10 EUR  
   Income:Bar                     -2.10 EUR  
 
+2024-01-11 txn "Sasja bought 1 items for €2.50"
+  timestamp: "2024-01-11 22:29:22.710454"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Sasja      1 GERMAN
+  Liabilities:Bar:Members:Sasja   2.50 EUR   
+  Income:Bar                     -2.50 EUR   
+
