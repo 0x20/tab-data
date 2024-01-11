@@ -270,3 +270,9 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-01-11 txn "ON8LTE deposited €50.00"
+  timestamp: "2024-01-11 20:50:14.734856"
+  type: "deposit"
+  Liabilities:Bar:Members:ON8LTE  -50.00 EUR
+  Assets:Cash:Bar                  50.00 EUR
+
