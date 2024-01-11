@@ -300,3 +300,13 @@
   Liabilities:Bar:Members:Thijs   2.50 EUR  
   Income:Bar                     -2.50 EUR  
 
+2024-01-11 txn "Miker bought 2 items for €2.10"
+  timestamp: "2024-01-11 22:07:35.315076"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 SODA 
+  Liabilities:Bar:Members:Miker      1 SODA 
+  Liabilities:Bar:Members:Miker   2.10 EUR  
+  Income:Bar                     -2.10 EUR  
+
