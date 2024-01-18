@@ -32,3 +32,9 @@
   Liabilities:Bar:Members:Miker   3.10 EUR   
   Income:Bar                     -3.10 EUR   
 
+2024-01-18 txn "Thijs gave Miker a gift of €14.50"
+  timestamp: "2024-01-18 22:33:04.140234"
+  type: "transfer"
+  Liabilities:Bar:Members:Thijs   14.50 EUR
+  Liabilities:Bar:Members:Miker  -14.50 EUR
+
