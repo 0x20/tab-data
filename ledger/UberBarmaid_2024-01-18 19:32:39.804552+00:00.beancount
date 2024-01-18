@@ -38,3 +38,11 @@
   Liabilities:Bar:Members:Thijs   14.50 EUR
   Liabilities:Bar:Members:Miker  -14.50 EUR
 
+2024-01-18 txn "Sasja bought 1 items for €0.60"
+  timestamp: "2024-01-18 22:49:32.406146"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Sasja      1 SNACK
+  Liabilities:Bar:Members:Sasja   0.60 EUR  
+  Income:Bar                     -0.60 EUR  
+
