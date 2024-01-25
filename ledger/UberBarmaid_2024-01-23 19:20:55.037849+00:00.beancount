@@ -90,3 +90,13 @@
   Liabilities:Bar:Members:Miker   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-01-25 txn "--CASH-- bought 3 items for €7.50"
+  timestamp: "2024-01-25 19:43:18.377095"
+  type: "purchase"
+  Assets:Inventory:Bar     -2 CM  
+  Assets:Cash:Bar           2 CM  
+  Assets:Inventory:Bar     -1 BEER
+  Assets:Cash:Bar           1 BEER
+  Assets:Cash:Bar        7.50 EUR 
+  Income:Bar            -7.50 EUR 
+
