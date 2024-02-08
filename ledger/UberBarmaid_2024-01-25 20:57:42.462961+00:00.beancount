@@ -128,3 +128,11 @@
   Liabilities:Bar:Members:Thijs   2.50 EUR  
   Income:Bar                     -2.50 EUR  
 
+2024-02-08 txn "Mateo bought 1 items for €3.00"
+  timestamp: "2024-02-08 23:15:39.536113"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 CM 
+  Liabilities:Bar:Members:Mateo      1 CM 
+  Liabilities:Bar:Members:Mateo   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
