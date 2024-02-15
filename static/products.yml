@@ -61,8 +61,8 @@
 
 # Snacks etc:
 - name: Snack Bar
-  price: 0.60
-  event_price: 1.00
+  price: 1.00
+  event_price: 1.50
   currency: SNACK
   category: food
   visible: True
