@@ -22,3 +22,11 @@
   Liabilities:Bar:Members:DJefke   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2024-02-15 txn "--CASH-- bought 2 items for €2.00"
+  timestamp: "2024-02-15 22:10:49.171360"
+  type: "purchase"
+  Assets:Inventory:Bar     -2 SNACK
+  Assets:Cash:Bar           2 SNACK
+  Assets:Cash:Bar        2.00 EUR  
+  Income:Bar            -2.00 EUR  
+
