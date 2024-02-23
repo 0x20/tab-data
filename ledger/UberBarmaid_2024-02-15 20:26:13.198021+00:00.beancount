@@ -206,3 +206,14 @@
   Liabilities:Bar:Members:Mateo  -10.00 EUR
   Assets:Cash:Bar                 10.00 EUR
 
+2024-02-23 txn "Mateo bought 2 items for €4.00"
+  timestamp: "2024-02-23 21:22:22.923487"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 PASSPORT
+  Liabilities:Bar:Members:Mateo      1 PASSPORT
+  Assets:Inventory:Bar              -1 SODA    
+  Liabilities:Bar:Members:Mateo      1 SODA    
+  Liabilities:Bar:Members:Mateo   4.00 EUR     
+  Liabilities:Bar:Members:Bart   -1.20 EUR     
+  Income:Bar                     -2.80 EUR     
+
