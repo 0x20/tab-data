@@ -60,3 +60,9 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-02-29 txn "Gust deposited €25.00"
+  timestamp: "2024-02-29 19:41:27.444750"
+  type: "deposit"
+  Liabilities:Bar:Members:Gust  -25.00 EUR
+  Assets:Cash:Bar                25.00 EUR
+
