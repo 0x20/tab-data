@@ -36,3 +36,11 @@
   Liabilities:Bar:Members:Koen   1.00 EUR  
   Income:Bar                    -1.00 EUR  
 
+2024-02-29 txn "Gust bought 1 items for €1.50"
+  timestamp: "2024-02-29 19:04:48.896772"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 BEER
+  Liabilities:Bar:Members:Gust      1 BEER
+  Liabilities:Bar:Members:Gust   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
