@@ -114,3 +114,11 @@
   Liabilities:Bar:Members:Gust   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2024-02-29 txn "Frp bought 1 items for €3.00"
+  timestamp: "2024-02-29 20:40:07.016380"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 CM 
+  Liabilities:Bar:Members:Frp      1 CM 
+  Liabilities:Bar:Members:Frp   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
