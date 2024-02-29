@@ -28,3 +28,11 @@
   Liabilities:Bar:Members:Sander   1.50 EUR 
   Income:Bar                      -1.50 EUR 
 
+2024-02-29 txn "Koen bought 1 items for €1.00"
+  timestamp: "2024-02-29 18:58:14.910630"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Koen      1 SNACK
+  Liabilities:Bar:Members:Koen   1.00 EUR  
+  Income:Bar                    -1.00 EUR  
+
