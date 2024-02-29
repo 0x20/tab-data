@@ -14,3 +14,9 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2024-02-29 txn "Yvan gave Carro​armato0 a gift of €2.00"
+  timestamp: "2024-02-29 17:40:15.464508"
+  type: "transfer"
+  Liabilities:Bar:Members:Yvan           2.00 EUR
+  Liabilities:Bar:Members:Carroarmato0  -2.00 EUR
+
