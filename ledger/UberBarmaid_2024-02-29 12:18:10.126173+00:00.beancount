@@ -376,3 +376,11 @@
   Liabilities:Bar:Members:Sander   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2024-03-03 txn "Gust bought 1 items for €3.00"
+  timestamp: "2024-03-03 15:44:40.848234"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 CM 
+  Liabilities:Bar:Members:Gust      1 CM 
+  Liabilities:Bar:Members:Gust   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
