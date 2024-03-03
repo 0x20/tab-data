@@ -326,3 +326,11 @@
   Liabilities:Bar:Members:Sander   1.50 EUR 
   Income:Bar                      -1.50 EUR 
 
+2024-03-03 txn "Elfeera bought 1 items for €1.50"
+  timestamp: "2024-03-03 13:29:52.764859"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 SODA
+  Liabilities:Bar:Members:Elfeera      1 SODA
+  Liabilities:Bar:Members:Elfeera   1.50 EUR 
+  Income:Bar                       -1.50 EUR 
+
