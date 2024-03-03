@@ -282,3 +282,13 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2024-03-03 txn "Yvan bought 4 items for €5.00"
+  timestamp: "2024-03-03 11:30:02.354255"
+  type: "purchase"
+  Assets:Inventory:Bar             -2 SNACK
+  Liabilities:Bar:Members:Yvan      2 SNACK
+  Assets:Inventory:Bar             -2 SODA 
+  Liabilities:Bar:Members:Yvan      2 SODA 
+  Liabilities:Bar:Members:Yvan   5.00 EUR  
+  Income:Bar                    -5.00 EUR  
+
