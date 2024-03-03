@@ -310,3 +310,11 @@
   Liabilities:Bar:Members:Gust   1.00 EUR  
   Income:Bar                    -1.00 EUR  
 
+2024-03-03 txn "Fearless bought 2 items for €3.00"
+  timestamp: "2024-03-03 12:46:47.203125"
+  type: "purchase"
+  Assets:Inventory:Bar                 -2 SODA
+  Liabilities:Bar:Members:Fearless      2 SODA
+  Liabilities:Bar:Members:Fearless   3.00 EUR 
+  Income:Bar                        -3.00 EUR 
+
