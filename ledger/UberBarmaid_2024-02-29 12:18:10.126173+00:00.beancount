@@ -418,3 +418,13 @@
   Liabilities:Bar:Members:Mateo   6.00 EUR  
   Income:Bar                     -6.00 EUR  
 
+2024-03-06 txn "Els bought 2 items for €4.00"
+  timestamp: "2024-03-06 12:39:45.344679"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 SNACK
+  Liabilities:Bar:Members:Els      1 SNACK
+  Assets:Inventory:Bar            -1 CM   
+  Liabilities:Bar:Members:Els      1 CM   
+  Liabilities:Bar:Members:Els   4.00 EUR  
+  Income:Bar                   -4.00 EUR  
+
