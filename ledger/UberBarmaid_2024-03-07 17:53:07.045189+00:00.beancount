@@ -1,0 +1,6 @@
+2024-03-07 txn "Thijs gave --CASH-- a gift of €1.00"
+  timestamp: "2024-03-07 17:53:07.041861"
+  type: "transfer"
+  Liabilities:Bar:Members:Thijs   1.00 EUR
+  Assets:Cash:Bar                -1.00 EUR
+
