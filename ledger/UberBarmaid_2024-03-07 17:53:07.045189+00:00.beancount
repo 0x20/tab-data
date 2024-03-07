@@ -54,3 +54,9 @@
   Liabilities:Bar:Members:Miker   4.00 EUR  
   Income:Bar                     -4.00 EUR  
 
+2024-03-07 txn "Bloemist gave Mateo a gift of €17.70"
+  timestamp: "2024-03-07 20:15:49.482766"
+  type: "transfer"
+  Liabilities:Bar:Members:Bloemist   17.70 EUR
+  Liabilities:Bar:Members:Mateo     -17.70 EUR
+
