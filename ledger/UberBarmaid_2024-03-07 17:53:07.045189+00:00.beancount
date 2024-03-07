@@ -60,3 +60,9 @@
   Liabilities:Bar:Members:Bloemist   17.70 EUR
   Liabilities:Bar:Members:Mateo     -17.70 EUR
 
+2024-03-07 txn "Thijs gave --CASH-- a gift of €1.00"
+  timestamp: "2024-03-07 20:33:31.385534"
+  type: "transfer"
+  Liabilities:Bar:Members:Thijs   1.00 EUR
+  Assets:Cash:Bar                -1.00 EUR
+
