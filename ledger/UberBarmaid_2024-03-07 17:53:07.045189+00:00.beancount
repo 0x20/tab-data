@@ -94,3 +94,9 @@
   Liabilities:Bar:Members:Sander  -20.00 EUR
   Assets:Cash:Bar                  20.00 EUR
 
+2024-03-07 txn "Sander gave --CASH-- a gift of €20.00"
+  timestamp: "2024-03-07 22:22:05.592809"
+  type: "transfer"
+  Liabilities:Bar:Members:Sander   20.00 EUR
+  Assets:Cash:Bar                 -20.00 EUR
+
