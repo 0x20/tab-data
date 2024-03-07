@@ -82,3 +82,9 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-03-07 txn "Thijs gave Sander a gift of €5.70"
+  timestamp: "2024-03-07 21:43:40.313358"
+  type: "transfer"
+  Liabilities:Bar:Members:Thijs    5.70 EUR
+  Liabilities:Bar:Members:Sander  -5.70 EUR
+
