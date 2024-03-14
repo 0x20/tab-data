@@ -270,3 +270,11 @@
   Liabilities:Bar:Members:Fearless   3.00 EUR
   Income:Bar                        -3.00 EUR
 
+2024-03-14 txn "qwaxys bought 1 items for €2.50"
+  timestamp: "2024-03-14 19:13:30.817774"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 DUVEL
+  Liabilities:Bar:Members:Bart      1 DUVEL
+  Liabilities:Bar:Members:Bart   2.50 EUR  
+  Income:Bar                    -2.50 EUR  
+
