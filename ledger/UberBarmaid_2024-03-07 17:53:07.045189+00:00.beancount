@@ -380,3 +380,11 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-03-15 txn "qwaxys bought 1 items for €1.00"
+  timestamp: "2024-03-15 21:27:34.191312"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 CHIP
+  Liabilities:Bar:Members:Bart      1 CHIP
+  Liabilities:Bar:Members:Bart   1.00 EUR 
+  Income:Bar                    -1.00 EUR 
+
