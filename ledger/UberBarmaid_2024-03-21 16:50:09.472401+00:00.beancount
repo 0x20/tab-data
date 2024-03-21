@@ -106,3 +106,9 @@
   Liabilities:Bar:Members:Miker   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-03-21 txn "Mateo gave qwaxys a gift of €1.00"
+  timestamp: "2024-03-21 22:04:09.170041"
+  type: "transfer"
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Liabilities:Bar:Members:Bart   -1.00 EUR
+
