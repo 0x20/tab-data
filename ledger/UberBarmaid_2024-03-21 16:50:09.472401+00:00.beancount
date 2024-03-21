@@ -112,3 +112,11 @@
   Liabilities:Bar:Members:Mateo   1.00 EUR
   Liabilities:Bar:Members:Bart   -1.00 EUR
 
+2024-03-21 txn "Miker bought 1 items for €1.00"
+  timestamp: "2024-03-21 23:10:55.687969"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   1.00 EUR  
+  Income:Bar                     -1.00 EUR  
+
