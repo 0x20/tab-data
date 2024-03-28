@@ -54,3 +54,11 @@
   Liabilities:Bar:Members:Fearless   6.00 EUR 
   Income:Bar                        -6.00 EUR 
 
+2024-03-28 txn "Sander bought 1 items for €1.50"
+  timestamp: "2024-03-28 20:39:29.172338"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   1.50 EUR 
+  Income:Bar                      -1.50 EUR 
+
