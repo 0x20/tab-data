@@ -30,3 +30,9 @@
   Liabilities:Bar:Members:Thijs   1.00 EUR  
   Income:Bar                     -1.00 EUR  
 
+2024-03-28 txn "Thijs gave --CASH-- a gift of €0.50"
+  timestamp: "2024-03-28 19:11:09.162994"
+  type: "transfer"
+  Liabilities:Bar:Members:Thijs   0.50 EUR
+  Assets:Cash:Bar                -0.50 EUR
+
