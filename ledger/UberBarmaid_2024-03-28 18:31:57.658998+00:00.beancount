@@ -1,0 +1,8 @@
+2024-03-28 txn "Matth bought 2 items for €3.00"
+  timestamp: "2024-03-28 18:31:57.654873"
+  type: "purchase"
+  Assets:Inventory:Bar              -2 BEER
+  Liabilities:Bar:Members:Matth      2 BEER
+  Liabilities:Bar:Members:Matth   3.00 EUR 
+  Income:Bar                     -3.00 EUR 
+
