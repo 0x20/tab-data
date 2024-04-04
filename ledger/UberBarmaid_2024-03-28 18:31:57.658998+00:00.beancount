@@ -92,3 +92,11 @@
   Liabilities:Bar:Members:Sander   4.50 EUR 
   Income:Bar                      -4.50 EUR 
 
+2024-04-04 txn "ON8LTE bought 1 items for €2.50"
+  timestamp: "2024-04-04 18:40:21.295690"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:ON8LTE      1 GERMAN
+  Liabilities:Bar:Members:ON8LTE   2.50 EUR   
+  Income:Bar                      -2.50 EUR   
+
