@@ -148,3 +148,13 @@
   Liabilities:Bar:Members:Fearless   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-04-04 txn "Gust bought 3 items for €3.00"
+  timestamp: "2024-04-04 21:08:53.979163"
+  type: "purchase"
+  Assets:Inventory:Bar             -2 CHIP 
+  Liabilities:Bar:Members:Gust      2 CHIP 
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Gust      1 SNACK
+  Liabilities:Bar:Members:Gust   3.00 EUR  
+  Income:Bar                    -3.00 EUR  
+
