@@ -76,3 +76,11 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-04-04 txn "Thijs bought 1 items for €1.00"
+  timestamp: "2024-04-04 16:58:42.415562"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Thijs      1 SNACK
+  Liabilities:Bar:Members:Thijs   1.00 EUR  
+  Income:Bar                     -1.00 EUR  
+
