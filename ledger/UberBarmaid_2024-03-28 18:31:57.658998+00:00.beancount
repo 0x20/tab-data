@@ -116,3 +116,11 @@
   Liabilities:Bar:Members:Gust   2.00 EUR  
   Income:Bar                    -2.00 EUR  
 
+2024-04-04 txn "ON8LTE bought 1 items for €1.50"
+  timestamp: "2024-04-04 19:47:23.358404"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:ON8LTE      1 SODA
+  Liabilities:Bar:Members:ON8LTE   1.50 EUR 
+  Income:Bar                      -1.50 EUR 
+
