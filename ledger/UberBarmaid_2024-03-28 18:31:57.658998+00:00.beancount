@@ -84,3 +84,11 @@
   Liabilities:Bar:Members:Thijs   1.00 EUR  
   Income:Bar                     -1.00 EUR  
 
+2024-04-04 txn "Sander bought 3 items for €4.50"
+  timestamp: "2024-04-04 18:28:23.286566"
+  type: "purchase"
+  Assets:Inventory:Bar               -3 SODA
+  Liabilities:Bar:Members:Sander      3 SODA
+  Liabilities:Bar:Members:Sander   4.50 EUR 
+  Income:Bar                      -4.50 EUR 
+
