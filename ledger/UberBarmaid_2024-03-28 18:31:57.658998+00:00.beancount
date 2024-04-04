@@ -140,3 +140,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-04-04 txn "Fearless bought 1 items for €1.50"
+  timestamp: "2024-04-04 20:47:57.776026"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Fearless      1 BEER
+  Liabilities:Bar:Members:Fearless   1.50 EUR 
+  Income:Bar                        -1.50 EUR 
+
