@@ -12,3 +12,9 @@
   Liabilities:Bar:Members:Sander   1.50 EUR 
   Income:Bar                      -1.50 EUR 
 
+2024-04-12 txn "Thijs deposited €50.00"
+  timestamp: "2024-04-12 19:30:21.484085"
+  type: "deposit"
+  Liabilities:Bar:Members:Thijs  -50.00 EUR
+  Assets:Cash:Bar                 50.00 EUR
+
