@@ -14,3 +14,9 @@
   Liabilities:Bar:Members:Fearless   3.00 EUR 
   Income:Bar                        -3.00 EUR 
 
+2024-04-13 txn "Fearless gave --CASH-- a gift of €10.00"
+  timestamp: "2024-04-13 16:47:24.543457"
+  type: "transfer"
+  Liabilities:Bar:Members:Fearless   10.00 EUR
+  Assets:Cash:Bar                   -10.00 EUR
+
