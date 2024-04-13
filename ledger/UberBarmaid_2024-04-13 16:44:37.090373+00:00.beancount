@@ -6,3 +6,11 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR  
   Income:Bar                      -1.00 EUR  
 
+2024-04-13 txn "Fearless bought 2 items for €3.00"
+  timestamp: "2024-04-13 16:46:00.219800"
+  type: "purchase"
+  Assets:Inventory:Bar                 -2 SODA
+  Liabilities:Bar:Members:Fearless      2 SODA
+  Liabilities:Bar:Members:Fearless   3.00 EUR 
+  Income:Bar                        -3.00 EUR 
+
