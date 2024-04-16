@@ -72,3 +72,11 @@
   Assets:Cash:Bar        1.50 EUR 
   Income:Bar            -1.50 EUR 
 
+2024-04-16 txn "Koen bought 1 items for €1.50"
+  timestamp: "2024-04-16 18:08:16.678275"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
