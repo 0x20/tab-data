@@ -28,3 +28,9 @@
   Liabilities:Bar:Members:DJefke   12.90 EUR
   Liabilities:Bar:Members:Mateo   -12.90 EUR
 
+2024-04-18 txn "DJefke deposited €50.00"
+  timestamp: "2024-04-18 18:13:06.131051"
+  type: "deposit"
+  Liabilities:Bar:Members:DJefke  -50.00 EUR
+  Assets:Cash:Bar                  50.00 EUR
+
