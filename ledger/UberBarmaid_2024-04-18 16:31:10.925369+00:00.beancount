@@ -22,3 +22,9 @@
   Liabilities:Bar:Members:Thijs   2.50 EUR  
   Income:Bar                     -2.50 EUR  
 
+2024-04-18 txn "DJefke gave Mateo a gift of €12.90"
+  timestamp: "2024-04-18 18:11:41.142047"
+  type: "transfer"
+  Liabilities:Bar:Members:DJefke   12.90 EUR
+  Liabilities:Bar:Members:Mateo   -12.90 EUR
+
