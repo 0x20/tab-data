@@ -242,3 +242,11 @@
   Liabilities:Bar:Members:Mateo   4.99 EUR
   Liabilities:Bar:Members:Koen   -4.99 EUR
 
+2024-04-25 txn "Sander bought 1 items for €1.50"
+  timestamp: "2024-04-25 21:17:25.809604"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   1.50 EUR 
+  Income:Bar                      -1.50 EUR 
+
