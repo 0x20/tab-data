@@ -222,3 +222,9 @@
   Liabilities:Bar:Members:Miker   2.50 EUR  
   Income:Bar                     -2.50 EUR  
 
+2024-04-25 txn "Err0r deposited €10.00"
+  timestamp: "2024-04-25 21:00:49.635399"
+  type: "deposit"
+  Liabilities:Bar:Members:Err0r  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
