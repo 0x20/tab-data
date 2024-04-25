@@ -264,3 +264,11 @@
   Liabilities:Bar:Members:Miker  -50.00 EUR
   Assets:Cash:Bar                 50.00 EUR
 
+2024-04-25 txn "Miker bought 1 items for €1.50"
+  timestamp: "2024-04-25 22:02:08.065878"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
