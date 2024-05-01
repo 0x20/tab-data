@@ -22,3 +22,11 @@
   Liabilities:Bar:Members:Sander   1.50 EUR 
   Income:Bar                      -1.50 EUR 
 
+2024-05-01 txn "TQ bought 1 items for €1.00"
+  timestamp: "2024-05-01 18:28:27.251261"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 SNACK
+  Liabilities:Bar:Members:Thequux      1 SNACK
+  Liabilities:Bar:Members:Thequux   1.00 EUR  
+  Income:Bar                       -1.00 EUR  
+
