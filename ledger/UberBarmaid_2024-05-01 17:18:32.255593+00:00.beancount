@@ -154,3 +154,9 @@
   Liabilities:Bar:Members:Miker   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-05-02 txn "TQ gave Mateo a gift of €16.00"
+  timestamp: "2024-05-02 21:22:14.892776"
+  type: "transfer"
+  Liabilities:Bar:Members:Thequux   16.00 EUR
+  Liabilities:Bar:Members:Mateo    -16.00 EUR
+
