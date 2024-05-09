@@ -172,3 +172,11 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2024-05-09 txn "TQ bought 2 items for €2.00"
+  timestamp: "2024-05-09 20:04:53.673670"
+  type: "purchase"
+  Assets:Inventory:Bar                -2 SNACK
+  Liabilities:Bar:Members:Thequux      2 SNACK
+  Liabilities:Bar:Members:Thequux   2.00 EUR  
+  Income:Bar                       -2.00 EUR  
+
