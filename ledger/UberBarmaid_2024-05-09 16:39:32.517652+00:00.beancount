@@ -108,3 +108,13 @@
   Liabilities:Bar:Members:Thijs  -2.50 EUR
   Assets:Cash:Bar                 2.50 EUR
 
+2024-05-09 txn "DJefke bought 2 items for €2.50"
+  timestamp: "2024-05-09 19:22:18.808011"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Assets:Inventory:Bar               -1 SODA 
+  Liabilities:Bar:Members:DJefke      1 SODA 
+  Liabilities:Bar:Members:DJefke   2.50 EUR  
+  Income:Bar                      -2.50 EUR  
+
