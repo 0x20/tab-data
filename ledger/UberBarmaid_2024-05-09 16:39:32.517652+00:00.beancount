@@ -132,3 +132,13 @@
   Liabilities:Bar:Members:Koen  -2.51 EUR
   Assets:Cash:Bar                2.51 EUR
 
+2024-05-09 txn "Matth bought 2 items for €2.50"
+  timestamp: "2024-05-09 19:27:50.496341"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Matth      1 SNACK
+  Assets:Inventory:Bar              -1 BEER 
+  Liabilities:Bar:Members:Matth      1 BEER 
+  Liabilities:Bar:Members:Matth   2.50 EUR  
+  Income:Bar                     -2.50 EUR  
+
