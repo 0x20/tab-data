@@ -124,3 +124,13 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-05-16 txn "Netman bought 2 items for €2.50"
+  timestamp: "2024-05-16 21:47:34.411062"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Netman      1 CHIP
+  Assets:Inventory:Bar               -1 BEER
+  Liabilities:Bar:Members:Netman      1 BEER
+  Liabilities:Bar:Members:Netman   2.50 EUR 
+  Income:Bar                      -2.50 EUR 
+
