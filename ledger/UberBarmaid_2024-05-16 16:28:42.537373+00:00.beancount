@@ -64,3 +64,11 @@
   Liabilities:Bar:Members:DJefke   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2024-05-16 txn "Tenybras bought 1 items for €1.50"
+  timestamp: "2024-05-16 19:35:49.420360"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 SODA
+  Liabilities:Bar:Members:Tenybras      1 SODA
+  Liabilities:Bar:Members:Tenybras   1.50 EUR 
+  Income:Bar                        -1.50 EUR 
+
