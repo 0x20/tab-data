@@ -72,3 +72,9 @@
   Liabilities:Bar:Members:Tenybras   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-05-16 txn "Tenybras deposited €10.00"
+  timestamp: "2024-05-16 19:38:31.430859"
+  type: "deposit"
+  Liabilities:Bar:Members:Tenybras  -10.00 EUR
+  Assets:Cash:Bar                    10.00 EUR
+
