@@ -152,3 +152,11 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-05-16 txn "Netman bought 1 items for €1.50"
+  timestamp: "2024-05-16 22:58:48.244355"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 BEER
+  Liabilities:Bar:Members:Netman      1 BEER
+  Liabilities:Bar:Members:Netman   1.50 EUR 
+  Income:Bar                      -1.50 EUR 
+
