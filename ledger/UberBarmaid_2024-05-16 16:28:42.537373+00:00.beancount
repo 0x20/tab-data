@@ -24,3 +24,11 @@
   Liabilities:Bar:Members:Koen   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2024-05-16 txn "ON8LTE bought 2 items for €3.00"
+  timestamp: "2024-05-16 18:45:49.049923"
+  type: "purchase"
+  Assets:Inventory:Bar               -2 SODA
+  Liabilities:Bar:Members:ON8LTE      2 SODA
+  Liabilities:Bar:Members:ON8LTE   3.00 EUR 
+  Income:Bar                      -3.00 EUR 
+
