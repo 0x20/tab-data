@@ -18,3 +18,13 @@
   Assets:Cash:Bar        4.50 EUR 
   Income:Bar            -4.50 EUR 
 
+2024-05-21 txn "--CASH-- bought 3 items for €6.50"
+  timestamp: "2024-05-21 20:14:59.700131"
+  type: "purchase"
+  Assets:Inventory:Bar     -2 DUVEL
+  Assets:Cash:Bar           2 DUVEL
+  Assets:Inventory:Bar     -1 SODA 
+  Assets:Cash:Bar           1 SODA 
+  Assets:Cash:Bar        6.50 EUR  
+  Income:Bar            -6.50 EUR  
+
