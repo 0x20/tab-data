@@ -194,3 +194,11 @@
   Liabilities:Bar:Members:Els   1.50 EUR 
   Income:Bar                   -1.50 EUR 
 
+2024-05-21 txn "--CASH-- bought 2 items for €3.00"
+  timestamp: "2024-05-21 17:21:22.219750"
+  type: "purchase"
+  Assets:Inventory:Bar     -2 BEER
+  Assets:Cash:Bar           2 BEER
+  Assets:Cash:Bar        3.00 EUR 
+  Income:Bar            -3.00 EUR 
+
