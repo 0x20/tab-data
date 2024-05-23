@@ -92,3 +92,13 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR  
   Income:Bar                      -2.50 EUR  
 
+2024-05-23 txn "Joren bought 2 items for €2.50"
+  timestamp: "2024-05-23 21:06:17.857214"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER 
+  Liabilities:Bar:Members:Joren      1 BEER 
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Joren      1 SNACK
+  Liabilities:Bar:Members:Joren   2.50 EUR  
+  Income:Bar                     -2.50 EUR  
+
