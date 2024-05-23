@@ -136,3 +136,9 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-05-23 txn "Bloemist gave Err0r a gift of €16.90"
+  timestamp: "2024-05-23 23:25:36.671058"
+  type: "transfer"
+  Liabilities:Bar:Members:Bloemist   16.90 EUR
+  Liabilities:Bar:Members:Err0r     -16.90 EUR
+
