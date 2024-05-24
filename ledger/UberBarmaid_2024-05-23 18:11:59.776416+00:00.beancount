@@ -158,3 +158,11 @@
   Liabilities:Bar:Members:DJefke   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2024-05-24 txn "Gust bought 1 items for €1.00"
+  timestamp: "2024-05-24 17:44:43.658025"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 CHIP
+  Liabilities:Bar:Members:Gust      1 CHIP
+  Liabilities:Bar:Members:Gust   1.00 EUR 
+  Income:Bar                    -1.00 EUR 
+
