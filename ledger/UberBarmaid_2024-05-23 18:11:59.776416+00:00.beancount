@@ -236,3 +236,9 @@
   Assets:Cash:Bar  -20.00 EUR
   Assets:Cash:Bar   20.00 EUR
 
+2024-05-24 txn "--CASH-- gave Gust a gift of €20.00"
+  timestamp: "2024-05-24 19:37:43.597151"
+  type: "transfer"
+  Assets:Cash:Bar                20.00 EUR
+  Liabilities:Bar:Members:Gust  -20.00 EUR
+
