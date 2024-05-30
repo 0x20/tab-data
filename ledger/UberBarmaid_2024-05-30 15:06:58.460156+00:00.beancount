@@ -16,3 +16,11 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-05-30 txn "DJefke bought 1 items for €0.75"
+  timestamp: "2024-05-30 16:49:05.737447"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR  
+  Income:Bar                      -0.75 EUR  
+
