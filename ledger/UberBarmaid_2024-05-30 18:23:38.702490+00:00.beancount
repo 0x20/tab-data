@@ -1,0 +1,8 @@
+2024-05-30 txn "Gust bought 1 items for €3.00"
+  timestamp: "2024-05-30 18:23:38.698486"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 CM 
+  Liabilities:Bar:Members:Gust      1 CM 
+  Liabilities:Bar:Members:Gust   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
