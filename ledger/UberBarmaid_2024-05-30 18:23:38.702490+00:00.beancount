@@ -22,3 +22,11 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-05-30 txn "Thijs bought 1 items for €0.75"
+  timestamp: "2024-05-30 18:44:30.213484"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Thijs      1 WATER
+  Liabilities:Bar:Members:Thijs   0.75 EUR  
+  Income:Bar                     -0.75 EUR  
+
