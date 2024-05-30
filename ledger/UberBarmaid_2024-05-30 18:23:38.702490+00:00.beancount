@@ -92,3 +92,11 @@
   Liabilities:Bar:Members:Gust   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2024-05-30 txn "Err0r bought 1 items for €1.50"
+  timestamp: "2024-05-30 21:03:53.881687"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Err0r      1 SODA
+  Liabilities:Bar:Members:Err0r   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
