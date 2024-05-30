@@ -46,3 +46,9 @@
   Liabilities:Bar:Members:Thequux   1.50 EUR 
   Income:Bar                       -1.50 EUR 
 
+2024-05-30 txn "Bloemist gave Err0r a gift of €7.00"
+  timestamp: "2024-05-30 20:01:14.235664"
+  type: "transfer"
+  Liabilities:Bar:Members:Bloemist   7.00 EUR
+  Liabilities:Bar:Members:Err0r     -7.00 EUR
+
