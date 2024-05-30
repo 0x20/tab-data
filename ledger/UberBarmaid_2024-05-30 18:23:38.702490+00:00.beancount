@@ -132,3 +132,11 @@
   Liabilities:Bar:Members:Err0r   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-05-30 txn "Frp bought 1 items for €2.50"
+  timestamp: "2024-05-30 21:51:03.642560"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 GERMAN
+  Liabilities:Bar:Members:Frp      1 GERMAN
+  Liabilities:Bar:Members:Frp   2.50 EUR   
+  Income:Bar                   -2.50 EUR   
+
