@@ -180,3 +180,13 @@
   Liabilities:Bar:Members:Bart   1.00 EUR  
   Income:Bar                    -1.00 EUR  
 
+2024-06-05 txn "Els bought 4 items for €10.50"
+  timestamp: "2024-06-05 15:22:28.192774"
+  type: "purchase"
+  Assets:Inventory:Bar             -3 CM  
+  Liabilities:Bar:Members:Els       3 CM  
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Els       1 SODA
+  Liabilities:Bar:Members:Els   10.50 EUR 
+  Income:Bar                   -10.50 EUR 
+
