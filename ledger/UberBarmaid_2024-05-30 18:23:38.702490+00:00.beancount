@@ -548,3 +548,11 @@
   Liabilities:Bar:Members:Johan  -50.00 EUR
   Assets:Cash:Bar                 50.00 EUR
 
+2024-06-08 txn "Johan bought 1 items for €3.00"
+  timestamp: "2024-06-08 16:48:37.040202"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 CM 
+  Liabilities:Bar:Members:Johan      1 CM 
+  Liabilities:Bar:Members:Johan   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
