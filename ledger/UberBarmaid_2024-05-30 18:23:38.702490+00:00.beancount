@@ -542,3 +542,9 @@
   Liabilities:Bar:Members:Mimor   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-06-08 txn "Johan deposited €50.00"
+  timestamp: "2024-06-08 16:48:00.133256"
+  type: "deposit"
+  Liabilities:Bar:Members:Johan  -50.00 EUR
+  Assets:Cash:Bar                 50.00 EUR
+
