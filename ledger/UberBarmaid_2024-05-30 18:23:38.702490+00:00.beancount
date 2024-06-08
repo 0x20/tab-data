@@ -562,3 +562,11 @@
   Liabilities:Bar:Members:Johan   12.90 EUR
   Liabilities:Bar:Members:Err0r  -12.90 EUR
 
+2024-06-08 txn "Gust bought 1 items for €0.75"
+  timestamp: "2024-06-08 16:58:38.368022"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 WATER
+  Liabilities:Bar:Members:Gust      1 WATER
+  Liabilities:Bar:Members:Gust   0.75 EUR  
+  Income:Bar                    -0.75 EUR  
+
