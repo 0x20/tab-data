@@ -534,3 +534,11 @@
   Liabilities:Bar:Members:Sander   1.50 EUR 
   Income:Bar                      -1.50 EUR 
 
+2024-06-08 txn "Mimor bought 1 items for €2.50"
+  timestamp: "2024-06-08 16:36:13.868002"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Mimor      1 GERMAN
+  Liabilities:Bar:Members:Mimor   2.50 EUR   
+  Income:Bar                     -2.50 EUR   
+
