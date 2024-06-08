@@ -556,3 +556,9 @@
   Liabilities:Bar:Members:Johan   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2024-06-08 txn "Johan gave Err0r a gift of €12.90"
+  timestamp: "2024-06-08 16:54:27.403670"
+  type: "transfer"
+  Liabilities:Bar:Members:Johan   12.90 EUR
+  Liabilities:Bar:Members:Err0r  -12.90 EUR
+
