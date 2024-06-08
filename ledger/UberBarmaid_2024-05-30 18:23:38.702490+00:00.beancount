@@ -362,3 +362,11 @@
   Liabilities:Bar:Members:DJefke   5.00 EUR   
   Income:Bar                      -5.00 EUR   
 
+2024-06-08 txn "Frp bought 1 items for €2.50"
+  timestamp: "2024-06-08 12:42:20.356239"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 GERMAN
+  Liabilities:Bar:Members:Frp      1 GERMAN
+  Liabilities:Bar:Members:Frp   2.50 EUR   
+  Income:Bar                   -2.50 EUR   
+
