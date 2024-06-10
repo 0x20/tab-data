@@ -56,3 +56,11 @@
   Liabilities:Bar:Members:Gust  -100.00 EUR
   Assets:Cash:Bar                100.00 EUR
 
+2024-06-10 txn "Gust bought 1 items for €1.50"
+  timestamp: "2024-06-10 19:34:33.176060"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Gust      1 SODA
+  Liabilities:Bar:Members:Gust   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
