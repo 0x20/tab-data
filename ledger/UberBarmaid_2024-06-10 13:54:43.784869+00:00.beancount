@@ -196,3 +196,11 @@
   Liabilities:Bar:Members:Mimor   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-06-13 txn "Mimor bought 1 items for €1.00"
+  timestamp: "2024-06-13 20:02:13.220574"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mimor      1 SNACK
+  Liabilities:Bar:Members:Mimor   1.00 EUR  
+  Income:Bar                     -1.00 EUR  
+
