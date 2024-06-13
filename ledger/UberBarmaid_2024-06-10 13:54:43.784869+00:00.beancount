@@ -80,3 +80,11 @@
   Liabilities:Bar:Members:DJefke   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2024-06-13 txn "Koen bought 1 items for €2.50"
+  timestamp: "2024-06-13 17:28:57.975296"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 GERMAN
+  Liabilities:Bar:Members:Koen      1 GERMAN
+  Liabilities:Bar:Members:Koen   2.50 EUR   
+  Income:Bar                    -2.50 EUR   
+
