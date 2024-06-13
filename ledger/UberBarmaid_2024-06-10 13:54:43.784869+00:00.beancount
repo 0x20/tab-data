@@ -214,3 +214,9 @@
   Liabilities:Bar:Members:Gust   2.50 EUR  
   Income:Bar                    -2.50 EUR  
 
+2024-06-13 txn "Bloemist gave Miker a gift of €5.00"
+  timestamp: "2024-06-13 20:26:28.926881"
+  type: "transfer"
+  Liabilities:Bar:Members:Bloemist   5.00 EUR
+  Liabilities:Bar:Members:Miker     -5.00 EUR
+
