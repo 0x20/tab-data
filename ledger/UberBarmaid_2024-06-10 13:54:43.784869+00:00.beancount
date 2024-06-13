@@ -88,3 +88,11 @@
   Liabilities:Bar:Members:Koen   2.50 EUR   
   Income:Bar                    -2.50 EUR   
 
+2024-06-13 txn "TQ bought 2 items for €6.00"
+  timestamp: "2024-06-13 17:35:39.907976"
+  type: "purchase"
+  Assets:Inventory:Bar                -2 CM 
+  Liabilities:Bar:Members:Thequux      2 CM 
+  Liabilities:Bar:Members:Thequux   6.00 EUR
+  Income:Bar                       -6.00 EUR
+
