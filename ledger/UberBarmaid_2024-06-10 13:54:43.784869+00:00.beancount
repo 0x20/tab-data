@@ -304,3 +304,9 @@
   Liabilities:Bar:Members:Thijs  -6.00 EUR
   Assets:Cash:Bar                 6.00 EUR
 
+2024-06-18 txn "Koen deposited €2.50"
+  timestamp: "2024-06-18 19:46:09.788168"
+  type: "deposit"
+  Liabilities:Bar:Members:Koen  -2.50 EUR
+  Assets:Cash:Bar                2.50 EUR
+
