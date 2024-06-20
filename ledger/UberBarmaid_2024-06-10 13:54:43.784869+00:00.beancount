@@ -652,3 +652,9 @@
   Liabilities:Bar:Members:ON1WP  -8.50 EUR
   Assets:Cash:Bar                 8.50 EUR
 
+2024-06-20 txn "On8wr deposited €10.00"
+  timestamp: "2024-06-20 21:20:34.438065"
+  type: "deposit"
+  Liabilities:Bar:Members:On8wr  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
