@@ -628,3 +628,13 @@
   Liabilities:Bar:Members:On8wr   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-06-20 txn "ON1WP bought 4 items for €8.50"
+  timestamp: "2024-06-20 20:59:14.757123"
+  type: "purchase"
+  Assets:Inventory:Bar              -3 GERMAN
+  Liabilities:Bar:Members:ON1WP      3 GERMAN
+  Assets:Inventory:Bar              -1 SNACK 
+  Liabilities:Bar:Members:ON1WP      1 SNACK 
+  Liabilities:Bar:Members:ON1WP   8.50 EUR   
+  Income:Bar                     -8.50 EUR   
+
