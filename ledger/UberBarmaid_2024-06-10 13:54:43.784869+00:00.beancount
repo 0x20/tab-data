@@ -476,3 +476,11 @@
   Liabilities:Bar:Members:Yvan   4.50 EUR 
   Income:Bar                    -4.50 EUR 
 
+2024-06-20 txn "Matth bought 1 items for €1.50"
+  timestamp: "2024-06-20 17:59:43.272951"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Matth      1 BEER
+  Liabilities:Bar:Members:Matth   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
