@@ -388,3 +388,11 @@
   Liabilities:Bar:Members:Elvis  -1.50 EUR
   Assets:Cash:Bar                 1.50 EUR
 
+2024-06-20 txn "Koen bought 1 items for €1.50"
+  timestamp: "2024-06-20 15:28:03.010925"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 BEER
+  Liabilities:Bar:Members:Koen      1 BEER
+  Liabilities:Bar:Members:Koen   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
