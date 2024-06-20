@@ -702,3 +702,9 @@
   Liabilities:Bar:Members:Mateo   106.17 EUR
   Liabilities:Bar:Members:Miker  -106.17 EUR
 
+2024-06-20 txn "Mateo deposited €110.00"
+  timestamp: "2024-06-20 23:02:50.733922"
+  type: "deposit"
+  Liabilities:Bar:Members:Mateo  -110.00 EUR
+  Assets:Cash:Bar                 110.00 EUR
+
