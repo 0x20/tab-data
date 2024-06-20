@@ -374,3 +374,11 @@
   Liabilities:Bar:Members:On8wr   4.00 EUR  
   Income:Bar                     -4.00 EUR  
 
+2024-06-20 txn "Evils bought 1 items for €1.50"
+  timestamp: "2024-06-20 15:27:52.130083"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Elvis      1 BEER
+  Liabilities:Bar:Members:Elvis   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
