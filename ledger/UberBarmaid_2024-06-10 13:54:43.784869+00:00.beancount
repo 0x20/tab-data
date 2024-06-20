@@ -638,3 +638,11 @@
   Liabilities:Bar:Members:ON1WP   8.50 EUR   
   Income:Bar                     -8.50 EUR   
 
+2024-06-20 txn "Johan bought 1 items for €1.00"
+  timestamp: "2024-06-20 21:01:10.273263"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Johan      1 SNACK
+  Liabilities:Bar:Members:Johan   1.00 EUR  
+  Income:Bar                     -1.00 EUR  
+
