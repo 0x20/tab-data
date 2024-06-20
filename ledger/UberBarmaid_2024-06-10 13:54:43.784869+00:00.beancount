@@ -550,3 +550,9 @@
   Liabilities:Bar:Members:Gust    1.00 EUR
   Liabilities:Bar:Members:Miker  -1.00 EUR
 
+2024-06-20 txn "Miker gave Gust a gift of €1.00"
+  timestamp: "2024-06-20 18:50:17.924457"
+  type: "transfer"
+  Liabilities:Bar:Members:Miker   1.00 EUR
+  Liabilities:Bar:Members:Gust   -1.00 EUR
+
