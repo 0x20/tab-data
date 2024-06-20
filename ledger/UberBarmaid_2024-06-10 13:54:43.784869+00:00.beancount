@@ -646,3 +646,9 @@
   Liabilities:Bar:Members:Johan   1.00 EUR  
   Income:Bar                     -1.00 EUR  
 
+2024-06-20 txn "ON1WP deposited €8.50"
+  timestamp: "2024-06-20 21:19:55.040581"
+  type: "deposit"
+  Liabilities:Bar:Members:ON1WP  -8.50 EUR
+  Assets:Cash:Bar                 8.50 EUR
+
