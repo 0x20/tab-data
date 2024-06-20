@@ -5,7 +5,7 @@ name: Mattermost bot
 
 env:
   MM_URL: https://chat.hackerspace.gent/
-  
+
 on:
   push:
     branches: [ "master" ]
@@ -33,4 +33,4 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f mmbot/requirements.txt ]; then pip install -r mmbot/requirements.txt; fi
     - name: Run mmbot-tx.py
-      run: python mmbot/mmbot-tx.py ${{ env.MM_URL }} ${{ secrets.MMBOT_TOKEN }}
+      run: python mmbot/mmbot-tx.py --mm_url ${{ env.MM_URL }} --token ${{ secrets.MMBOT_TOKEN }}
