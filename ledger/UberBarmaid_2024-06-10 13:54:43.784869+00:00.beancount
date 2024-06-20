@@ -326,3 +326,11 @@
   Liabilities:Bar:Members:On8wr   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2024-06-20 txn "--CASH-- bought 1 items for €2.50"
+  timestamp: "2024-06-20 14:24:04.711162"
+  type: "purchase"
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Cash:Bar        2.50 EUR  
+  Income:Bar            -2.50 EUR  
+
