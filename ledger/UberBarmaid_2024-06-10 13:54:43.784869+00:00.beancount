@@ -932,3 +932,11 @@
   Liabilities:Bar:Members:Gust   4.00 EUR  
   Income:Bar                    -4.00 EUR  
 
+2024-06-27 txn "Tenybras bought 1 items for €1.50"
+  timestamp: "2024-06-27 19:23:06.235736"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Tenybras      1 BEER
+  Liabilities:Bar:Members:Tenybras   1.50 EUR 
+  Income:Bar                        -1.50 EUR 
+
