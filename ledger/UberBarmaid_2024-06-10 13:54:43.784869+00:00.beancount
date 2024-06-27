@@ -986,3 +986,11 @@
   Liabilities:Bar:Members:Err0r   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-06-27 txn "TQ bought 1 items for €0.75"
+  timestamp: "2024-06-27 20:06:20.843851"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 WATER
+  Liabilities:Bar:Members:Thequux      1 WATER
+  Liabilities:Bar:Members:Thequux   0.75 EUR  
+  Income:Bar                       -0.75 EUR  
+
