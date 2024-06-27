@@ -916,3 +916,9 @@
   Liabilities:Bar:Members:Sander   1.50 EUR 
   Income:Bar                      -1.50 EUR 
 
+2024-06-27 txn "Gust gave --CASH-- a gift of €45.00"
+  timestamp: "2024-06-27 19:21:06.130340"
+  type: "transfer"
+  Liabilities:Bar:Members:Gust   45.00 EUR
+  Assets:Cash:Bar               -45.00 EUR
+
