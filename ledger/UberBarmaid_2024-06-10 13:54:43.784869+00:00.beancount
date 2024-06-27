@@ -978,3 +978,11 @@
   Liabilities:Bar:Members:Miker   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-06-27 txn "Err0r bought 1 items for €2.50"
+  timestamp: "2024-06-27 20:03:14.009051"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Err0r      1 GERMAN
+  Liabilities:Bar:Members:Err0r   2.50 EUR   
+  Income:Bar                     -2.50 EUR   
+
