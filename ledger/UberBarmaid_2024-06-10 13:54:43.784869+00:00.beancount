@@ -1052,3 +1052,11 @@
   Liabilities:Bar:Members:Frp  -20.00 EUR
   Assets:Cash:Bar               20.00 EUR
 
+2024-06-27 txn "ON8LTE bought 1 items for €2.50"
+  timestamp: "2024-06-27 20:42:35.422320"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:ON8LTE      1 GERMAN
+  Liabilities:Bar:Members:ON8LTE   2.50 EUR   
+  Income:Bar                      -2.50 EUR   
+
