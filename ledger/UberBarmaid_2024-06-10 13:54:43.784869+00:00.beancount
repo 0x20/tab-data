@@ -858,3 +858,11 @@
   Liabilities:Bar:Members:Thijs   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-06-27 txn "Matth bought 1 items for €3.00"
+  timestamp: "2024-06-27 18:14:39.012092"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 CM 
+  Liabilities:Bar:Members:Matth      1 CM 
+  Liabilities:Bar:Members:Matth   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
