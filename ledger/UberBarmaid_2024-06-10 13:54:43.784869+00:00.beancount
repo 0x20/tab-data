@@ -850,3 +850,11 @@
   Liabilities:Bar:Members:Tenybras   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-06-27 txn "Thijs bought 1 items for €2.50"
+  timestamp: "2024-06-27 18:07:50.963031"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Thijs      1 GERMAN
+  Liabilities:Bar:Members:Thijs   2.50 EUR   
+  Income:Bar                     -2.50 EUR   
+
