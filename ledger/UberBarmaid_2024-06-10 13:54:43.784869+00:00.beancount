@@ -1132,3 +1132,11 @@
   Liabilities:Bar:Members:Thequux   2.50 EUR   
   Income:Bar                       -2.50 EUR   
 
+2024-06-27 txn "Thijs bought 1 items for €3.00"
+  timestamp: "2024-06-27 22:09:35.970032"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 KOMBUCHA
+  Liabilities:Bar:Members:Thijs      1 KOMBUCHA
+  Liabilities:Bar:Members:Thijs   3.00 EUR     
+  Income:Bar                     -3.00 EUR     
+
