@@ -1010,3 +1010,13 @@
   Liabilities:Bar:Members:Tenybras   1.50 EUR 
   Income:Bar                        -1.50 EUR 
 
+2024-06-27 txn "Yvan bought 4 items for €5.00"
+  timestamp: "2024-06-27 20:20:14.026216"
+  type: "purchase"
+  Assets:Inventory:Bar             -2 SNACK
+  Liabilities:Bar:Members:Yvan      2 SNACK
+  Assets:Inventory:Bar             -2 SODA 
+  Liabilities:Bar:Members:Yvan      2 SODA 
+  Liabilities:Bar:Members:Yvan   5.00 EUR  
+  Income:Bar                    -5.00 EUR  
+
