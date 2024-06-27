@@ -1124,3 +1124,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-06-27 txn "TQ bought 1 items for €2.50"
+  timestamp: "2024-06-27 21:50:43.060236"
+  type: "purchase"
+  Assets:Inventory:Bar                -1 GERMAN
+  Liabilities:Bar:Members:Thequux      1 GERMAN
+  Liabilities:Bar:Members:Thequux   2.50 EUR   
+  Income:Bar                       -2.50 EUR   
+
