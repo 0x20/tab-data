@@ -802,3 +802,11 @@
   Liabilities:Bar:Members:Thequux   6.00 EUR 
   Income:Bar                       -6.00 EUR 
 
+2024-06-27 txn "DJefke bought 1 items for €3.00"
+  timestamp: "2024-06-27 17:16:54.558694"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 CM 
+  Liabilities:Bar:Members:DJefke      1 CM 
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
