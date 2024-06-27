@@ -874,3 +874,13 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR   
   Income:Bar                      -2.50 EUR   
 
+2024-06-27 txn "TQ bought 3 items for €4.50"
+  timestamp: "2024-06-27 18:34:12.189408"
+  type: "purchase"
+  Assets:Inventory:Bar                -2 SODA
+  Liabilities:Bar:Members:Thequux      2 SODA
+  Assets:Inventory:Bar                -1 BEER
+  Liabilities:Bar:Members:Thequux      1 BEER
+  Liabilities:Bar:Members:Thequux   4.50 EUR 
+  Income:Bar                       -4.50 EUR 
+
