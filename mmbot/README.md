@@ -32,3 +32,6 @@ Show a help text with all switches:
 
 ```python mmbot/mmbot-tx.py --help```
 
+Example to show how to test on a beancount file:
+
+```python mmbot/mmbot-tx.py --from_file "./ledger/UberBarmaid_2024-01-18 19:32:39.804552+00:00.beancount"```
