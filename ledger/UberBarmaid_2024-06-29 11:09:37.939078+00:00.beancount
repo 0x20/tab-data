@@ -110,3 +110,9 @@
   Liabilities:Bar:Members:Gust   0.75 EUR  
   Income:Bar                    -0.75 EUR  
 
+2024-06-29 txn "Johan gave Mateo a gift of €13.52"
+  timestamp: "2024-06-29 18:44:21.378422"
+  type: "transfer"
+  Liabilities:Bar:Members:Johan   13.52 EUR
+  Liabilities:Bar:Members:Mateo  -13.52 EUR
+
