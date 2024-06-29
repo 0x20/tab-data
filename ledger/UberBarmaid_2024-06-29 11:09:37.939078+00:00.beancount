@@ -130,3 +130,13 @@
   Liabilities:Bar:Members:Gust   0.75 EUR  
   Income:Bar                    -0.75 EUR  
 
+2024-06-29 txn "Johan bought 5 items for €6.50"
+  timestamp: "2024-06-29 19:58:29.950423"
+  type: "purchase"
+  Assets:Inventory:Bar              -3 SODA 
+  Liabilities:Bar:Members:Johan      3 SODA 
+  Assets:Inventory:Bar              -2 SNACK
+  Liabilities:Bar:Members:Johan      2 SNACK
+  Liabilities:Bar:Members:Johan   6.50 EUR  
+  Income:Bar                     -6.50 EUR  
+
