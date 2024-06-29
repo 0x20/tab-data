@@ -22,3 +22,11 @@
   Liabilities:Bar:Members:Frp   2.50 EUR   
   Income:Bar                   -2.50 EUR   
 
+2024-06-29 txn "Err0r bought 1 items for €1.50"
+  timestamp: "2024-06-29 13:18:28.306848"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Err0r      1 SODA
+  Liabilities:Bar:Members:Err0r   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
