@@ -250,3 +250,9 @@
   Liabilities:Bar:Members:Koen  -30.90 EUR
   Assets:Cash:Bar                30.90 EUR
 
+2024-07-04 txn "Koen gave Err0r a gift of €12.90"
+  timestamp: "2024-07-04 20:46:27.159911"
+  type: "transfer"
+  Liabilities:Bar:Members:Koen    12.90 EUR
+  Liabilities:Bar:Members:Err0r  -12.90 EUR
+
