@@ -328,3 +328,11 @@
   Liabilities:Bar:Members:Johan   2.00 EUR  
   Income:Bar                     -2.00 EUR  
 
+2024-07-07 txn "Els bought 1 items for €1.00"
+  timestamp: "2024-07-07 09:20:00.964752"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 SNACK
+  Liabilities:Bar:Members:Els      1 SNACK
+  Liabilities:Bar:Members:Els   1.00 EUR  
+  Income:Bar                   -1.00 EUR  
+
