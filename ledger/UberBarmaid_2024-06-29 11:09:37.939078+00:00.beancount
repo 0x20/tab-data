@@ -475,3 +475,9 @@
   Liabilities:Bar:Members:Mateo   3.00 EUR 
   Income:Bar                     -3.00 EUR 
 
+2024-07-11 txn "Mateo deposited €1.50"
+  timestamp: "2024-07-11 20:04:29.438118"
+  type: "deposit"
+  Liabilities:Bar:Members:Mateo  -1.50 EUR
+  Assets:Cash:Bar                 1.50 EUR
+
