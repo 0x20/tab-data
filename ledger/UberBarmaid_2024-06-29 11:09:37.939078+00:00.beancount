@@ -392,3 +392,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-07-11 txn "Sander bought 1 items for €1.00"
+  timestamp: "2024-07-11 17:26:49.606709"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Sander      1 SNACK
+  Liabilities:Bar:Members:Sander   1.00 EUR  
+  Income:Bar                      -1.00 EUR  
+
