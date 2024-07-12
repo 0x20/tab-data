@@ -497,3 +497,13 @@
   Liabilities:Bar:Members:Koen   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2024-07-12 txn "Johan bought 5 items for €8.00"
+  timestamp: "2024-07-12 00:09:54.193968"
+  type: "purchase"
+  Assets:Inventory:Bar              -3 SNACK 
+  Liabilities:Bar:Members:Johan      3 SNACK 
+  Assets:Inventory:Bar              -2 GERMAN
+  Liabilities:Bar:Members:Johan      2 GERMAN
+  Liabilities:Bar:Members:Johan   8.00 EUR   
+  Income:Bar                     -8.00 EUR   
+
