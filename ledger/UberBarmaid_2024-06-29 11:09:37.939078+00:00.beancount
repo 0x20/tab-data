@@ -519,3 +519,9 @@
   Liabilities:Bar:Members:Johan  -100.00 EUR
   Assets:Cash:Bar                 100.00 EUR
 
+2024-07-12 txn "Johan deposited €13.09"
+  timestamp: "2024-07-12 16:39:29.975153"
+  type: "deposit"
+  Liabilities:Bar:Members:Johan  -13.09 EUR
+  Assets:Cash:Bar                 13.09 EUR
+
