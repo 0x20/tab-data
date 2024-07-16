@@ -110,7 +110,7 @@ def get_users_from_tx(tx: Transaction):
     return list(members)
 
 
-def extract_added_transactions_from_git_show():
+def extract_text_transactions_from_git_show():
     result = subprocess.run(['git', 'show'], stdout=subprocess.PIPE)
     output = result.stdout.decode('utf-8')
     lines = output.splitlines()
@@ -135,6 +135,8 @@ def get_git_commit_msg():
 
 
 def parse_transaction(tx: Transaction, users: str) -> str:
+    # See which type of Transaction we have and dispatch to the correct function
+    #
     # docs: Transaction(meta, date, flag, payee, narration, tags, links, postings)
     match tx.meta['type']:
         case 'deposit':
@@ -180,13 +182,15 @@ def parse_purchase(txn: Transaction, user: str):
         Posting(account='Liabilities:Bar:Members:Miker', units=2.50 EUR, cost=None, price=None, flag=None, meta={'filename': '<string>', 'lineno': 6}),
         Posting(account='Income:Bar', units=-2.50 EUR, cost=None, price=None, flag=None, meta={'filename': '<string>', 'lineno': 7})])
     """
-    # doc: Posting(account, units, cost, price, flag, meta)
     postings: List[Posting] = []
+    # iterate over the postings (lines) in the transaction to search
+    # for the lines mentioning members
     for posting in txn.postings:
         if posting.account.startswith("Liabilities:Bar:Members:"):
             postings.append(posting)
-    assert len(postings) >= 2, "Expecting 2 postings"
-    postings = postings[:-1] # remove the last posting which is the total
+    assert len(postings) >= 2, "Expecting 2 member-related postings in a purchase"
+    # remove the last posting which is the total
+    postings = postings[:-1]
     pretty_message = f"{txn.narration}:\n"
     for entry in postings:
         pretty_message += f"{entry.units}\n"
@@ -197,16 +201,17 @@ def parse_transfer(txn: Transaction, user: str):
     return txn.narration
 
 
-def main_transaction_handling(added_transactions: Transaction, mm_url, token):
+def process_transaction(beancount_transaction: Transaction, mm_url, token):
     # Get the correct member name from the transaction
-    member_names = get_users_from_tx(added_transactions)
-    logging.debug('Membernames from transaction: %s', member_names)
+    member_names = get_users_from_tx(beancount_transaction)
+    logging.info('Membernames from transaction: %s', member_names)
     mm_users = get_mm_users(member_names)
 
     if not mm_users:
+        logging.info("Did not find mattermost user for the transaction")
         return
 
-    pretty_message = parse_transaction(added_transactions, mm_users)
+    pretty_message = parse_transaction(beancount_transaction, mm_users)
 
     if token:
         for mm_user in mm_users:
@@ -240,29 +245,31 @@ def main(mm_url, token, from_file, debug):
     if not token:
         logging.warning("No token provided, not sending messages.")
 
+    # Get the transactions from a file
+    text_transactions = None
     if from_file:
         with open(from_file, "r") as f:
-            added_transactions = f.read()
-
+            text_transactions = f.read()
+    # or from the last git commit message (this is how it's normally used)
     else:
         # get the git commit message
         output = get_git_commit_msg()
 
         # if the last commit is not a backtab transaction, stop here
         if not output:
+            logging.info("Last commit is not a backtab transaction")
             sys.exit(1)
 
         # get transaction from git
-        added_transactions = extract_added_transactions_from_git_show()
-        logging.debug('Git commit msg:\n %s', added_transactions)
+        text_transactions = extract_text_transactions_from_git_show()
+        logging.debug('Git commit msg:\n %s', text_transactions)
 
-
-    # Parse the transaction
-    tx, _, _ = loader.load_string(added_transactions)
-    tx = tx if isinstance(tx, list) else [tx]
-    logging.debug(f"There are {len(tx)} transactions")
-    for t in tx:
-        main_transaction_handling(t, mm_url, token)
+    # Parse the text transactions coming from file or git
+    beancount_tx, _, _ = loader.load_string(text_transactions)
+    beancount_tx = beancount_tx if isinstance(beancount_tx, list) else [beancount_tx]
+    logging.debug(f"There are {len(beancount_tx)} transactions")
+    for tx in beancount_tx:
+        process_transaction(tx, mm_url, token)
 
 
 if __name__ == '__main__':
