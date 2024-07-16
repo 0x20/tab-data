@@ -204,7 +204,7 @@ def parse_transfer(txn: Transaction, user: str):
 def process_transaction(beancount_transaction: Transaction, mm_url, token):
     # Get the correct member name from the transaction
     member_names = get_users_from_tx(beancount_transaction)
-    logging.debug('Membernames from transaction: %s', member_names)
+    logging.info('Membernames from transaction: %s', member_names)
     mm_users = get_mm_users(member_names)
 
     if not mm_users:
