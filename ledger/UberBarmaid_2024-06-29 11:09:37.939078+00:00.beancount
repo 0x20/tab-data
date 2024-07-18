@@ -659,3 +659,11 @@
   Liabilities:Bar:Members:Thijs   2.50 EUR  
   Income:Bar                     -2.50 EUR  
 
+2024-07-18 txn "Matth bought 1 items for €1.50"
+  timestamp: "2024-07-18 20:20:16.113260"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Matth      1 SODA
+  Liabilities:Bar:Members:Matth   1.50 EUR 
+  Income:Bar                     -1.50 EUR 
+
