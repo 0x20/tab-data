@@ -699,3 +699,11 @@
   Liabilities:Bar:Members:Miker   10.00 EUR
   Liabilities:Bar:Members:Err0r  -10.00 EUR
 
+2024-07-18 txn "Thijs bought 1 items for €0.75"
+  timestamp: "2024-07-18 21:01:09.982597"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Thijs      1 WATER
+  Liabilities:Bar:Members:Thijs   0.75 EUR  
+  Income:Bar                     -0.75 EUR  
+
