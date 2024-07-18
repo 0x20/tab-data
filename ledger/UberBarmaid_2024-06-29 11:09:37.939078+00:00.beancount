@@ -627,3 +627,11 @@
   Liabilities:Bar:Members:Matth   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-07-18 txn "Miker bought 1 items for €3.00"
+  timestamp: "2024-07-18 19:16:33.471613"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 KOMBUCHA
+  Liabilities:Bar:Members:Miker      1 KOMBUCHA
+  Liabilities:Bar:Members:Miker   3.00 EUR     
+  Income:Bar                     -3.00 EUR     
+
