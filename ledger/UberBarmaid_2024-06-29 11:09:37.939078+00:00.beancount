@@ -611,3 +611,11 @@
   Liabilities:Bar:Members:Frp   2.50 EUR   
   Income:Bar                   -2.50 EUR   
 
+2024-07-18 txn "Frp bought 1 items for €1.50"
+  timestamp: "2024-07-18 18:07:11.454417"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 SODA
+  Liabilities:Bar:Members:Frp      1 SODA
+  Liabilities:Bar:Members:Frp   1.50 EUR 
+  Income:Bar                   -1.50 EUR 
+
