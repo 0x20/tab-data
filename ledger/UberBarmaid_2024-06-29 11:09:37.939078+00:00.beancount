@@ -693,3 +693,9 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR 
   Income:Bar                     -1.50 EUR 
 
+2024-07-18 txn "Miker gave Err0r a gift of €10.00"
+  timestamp: "2024-07-18 20:33:21.672976"
+  type: "transfer"
+  Liabilities:Bar:Members:Miker   10.00 EUR
+  Liabilities:Bar:Members:Err0r  -10.00 EUR
+
