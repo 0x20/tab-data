@@ -603,3 +603,11 @@
   Liabilities:Bar:Members:Johan   2.00 EUR  
   Income:Bar                     -2.00 EUR  
 
+2024-07-18 txn "Frp bought 1 items for €2.50"
+  timestamp: "2024-07-18 17:29:19.080214"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 GERMAN
+  Liabilities:Bar:Members:Frp      1 GERMAN
+  Liabilities:Bar:Members:Frp   2.50 EUR   
+  Income:Bar                   -2.50 EUR   
+
