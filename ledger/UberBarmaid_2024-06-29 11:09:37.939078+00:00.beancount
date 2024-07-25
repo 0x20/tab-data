@@ -781,3 +781,9 @@
   Liabilities:Bar:Members:Elfeera  -2525.00 EUR
   Assets:Cash:Bar                   2525.00 EUR
 
+2024-07-25 txn "Elfeera gave --CASH-- a gift of €2500.00"
+  timestamp: "2024-07-25 15:24:47.839880"
+  type: "transfer"
+  Liabilities:Bar:Members:Elfeera   2500.00 EUR
+  Assets:Cash:Bar                  -2500.00 EUR
+
