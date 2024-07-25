@@ -775,3 +775,9 @@
   Liabilities:Bar:Members:Elfeera   4.50 EUR   
   Income:Bar                       -4.50 EUR   
 
+2024-07-25 txn "Elfeera deposited €2525.00"
+  timestamp: "2024-07-25 15:23:46.166335"
+  type: "deposit"
+  Liabilities:Bar:Members:Elfeera  -2525.00 EUR
+  Assets:Cash:Bar                   2525.00 EUR
+
