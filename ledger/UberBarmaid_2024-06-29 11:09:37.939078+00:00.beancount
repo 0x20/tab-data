@@ -867,3 +867,11 @@
   Liabilities:Bar:Members:Elfeera   2.50 EUR   
   Income:Bar                       -2.50 EUR   
 
+2024-07-25 txn "Yvan bought 1 items for €1.50"
+  timestamp: "2024-07-25 20:19:22.946268"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
