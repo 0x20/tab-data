@@ -755,3 +755,13 @@
   Liabilities:Bar:Members:Sander   1.00 EUR  
   Income:Bar                      -1.00 EUR  
 
+2024-07-25 txn "Yvan bought 4 items for €7.00"
+  timestamp: "2024-07-25 15:16:14.272713"
+  type: "purchase"
+  Assets:Inventory:Bar             -2 GERMAN
+  Liabilities:Bar:Members:Yvan      2 GERMAN
+  Assets:Inventory:Bar             -2 SNACK 
+  Liabilities:Bar:Members:Yvan      2 SNACK 
+  Liabilities:Bar:Members:Yvan   7.00 EUR   
+  Income:Bar                    -7.00 EUR   
+
