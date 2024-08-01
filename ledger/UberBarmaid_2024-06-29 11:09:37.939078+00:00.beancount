@@ -1059,3 +1059,13 @@
   Liabilities:Bar:Members:Mateo    9.80 EUR
   Liabilities:Bar:Members:Sander  -9.80 EUR
 
+2024-08-01 txn "Mateo bought 2 items for €2.00"
+  timestamp: "2024-08-01 21:58:08.602458"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 CHIP 
+  Liabilities:Bar:Members:Mateo      1 CHIP 
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   2.00 EUR  
+  Income:Bar                     -2.00 EUR  
+
