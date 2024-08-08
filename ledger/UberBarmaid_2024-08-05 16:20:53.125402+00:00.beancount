@@ -46,3 +46,9 @@
   Liabilities:Bar:Members:Koen    16.90 EUR
   Liabilities:Bar:Members:Mateo  -16.90 EUR
 
+2024-08-08 txn "Koen deposited €20.00"
+  timestamp: "2024-08-08 17:15:10.280877"
+  type: "deposit"
+  Liabilities:Bar:Members:Koen  -20.00 EUR
+  Assets:Cash:Bar                20.00 EUR
+
