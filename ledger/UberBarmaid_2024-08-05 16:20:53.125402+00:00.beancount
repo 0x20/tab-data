@@ -202,3 +202,9 @@
   Liabilities:Bar:Members:Err0r   2.50 EUR   
   Income:Bar                     -2.50 EUR   
 
+2024-08-08 txn "Ruben gave Err0r a gift of €8.50"
+  timestamp: "2024-08-08 21:45:34.220751"
+  type: "transfer"
+  Liabilities:Bar:Members:Ruben   8.50 EUR
+  Liabilities:Bar:Members:Err0r  -8.50 EUR
+
