@@ -663,3 +663,9 @@
   Liabilities:Bar:Members:Frp   2.50 EUR   
   Income:Bar                   -2.50 EUR   
 
+2024-08-22 txn "--CASH-- gave Birger a gift of €50.00"
+  timestamp: "2024-08-22 20:05:49.693963"
+  type: "transfer"
+  Assets:Cash:Bar                  50.00 EUR
+  Liabilities:Bar:Members:Birger  -50.00 EUR
+
