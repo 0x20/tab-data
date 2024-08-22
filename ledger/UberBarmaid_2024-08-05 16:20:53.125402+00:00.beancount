@@ -585,3 +585,9 @@
   Liabilities:Bar:Members:Koen   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2024-08-22 txn "Thijs deposited €50.00"
+  timestamp: "2024-08-22 17:54:46.566831"
+  type: "deposit"
+  Liabilities:Bar:Members:Thijs  -50.00 EUR
+  Assets:Cash:Bar                 50.00 EUR
+
