@@ -655,3 +655,11 @@
   Liabilities:Bar:Members:Koen   6.00 EUR
   Assets:Cash:Bar               -6.00 EUR
 
+2024-08-22 txn "Frp bought 1 items for €2.50"
+  timestamp: "2024-08-22 20:00:11.656945"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 GERMAN
+  Liabilities:Bar:Members:Frp      1 GERMAN
+  Liabilities:Bar:Members:Frp   2.50 EUR   
+  Income:Bar                   -2.50 EUR   
+
