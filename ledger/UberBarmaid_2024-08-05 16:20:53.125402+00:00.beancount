@@ -669,3 +669,11 @@
   Assets:Cash:Bar                  50.00 EUR
   Liabilities:Bar:Members:Birger  -50.00 EUR
 
+2024-08-22 txn "Birger bought 1 items for €2.50"
+  timestamp: "2024-08-22 20:06:17.603687"
+  type: "purchase"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Birger      1 GERMAN
+  Liabilities:Bar:Members:Birger   2.50 EUR   
+  Income:Bar                      -2.50 EUR   
+
