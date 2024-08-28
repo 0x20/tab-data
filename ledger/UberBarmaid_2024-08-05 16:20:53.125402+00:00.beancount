@@ -725,3 +725,11 @@
   Liabilities:Bar:Members:Johan   3.50 EUR  
   Income:Bar                     -3.50 EUR  
 
+2024-08-28 txn "Yvan bought 1 items for €2.50"
+  timestamp: "2024-08-28 17:01:01.988093"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 GERMAN
+  Liabilities:Bar:Members:Yvan      1 GERMAN
+  Liabilities:Bar:Members:Yvan   2.50 EUR   
+  Income:Bar                    -2.50 EUR   
+
