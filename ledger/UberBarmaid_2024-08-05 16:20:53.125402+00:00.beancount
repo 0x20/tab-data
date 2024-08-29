@@ -765,3 +765,11 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR 
   Income:Bar                    -1.50 EUR 
 
+2024-08-29 txn "Yvan bought 1 items for €1.50"
+  timestamp: "2024-08-29 16:49:18.160033"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
