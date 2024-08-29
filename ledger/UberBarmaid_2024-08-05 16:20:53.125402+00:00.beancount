@@ -797,3 +797,11 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR   
   Income:Bar                      -2.50 EUR   
 
+2024-08-29 txn "Tenybras bought 1 items for €1.50"
+  timestamp: "2024-08-29 18:00:40.364444"
+  type: "purchase"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Tenybras      1 BEER
+  Liabilities:Bar:Members:Tenybras   1.50 EUR 
+  Income:Bar                        -1.50 EUR 
+
