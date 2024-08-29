@@ -883,3 +883,11 @@
   Liabilities:Bar:Members:Miker   1.00 EUR
   Liabilities:Bar:Members:Thijs  -1.00 EUR
 
+2024-08-29 txn "--CASH-- bought 2 items for €3.00"
+  timestamp: "2024-08-29 21:00:57.473443"
+  type: "purchase"
+  Assets:Inventory:Bar     -2 BEER
+  Assets:Cash:Bar           2 BEER
+  Assets:Cash:Bar        3.00 EUR 
+  Income:Bar            -3.00 EUR 
+
