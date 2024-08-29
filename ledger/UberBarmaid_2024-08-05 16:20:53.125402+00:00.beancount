@@ -811,3 +811,11 @@
   Liabilities:Bar:Members:Tenybras  -10.00 EUR
   Assets:Cash:Bar                    10.00 EUR
 
+2024-08-29 txn "qwaxys bought 1 items for €1.50"
+  timestamp: "2024-08-29 18:23:01.849500"
+  type: "purchase"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Bart      1 SODA
+  Liabilities:Bar:Members:Bart   1.50 EUR 
+  Income:Bar                    -1.50 EUR 
+
