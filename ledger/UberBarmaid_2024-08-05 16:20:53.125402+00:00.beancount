@@ -891,3 +891,13 @@
   Assets:Cash:Bar        3.00 EUR 
   Income:Bar            -3.00 EUR 
 
+2024-08-29 txn "Miker bought 2 items for €2.50"
+  timestamp: "2024-08-29 21:07:42.367002"
+  type: "purchase"
+  Assets:Inventory:Bar              -1 SODA 
+  Liabilities:Bar:Members:Miker      1 SODA 
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   2.50 EUR  
+  Income:Bar                     -2.50 EUR  
+
