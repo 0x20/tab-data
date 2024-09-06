@@ -1069,3 +1069,11 @@
   Liabilities:Bar:Members:Bloemist     1.00 EUR
   Liabilities:Bar:Members:3D-printer  -1.00 EUR
 
+2024-09-06 txn "Els bought 1 items for €1.50"
+  timestamp: "2024-09-06 21:57:16.419076"
+  type: "purchase"
+  Assets:Inventory:Bar            -1 BEER
+  Liabilities:Bar:Members:Els      1 BEER
+  Liabilities:Bar:Members:Els   1.50 EUR 
+  Income:Bar                   -1.50 EUR 
+
