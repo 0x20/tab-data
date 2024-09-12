@@ -180,3 +180,11 @@
   Liabilities:Bar:Members:Nick0   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2024-09-12 txn "Err0r bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2024-09-12 21:32:20.950258"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Err0r      1 SODA
+  Liabilities:Bar:Members:Err0r   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
