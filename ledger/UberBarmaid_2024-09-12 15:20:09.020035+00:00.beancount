@@ -148,3 +148,11 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR
   Income:Bar                        -1.50 EUR
 
+2024-09-12 txn "Err0r bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2024-09-12 20:56:54.311110"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Err0r      1 SODA
+  Liabilities:Bar:Members:Err0r   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
