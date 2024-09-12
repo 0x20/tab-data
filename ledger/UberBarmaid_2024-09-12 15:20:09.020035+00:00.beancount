@@ -64,3 +64,9 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR
   Income:Bar                        -1.50 EUR
 
+2024-09-12 txn "Mateo gave --CASH-- a gift of €16.90"
+  type: "transfer"
+  timestamp: "2024-09-12 19:18:10.198669"
+  Liabilities:Bar:Members:Mateo   16.90 EUR
+  Assets:Cash:Bar                -16.90 EUR
+
