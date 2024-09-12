@@ -120,3 +120,11 @@
   Liabilities:Bar:Members:Nick0  -10.00 EUR
   Assets:Cash:Bar                 10.00 EUR
 
+2024-09-12 txn "Nick0 bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2024-09-12 20:18:25.972509"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Nick0      1 CM
+  Liabilities:Bar:Members:Nick0   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
