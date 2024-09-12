@@ -172,3 +172,11 @@
   Liabilities:Bar:Members:DJefke   0.75 EUR
   Income:Bar                      -0.75 EUR
 
+2024-09-12 txn "Nick0 bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2024-09-12 21:30:39.380817"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Nick0      1 CM
+  Liabilities:Bar:Members:Nick0   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
