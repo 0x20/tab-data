@@ -128,3 +128,9 @@
   Liabilities:Bar:Members:Nick0   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2024-09-12 txn "Err0r deposited €30.00"
+  type: "deposit"
+  timestamp: "2024-09-12 20:21:51.723413"
+  Liabilities:Bar:Members:Err0r  -30.00 EUR
+  Assets:Cash:Bar                 30.00 EUR
+
