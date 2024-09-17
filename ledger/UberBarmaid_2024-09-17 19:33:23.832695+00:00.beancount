@@ -1,0 +1,8 @@
+2024-09-17 txn "--CASH-- bought 4 items for €6.00"
+  type: "purchase"
+  timestamp: "2024-09-17 19:33:23.828057"
+  Assets:Inventory:Bar     -4 SODA
+  Assets:Cash:Bar           4 SODA
+  Assets:Cash:Bar        6.00 EUR
+  Income:Bar            -6.00 EUR
+
