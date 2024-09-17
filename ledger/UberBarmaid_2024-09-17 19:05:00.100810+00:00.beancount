@@ -1,0 +1,8 @@
+2024-09-17 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2024-09-17 19:05:00.097523"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
