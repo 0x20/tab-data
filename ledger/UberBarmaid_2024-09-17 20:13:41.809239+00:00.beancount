@@ -106,3 +106,11 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2024-09-19 txn "Ljaytee bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2024-09-19 19:40:46.097757"
+  Assets:Inventory:Bar                -1 SNACK
+  Liabilities:Bar:Members:Ljaytee      1 SNACK
+  Liabilities:Bar:Members:Ljaytee   1.00 EUR
+  Income:Bar                       -1.00 EUR
+
