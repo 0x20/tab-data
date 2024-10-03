@@ -136,3 +136,11 @@
   Liabilities:Bar:Members:Bloemist   19.00 EUR
   Liabilities:Bar:Members:Sander    -19.00 EUR
 
+2024-10-03 txn "Miker bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2024-10-03 20:46:15.982047"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
