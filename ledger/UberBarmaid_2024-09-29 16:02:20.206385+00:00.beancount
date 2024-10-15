@@ -452,3 +452,15 @@
   Liabilities:Bar:Members:Birger   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2024-10-15 txn "Birger bought 3 items for €5.50"
+  type: "purchase"
+  timestamp: "2024-10-15 18:16:09.655909"
+  Assets:Inventory:Bar               -1 BEER
+  Liabilities:Bar:Members:Birger      1 BEER
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Birger      1 GERMAN
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Birger      1 SODA
+  Liabilities:Bar:Members:Birger   5.50 EUR
+  Income:Bar                      -5.50 EUR
+
