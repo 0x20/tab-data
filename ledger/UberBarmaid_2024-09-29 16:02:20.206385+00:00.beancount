@@ -472,3 +472,11 @@
   Liabilities:Bar:Members:Thijs   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2024-10-15 txn "Birger bought 3 items for €7.50"
+  type: "purchase"
+  timestamp: "2024-10-15 19:47:37.319313"
+  Assets:Inventory:Bar               -3 GERMAN
+  Liabilities:Bar:Members:Birger      3 GERMAN
+  Liabilities:Bar:Members:Birger   7.50 EUR
+  Income:Bar                      -7.50 EUR
+
