@@ -580,3 +580,13 @@
   Liabilities:Bar:Members:Bloemist   2.50 EUR
   Income:Bar                        -2.50 EUR
 
+2024-10-17 txn "Sander bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2024-10-17 20:58:49.318284"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Sander      1 SNACK
+  Liabilities:Bar:Members:Sander   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
