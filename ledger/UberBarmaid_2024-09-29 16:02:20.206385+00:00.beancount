@@ -496,3 +496,11 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2024-10-17 txn "qwaxys bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2024-10-17 18:11:32.196996"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Bart      1 SODA
+  Liabilities:Bar:Members:Bart   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
