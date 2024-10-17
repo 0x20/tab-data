@@ -512,3 +512,11 @@
   Liabilities:Bar:Members:Bloemist   2.50 EUR
   Income:Bar                        -2.50 EUR
 
+2024-10-17 txn "HansA bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2024-10-17 18:26:58.928070"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:HansA      1 WATER
+  Liabilities:Bar:Members:HansA   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
