@@ -590,3 +590,9 @@
   Liabilities:Bar:Members:Sander   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2024-10-17 txn "Joren deposited €20.00"
+  type: "deposit"
+  timestamp: "2024-10-17 21:02:10.121321"
+  Liabilities:Bar:Members:Joren  -20.00 EUR
+  Assets:Cash:Bar                 20.00 EUR
+
