@@ -723,3 +723,11 @@
   Liabilities:Bar:Members:Mateo   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2024-10-22 txn "Sander bought 2 items for €2.00"
+  type: "purchase"
+  timestamp: "2024-10-22 16:43:47.482365"
+  Assets:Inventory:Bar               -2 SNACK
+  Liabilities:Bar:Members:Sander      2 SNACK
+  Liabilities:Bar:Members:Sander   2.00 EUR
+  Income:Bar                      -2.00 EUR
+
