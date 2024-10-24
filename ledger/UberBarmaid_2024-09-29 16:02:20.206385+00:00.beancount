@@ -884,3 +884,13 @@
   Liabilities:Bar:Members:Mateo  -0.75 EUR
   Assets:Cash:Bar                 0.75 EUR
 
+2024-10-24 txn "Sander bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2024-10-24 22:28:31.761260"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Sander      1 GERMAN
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
