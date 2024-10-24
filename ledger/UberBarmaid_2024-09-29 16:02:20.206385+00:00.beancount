@@ -858,3 +858,13 @@
   Liabilities:Bar:Members:Miker   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2024-10-24 txn "--CASH-- bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2024-10-24 21:26:31.820329"
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Inventory:Bar     -1 GERMAN
+  Assets:Cash:Bar           1 GERMAN
+  Assets:Cash:Bar        5.00 EUR
+  Income:Bar            -5.00 EUR
+
