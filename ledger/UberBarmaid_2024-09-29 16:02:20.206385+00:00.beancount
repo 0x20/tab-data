@@ -747,3 +747,12 @@
   Liabilities:Bar:Members:Sander   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2024-10-24 txn "--CASH-- bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2024-10-24 18:16:06.117311"
+  Assets:Inventory:Bar             -1 PASSPORT
+  Assets:Cash:Bar                   1 PASSPORT
+  Assets:Cash:Bar                2.50 EUR
+  Liabilities:Bar:Members:Bart  -1.20 EUR
+  Income:Bar                    -1.30 EUR
+
