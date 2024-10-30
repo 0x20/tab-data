@@ -922,3 +922,9 @@
   Liabilities:Bar:Members:Bloemist   2.50 EUR
   Income:Bar                        -2.50 EUR
 
+2024-10-30 txn "Mateo gave Bloemist a gift of €5.00"
+  type: "transfer"
+  timestamp: "2024-10-30 21:23:21.615672"
+  Liabilities:Bar:Members:Mateo      5.00 EUR
+  Liabilities:Bar:Members:Bloemist  -5.00 EUR
+
