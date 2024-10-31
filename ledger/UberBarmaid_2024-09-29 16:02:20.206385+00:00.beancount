@@ -1040,3 +1040,11 @@
   Liabilities:Bar:Members:Sander  -2.50 EUR
   Assets:Cash:Bar                  2.50 EUR
 
+2024-10-31 txn "Sander bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2024-10-31 21:34:39.338992"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Sander      1 SNACK
+  Liabilities:Bar:Members:Sander   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
