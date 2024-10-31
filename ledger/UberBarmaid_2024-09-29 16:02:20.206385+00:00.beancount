@@ -1048,3 +1048,11 @@
   Liabilities:Bar:Members:Sander   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2024-10-31 txn "Gust bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2024-10-31 21:43:55.679236"
+  Assets:Inventory:Bar             -1 WATER
+  Liabilities:Bar:Members:Gust      1 WATER
+  Liabilities:Bar:Members:Gust   0.75 EUR
+  Income:Bar                    -0.75 EUR
+
