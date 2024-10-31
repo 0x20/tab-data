@@ -964,3 +964,9 @@
   Liabilities:Bar:Members:Gust  -50.00 EUR
   Assets:Cash:Bar                50.00 EUR
 
+2024-10-31 txn "Gust gave Mateo a gift of €12.90"
+  type: "transfer"
+  timestamp: "2024-10-31 18:50:57.548537"
+  Liabilities:Bar:Members:Gust    12.90 EUR
+  Liabilities:Bar:Members:Mateo  -12.90 EUR
+
