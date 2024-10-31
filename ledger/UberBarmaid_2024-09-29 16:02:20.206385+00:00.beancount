@@ -994,3 +994,11 @@
   Liabilities:Bar:Members:Gust   3.50 EUR
   Income:Bar                    -3.50 EUR
 
+2024-10-31 txn "Gust bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2024-10-31 19:29:19.761066"
+  Assets:Inventory:Bar             -1 CM
+  Liabilities:Bar:Members:Gust      1 CM
+  Liabilities:Bar:Members:Gust   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
