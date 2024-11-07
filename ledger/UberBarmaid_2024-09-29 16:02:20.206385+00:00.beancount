@@ -1198,3 +1198,11 @@
   Liabilities:Bar:Members:Mateo   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2024-11-07 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2024-11-07 20:56:12.514941"
+  Assets:Inventory:Bar             -1 BEER
+  Liabilities:Bar:Members:Koen      1 BEER
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
