@@ -1322,3 +1322,9 @@
   Liabilities:Bar:Members:Sander   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2024-11-11 txn "Mateo gave Sander a gift of €16.90"
+  type: "transfer"
+  timestamp: "2024-11-11 18:34:27.001428"
+  Liabilities:Bar:Members:Mateo    16.90 EUR
+  Liabilities:Bar:Members:Sander  -16.90 EUR
+
