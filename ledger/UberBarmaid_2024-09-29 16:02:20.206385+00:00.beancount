@@ -1368,3 +1368,9 @@
   Liabilities:Bar:Members:Thequux   2.50 EUR
   Income:Bar                       -2.50 EUR
 
+2024-11-14 txn "TQ deposited €100.00"
+  type: "deposit"
+  timestamp: "2024-11-14 19:29:55.950503"
+  Liabilities:Bar:Members:Thequux  -100.00 EUR
+  Assets:Cash:Bar                   100.00 EUR
+
