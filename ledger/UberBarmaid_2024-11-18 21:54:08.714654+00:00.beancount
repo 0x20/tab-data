@@ -1,0 +1,8 @@
+2024-11-18 txn "Mateo bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2024-11-18 21:54:08.709063"
+  Assets:Inventory:Bar              -2 GERMAN
+  Liabilities:Bar:Members:Mateo      2 GERMAN
+  Liabilities:Bar:Members:Mateo   5.00 EUR
+  Income:Bar                     -5.00 EUR
+
