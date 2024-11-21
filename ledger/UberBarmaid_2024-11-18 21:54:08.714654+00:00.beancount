@@ -122,3 +122,13 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR
   Income:Bar                        -1.50 EUR
 
+2024-11-21 txn "Miker bought 2 items for €3.00"
+  type: "purchase"
+  timestamp: "2024-11-21 23:05:25.228519"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Miker      1 BEER
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
