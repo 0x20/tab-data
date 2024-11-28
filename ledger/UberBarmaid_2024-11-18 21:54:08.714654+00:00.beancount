@@ -220,3 +220,9 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2024-11-28 txn "Thijs gave Mateo a gift of €16.90"
+  type: "transfer"
+  timestamp: "2024-11-28 21:03:33.828077"
+  Liabilities:Bar:Members:Thijs   16.90 EUR
+  Liabilities:Bar:Members:Mateo  -16.90 EUR
+
