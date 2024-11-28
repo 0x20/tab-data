@@ -226,3 +226,9 @@
   Liabilities:Bar:Members:Thijs   16.90 EUR
   Liabilities:Bar:Members:Mateo  -16.90 EUR
 
+2024-11-28 txn "Thijs deposited €50.00"
+  type: "deposit"
+  timestamp: "2024-11-28 21:03:42.973623"
+  Liabilities:Bar:Members:Thijs  -50.00 EUR
+  Assets:Cash:Bar                 50.00 EUR
+
