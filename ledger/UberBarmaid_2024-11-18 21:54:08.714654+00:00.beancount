@@ -254,3 +254,9 @@
   Liabilities:Bar:Members:Johan   16.50 EUR
   Liabilities:Bar:Members:Mateo  -16.50 EUR
 
+2024-11-28 txn "Miker deposited €5.00"
+  type: "deposit"
+  timestamp: "2024-11-28 23:18:52.350405"
+  Liabilities:Bar:Members:Miker  -5.00 EUR
+  Assets:Cash:Bar                 5.00 EUR
+
