@@ -366,3 +366,9 @@
   Liabilities:Bar:Members:Miker   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2024-12-05 txn "Mateo gave Koen a gift of €16.90"
+  type: "transfer"
+  timestamp: "2024-12-05 21:36:15.176657"
+  Liabilities:Bar:Members:Mateo   16.90 EUR
+  Liabilities:Bar:Members:Koen   -16.90 EUR
+
