@@ -284,3 +284,11 @@
   Liabilities:Bar:Members:Koen   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2024-12-05 txn "Miker bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2024-12-05 19:54:04.570032"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
