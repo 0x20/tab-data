@@ -324,3 +324,11 @@
   Liabilities:Bar:Members:Joren   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2024-12-05 txn "Mateo bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2024-12-05 20:51:08.174777"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Mateo      1 GERMAN
+  Liabilities:Bar:Members:Mateo   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
