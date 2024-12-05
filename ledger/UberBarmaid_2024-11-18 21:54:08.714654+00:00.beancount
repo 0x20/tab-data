@@ -408,3 +408,11 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2024-12-05 txn "Bloemist bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2024-12-05 23:54:22.663094"
+  Assets:Inventory:Bar                 -2 CM
+  Liabilities:Bar:Members:Bloemist      2 CM
+  Liabilities:Bar:Members:Bloemist   6.00 EUR
+  Income:Bar                        -6.00 EUR
+
