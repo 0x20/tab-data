@@ -506,3 +506,11 @@
   Liabilities:Bar:Members:Frp   2.50 EUR
   Income:Bar                   -2.50 EUR
 
+2024-12-12 txn "--CASH-- bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2024-12-12 20:53:46.853834"
+  Assets:Inventory:Bar     -1 CM
+  Assets:Cash:Bar           1 CM
+  Assets:Cash:Bar        3.00 EUR
+  Income:Bar            -3.00 EUR
+
