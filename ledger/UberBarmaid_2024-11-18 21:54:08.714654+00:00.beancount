@@ -612,3 +612,11 @@
   Liabilities:Bar:Members:Bloemist   1.00 EUR
   Income:Bar                        -1.00 EUR
 
+2024-12-13 txn "Els bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2024-12-13 11:41:07.361259"
+  Assets:Inventory:Bar            -1 CM
+  Liabilities:Bar:Members:Els      1 CM
+  Liabilities:Bar:Members:Els   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
