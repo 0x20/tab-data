@@ -628,3 +628,11 @@
   Liabilities:Bar:Members:Bloemist   2.50 EUR
   Income:Bar                        -2.50 EUR
 
+2024-12-15 txn "Bloemist bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2024-12-15 00:20:10.775306"
+  Assets:Inventory:Bar                 -1 DUVEL
+  Liabilities:Bar:Members:Bloemist      1 DUVEL
+  Liabilities:Bar:Members:Bloemist   2.50 EUR
+  Income:Bar                        -2.50 EUR
+
