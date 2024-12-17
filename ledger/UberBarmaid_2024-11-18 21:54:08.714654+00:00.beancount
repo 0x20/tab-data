@@ -670,3 +670,13 @@
   Assets:Cash:Bar        9.00 EUR
   Income:Bar            -9.00 EUR
 
+2024-12-17 txn "--CASH-- bought 4 items for €9.00"
+  type: "purchase"
+  timestamp: "2024-12-17 20:18:40.689390"
+  Assets:Inventory:Bar     -3 GERMAN
+  Assets:Cash:Bar           3 GERMAN
+  Assets:Inventory:Bar     -1 BEER
+  Assets:Cash:Bar           1 BEER
+  Assets:Cash:Bar        9.00 EUR
+  Income:Bar            -9.00 EUR
+
