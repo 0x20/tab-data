@@ -660,3 +660,13 @@
   Liabilities:Bar:Members:Thijs   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2024-12-17 txn "--CASH-- bought 4 items for €9.00"
+  type: "purchase"
+  timestamp: "2024-12-17 19:08:37.826316"
+  Assets:Inventory:Bar     -3 GERMAN
+  Assets:Cash:Bar           3 GERMAN
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        9.00 EUR
+  Income:Bar            -9.00 EUR
+
