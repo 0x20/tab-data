@@ -714,3 +714,9 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2024-12-19 txn "Err0r deposited €25.00"
+  type: "deposit"
+  timestamp: "2024-12-19 19:13:33.886356"
+  Liabilities:Bar:Members:Err0r  -25.00 EUR
+  Assets:Cash:Bar                 25.00 EUR
+
