@@ -720,3 +720,9 @@
   Liabilities:Bar:Members:Err0r  -25.00 EUR
   Assets:Cash:Bar                 25.00 EUR
 
+2024-12-19 txn "Err0r gave DJefke a gift of €12.80"
+  type: "transfer"
+  timestamp: "2024-12-19 19:14:40.966922"
+  Liabilities:Bar:Members:Err0r    12.80 EUR
+  Liabilities:Bar:Members:DJefke  -12.80 EUR
+
