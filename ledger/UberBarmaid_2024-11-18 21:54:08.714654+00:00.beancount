@@ -766,3 +766,13 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2024-12-19 txn "Gust bought 2 items for €3.50"
+  type: "purchase"
+  timestamp: "2024-12-19 20:21:47.504657"
+  Assets:Inventory:Bar             -1 GERMAN
+  Liabilities:Bar:Members:Gust      1 GERMAN
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Gust      1 SNACK
+  Liabilities:Bar:Members:Gust   3.50 EUR
+  Income:Bar                    -3.50 EUR
+
