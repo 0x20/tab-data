@@ -706,3 +706,11 @@
   Liabilities:Bar:Members:Err0r   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2024-12-19 txn "DJefke bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2024-12-19 18:57:41.704223"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:DJefke      1 GERMAN
+  Liabilities:Bar:Members:DJefke   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
