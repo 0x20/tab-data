@@ -822,3 +822,11 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2024-12-20 txn "Sander bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2024-12-20 00:14:37.666089"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
