@@ -854,3 +854,9 @@
   Liabilities:Bar:Members:Err0r   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2024-12-21 txn "Mateo gave Err0r a gift of €12.90"
+  type: "transfer"
+  timestamp: "2024-12-21 18:58:06.341648"
+  Liabilities:Bar:Members:Mateo   12.90 EUR
+  Liabilities:Bar:Members:Err0r  -12.90 EUR
+
