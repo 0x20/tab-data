@@ -860,3 +860,13 @@
   Liabilities:Bar:Members:Mateo   12.90 EUR
   Liabilities:Bar:Members:Err0r  -12.90 EUR
 
+2024-12-26 txn "DJefke bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2024-12-26 17:28:23.382769"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:DJefke      1 GERMAN
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
