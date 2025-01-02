@@ -1116,3 +1116,11 @@
   Liabilities:Bar:Members:Thomas   300.00 EUR
   Assets:Cash:Bar                 -300.00 EUR
 
+2025-01-02 txn "Joren bought 2 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-01-02 19:37:02.428529"
+  Assets:Inventory:Bar              -2 BEER
+  Liabilities:Bar:Members:Joren      2 BEER
+  Liabilities:Bar:Members:Joren   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
