@@ -1,0 +1,10 @@
+2025-01-16 txn "ON8LTE bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-01-16 19:14:48.110557"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:ON8LTE      1 GERMAN
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:ON8LTE      1 SODA
+  Liabilities:Bar:Members:ON8LTE   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
