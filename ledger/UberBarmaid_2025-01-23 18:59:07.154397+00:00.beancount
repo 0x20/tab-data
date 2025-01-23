@@ -132,3 +132,13 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-01-23 txn "Johan bought 3 items for €8.50"
+  type: "purchase"
+  timestamp: "2025-01-23 22:33:23.887746"
+  Assets:Inventory:Bar              -2 CM
+  Liabilities:Bar:Members:Johan      2 CM
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Johan      1 GERMAN
+  Liabilities:Bar:Members:Johan   8.50 EUR
+  Income:Bar                     -8.50 EUR
+
