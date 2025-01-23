@@ -1,0 +1,8 @@
+2025-01-23 txn "Koen bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-01-23 18:59:07.149829"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Koen      1 SNACK
+  Liabilities:Bar:Members:Koen   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
