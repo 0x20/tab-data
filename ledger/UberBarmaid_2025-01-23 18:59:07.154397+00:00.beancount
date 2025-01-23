@@ -84,3 +84,9 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2025-01-23 txn "Marco deposited €20.00"
+  type: "deposit"
+  timestamp: "2025-01-23 19:58:35.296384"
+  Liabilities:Bar:Members:Marco  -20.00 EUR
+  Assets:Cash:Bar                 20.00 EUR
+
