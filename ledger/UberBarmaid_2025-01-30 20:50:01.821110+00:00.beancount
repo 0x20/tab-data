@@ -40,3 +40,11 @@
   Liabilities:Bar:Members:Gust   4.00 EUR
   Income:Bar                    -4.00 EUR
 
+2025-01-30 txn "Bloemist bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-01-30 22:07:52.492274"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Bloemist      1 BEER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR
+  Income:Bar                        -1.50 EUR
+
