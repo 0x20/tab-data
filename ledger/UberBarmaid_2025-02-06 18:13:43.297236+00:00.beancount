@@ -28,3 +28,11 @@
   Liabilities:Bar:Members:Koen  -10.00 EUR
   Assets:Cash:Bar                10.00 EUR
 
+2025-02-06 txn "Marco bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-02-06 19:23:51.547766"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Marco      1 CM
+  Liabilities:Bar:Members:Marco   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
