@@ -92,3 +92,11 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-02-06 txn "Joren bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-02-06 21:11:05.182349"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Joren      1 SODA
+  Liabilities:Bar:Members:Joren   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
