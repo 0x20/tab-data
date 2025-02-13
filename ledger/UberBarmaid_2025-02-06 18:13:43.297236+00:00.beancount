@@ -282,3 +282,9 @@
   Liabilities:Bar:Members:Gust  -200.00 EUR
   Assets:Cash:Bar                200.00 EUR
 
+2025-02-13 txn "Gust gave Miker a gift of €200.00"
+  type: "transfer"
+  timestamp: "2025-02-13 22:59:24.621874"
+  Liabilities:Bar:Members:Gust    200.00 EUR
+  Liabilities:Bar:Members:Miker  -200.00 EUR
+
