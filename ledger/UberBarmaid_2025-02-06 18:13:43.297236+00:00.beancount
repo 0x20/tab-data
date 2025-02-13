@@ -276,3 +276,9 @@
   Assets:Cash:Bar        1.50 EUR
   Income:Bar            -1.50 EUR
 
+2025-02-13 txn "Gust deposited €200.00"
+  type: "deposit"
+  timestamp: "2025-02-13 22:58:30.685429"
+  Liabilities:Bar:Members:Gust  -200.00 EUR
+  Assets:Cash:Bar                200.00 EUR
+
