@@ -240,3 +240,9 @@
   Liabilities:Bar:Members:Gust    12.90 EUR
   Liabilities:Bar:Members:Mateo  -12.90 EUR
 
+2025-02-13 txn "Mats deposited €50.00"
+  type: "deposit"
+  timestamp: "2025-02-13 21:18:23.409580"
+  Liabilities:Bar:Members:Mats  -50.00 EUR
+  Assets:Cash:Bar                50.00 EUR
+
