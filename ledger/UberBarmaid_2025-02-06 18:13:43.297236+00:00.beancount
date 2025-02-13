@@ -134,3 +134,9 @@
   Liabilities:Bar:Members:Koen   100.00 EUR
   Income:Bar                    -100.00 EUR
 
+2025-02-13 txn "Koen deposited €100.00"
+  type: "deposit"
+  timestamp: "2025-02-13 18:45:08.930813"
+  Liabilities:Bar:Members:Koen  -100.00 EUR
+  Assets:Cash:Bar                100.00 EUR
+
