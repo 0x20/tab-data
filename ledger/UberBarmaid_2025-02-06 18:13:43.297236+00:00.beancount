@@ -222,3 +222,9 @@
   Liabilities:Bar:Members:Mats  -20.00 EUR
   Assets:Cash:Bar                20.00 EUR
 
+2025-02-13 txn "Mats gave Mateo a gift of €12.90"
+  type: "transfer"
+  timestamp: "2025-02-13 21:13:24.418470"
+  Liabilities:Bar:Members:Mats    12.90 EUR
+  Liabilities:Bar:Members:Mateo  -12.90 EUR
+
