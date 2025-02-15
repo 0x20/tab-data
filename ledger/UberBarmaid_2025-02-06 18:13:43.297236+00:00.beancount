@@ -366,3 +366,9 @@
   Liabilities:Bar:Members:Gust   10.50 EUR
   Liabilities:Bar:Members:Mats  -10.50 EUR
 
+2025-02-15 txn "Gust deposited €100.00"
+  type: "deposit"
+  timestamp: "2025-02-15 22:35:44.572311"
+  Liabilities:Bar:Members:Gust  -100.00 EUR
+  Assets:Cash:Bar                100.00 EUR
+
