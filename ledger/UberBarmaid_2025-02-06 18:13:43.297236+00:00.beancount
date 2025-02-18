@@ -380,3 +380,11 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2025-02-18 txn "Birger bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-02-18 18:14:56.116861"
+  Assets:Inventory:Bar               -1 BEER
+  Liabilities:Bar:Members:Birger      1 BEER
+  Liabilities:Bar:Members:Birger   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
