@@ -548,3 +548,11 @@
   Liabilities:Bar:Members:Carroarmato0   3.50 EUR
   Income:Bar                            -3.50 EUR
 
+2025-02-20 txn "Thomas bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-02-20 20:01:30.929645"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Thomas      1 SNACK
+  Liabilities:Bar:Members:Thomas   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
