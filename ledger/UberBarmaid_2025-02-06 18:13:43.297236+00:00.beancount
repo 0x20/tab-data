@@ -444,3 +444,9 @@
   Liabilities:Bar:Members:Yvan   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2025-02-20 txn "DJefke gave Miker a gift of €4.00"
+  type: "transfer"
+  timestamp: "2025-02-20 17:22:52.753184"
+  Liabilities:Bar:Members:DJefke   4.00 EUR
+  Liabilities:Bar:Members:Miker   -4.00 EUR
+
