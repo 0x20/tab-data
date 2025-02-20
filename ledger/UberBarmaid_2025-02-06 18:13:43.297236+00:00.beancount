@@ -420,3 +420,11 @@
   Liabilities:Bar:Members:Matth  -10.00 EUR
   Assets:Cash:Bar                 10.00 EUR
 
+2025-02-20 txn "--CASH-- bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-02-20 14:00:12.305526"
+  Assets:Inventory:Bar     -1 CM
+  Assets:Cash:Bar           1 CM
+  Assets:Cash:Bar        3.00 EUR
+  Income:Bar            -3.00 EUR
+
