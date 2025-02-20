@@ -414,3 +414,9 @@
   Liabilities:Bar:Members:Yvan   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2025-02-20 txn "Matth deposited €10.00"
+  type: "deposit"
+  timestamp: "2025-02-20 12:44:06.657410"
+  Liabilities:Bar:Members:Matth  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
