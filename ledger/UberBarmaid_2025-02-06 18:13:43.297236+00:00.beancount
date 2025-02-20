@@ -602,3 +602,9 @@
   Liabilities:Bar:Members:Mateo   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-02-20 txn "Koen deposited €1.50"
+  type: "deposit"
+  timestamp: "2025-02-20 21:39:46.855203"
+  Liabilities:Bar:Members:Koen  -1.50 EUR
+  Assets:Cash:Bar                1.50 EUR
+
