@@ -794,3 +794,9 @@
   Liabilities:Bar:Members:Frp   2.50 EUR
   Income:Bar                   -2.50 EUR
 
+2025-02-27 txn "Frp deposited €2.50"
+  type: "deposit"
+  timestamp: "2025-02-27 21:35:44.247008"
+  Liabilities:Bar:Members:Frp  -2.50 EUR
+  Assets:Cash:Bar               2.50 EUR
+
