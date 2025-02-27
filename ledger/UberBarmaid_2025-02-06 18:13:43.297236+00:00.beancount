@@ -754,3 +754,11 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2025-02-27 txn "Mats bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-02-27 20:41:04.338049"
+  Assets:Inventory:Bar             -1 BEER
+  Liabilities:Bar:Members:Mats      1 BEER
+  Liabilities:Bar:Members:Mats   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
