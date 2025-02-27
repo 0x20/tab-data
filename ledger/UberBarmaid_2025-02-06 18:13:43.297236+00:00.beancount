@@ -682,3 +682,11 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-02-27 txn "Mats bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-02-27 18:16:36.526431"
+  Assets:Inventory:Bar             -1 CM
+  Liabilities:Bar:Members:Mats      1 CM
+  Liabilities:Bar:Members:Mats   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
