@@ -776,3 +776,13 @@
   Liabilities:Bar:Members:Koen  -1.50 EUR
   Assets:Cash:Bar                1.50 EUR
 
+2025-02-27 txn "DJefke bought 2 items for €3.50"
+  type: "purchase"
+  timestamp: "2025-02-27 21:34:16.014931"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:DJefke      1 GERMAN
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   3.50 EUR
+  Income:Bar                      -3.50 EUR
+
