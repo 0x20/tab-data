@@ -130,3 +130,13 @@
   Liabilities:Bar:Members:Frp   2.50 EUR
   Income:Bar                   -2.50 EUR
 
+2025-03-06 txn "--CASH-- bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-03-06 21:55:42.147132"
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        4.00 EUR
+  Income:Bar            -4.00 EUR
+
