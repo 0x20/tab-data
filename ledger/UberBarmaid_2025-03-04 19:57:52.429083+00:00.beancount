@@ -194,3 +194,11 @@
   Liabilities:Bar:Members:Mateo   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-03-09 txn "Thijs bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-03-09 18:02:04.014242"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Thijs      1 SODA
+  Liabilities:Bar:Members:Thijs   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
