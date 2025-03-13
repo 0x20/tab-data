@@ -120,3 +120,13 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-03-13 txn "Mateo bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2025-03-13 22:56:20.294833"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Mateo      1 WATER
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
