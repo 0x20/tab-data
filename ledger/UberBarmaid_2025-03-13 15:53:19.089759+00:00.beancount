@@ -16,3 +16,13 @@
   Liabilities:Bar:Members:Thijs   4.50 EUR
   Income:Bar                     -4.50 EUR
 
+2025-03-13 txn "Koen bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-03-13 18:26:01.069167"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Koen      1 SNACK
+  Liabilities:Bar:Members:Koen   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
