@@ -130,3 +130,11 @@
   Liabilities:Bar:Members:Mateo   1.75 EUR
   Income:Bar                     -1.75 EUR
 
+2025-03-13 txn "Miker bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-03-13 23:07:54.042551"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
