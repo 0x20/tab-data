@@ -122,3 +122,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-03-20 txn "Birger bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-03-20 22:32:43.697469"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Birger      1 SODA
+  Liabilities:Bar:Members:Birger   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
