@@ -34,3 +34,11 @@
   Liabilities:Bar:Members:Sander   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2025-03-20 txn "Marco bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-03-20 19:24:19.733054"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Marco      1 CM
+  Liabilities:Bar:Members:Marco   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
