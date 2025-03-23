@@ -130,3 +130,17 @@
   Liabilities:Bar:Members:Birger   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-03-23 txn "Mateo bought 25 items for €25.00"
+  type: "purchase"
+  timestamp: "2025-03-23 23:00:01.818933"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Mateo       1 SNACK
+  Assets:Inventory:Bar              -21 CHIP
+  Liabilities:Bar:Members:Mateo      21 CHIP
+  Assets:Inventory:Bar               -2 WATER
+  Liabilities:Bar:Members:Mateo       2 WATER
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Mateo       1 SODA
+  Liabilities:Bar:Members:Mateo   25.00 EUR
+  Income:Bar                     -25.00 EUR
+
