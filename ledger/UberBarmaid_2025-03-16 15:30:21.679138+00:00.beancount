@@ -270,3 +270,11 @@
   Liabilities:Bar:Members:Koen   6.50 EUR
   Income:Bar                    -6.50 EUR
 
+2025-04-03 txn "--CASH-- bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-04-03 18:13:45.008369"
+  Assets:Inventory:Bar     -1 CM
+  Assets:Cash:Bar           1 CM
+  Assets:Cash:Bar        3.00 EUR
+  Income:Bar            -3.00 EUR
+
