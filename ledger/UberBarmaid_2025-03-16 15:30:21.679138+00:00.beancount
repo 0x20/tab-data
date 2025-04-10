@@ -430,3 +430,11 @@
   Liabilities:Bar:Members:Thomas   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2025-04-10 txn "qwaxys bought 2 items for €2.00"
+  type: "purchase"
+  timestamp: "2025-04-10 20:00:52.558193"
+  Assets:Inventory:Bar             -2 SNACK
+  Liabilities:Bar:Members:Bart      2 SNACK
+  Liabilities:Bar:Members:Bart   2.00 EUR
+  Income:Bar                    -2.00 EUR
+
