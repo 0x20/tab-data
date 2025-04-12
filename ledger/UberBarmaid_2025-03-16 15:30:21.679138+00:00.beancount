@@ -524,3 +524,11 @@
   Liabilities:Bar:Members:Yvan     2.00 EUR
   Liabilities:Bar:Members:DJefke  -2.00 EUR
 
+2025-04-12 txn "On8wr bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-04-12 13:50:02.355456"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:On8wr      1 CM
+  Liabilities:Bar:Members:On8wr   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
