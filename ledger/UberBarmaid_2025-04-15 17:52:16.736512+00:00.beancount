@@ -52,3 +52,13 @@
   Liabilities:Bar:Members:On8wr  -5.00 EUR
   Assets:Cash:Bar                 5.00 EUR
 
+2025-04-17 txn "Thijs bought 3 items for €4.50"
+  type: "purchase"
+  timestamp: "2025-04-17 17:17:38.540342"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Thijs      1 BEER
+  Assets:Inventory:Bar              -2 SODA
+  Liabilities:Bar:Members:Thijs      2 SODA
+  Liabilities:Bar:Members:Thijs   4.50 EUR
+  Income:Bar                     -4.50 EUR
+
