@@ -78,3 +78,11 @@
   Liabilities:Bar:Members:Thomas   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2025-04-17 txn "On8wr bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-04-17 18:40:32.898883"
+  Assets:Inventory:Bar              -1 CHIP
+  Liabilities:Bar:Members:On8wr      1 CHIP
+  Liabilities:Bar:Members:On8wr   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
