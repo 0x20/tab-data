@@ -44,3 +44,9 @@
   Assets:Cash:Bar        1.50 EUR
   Income:Bar            -1.50 EUR
 
+2025-04-24 txn "Thomas gave Frp a gift of €14.40"
+  type: "transfer"
+  timestamp: "2025-04-24 19:08:31.764684"
+  Liabilities:Bar:Members:Thomas   14.40 EUR
+  Liabilities:Bar:Members:Frp     -14.40 EUR
+
