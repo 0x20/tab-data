@@ -20,3 +20,11 @@
   Liabilities:Bar:Members:Thomas  -30.00 EUR
   Assets:Cash:Bar                  30.00 EUR
 
+2025-04-24 txn "--CASH-- bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-04-24 18:20:28.695078"
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Cash:Bar        2.50 EUR
+  Income:Bar            -2.50 EUR
+
