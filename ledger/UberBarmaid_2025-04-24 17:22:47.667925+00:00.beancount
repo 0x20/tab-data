@@ -6,3 +6,11 @@
   Liabilities:Bar:Members:Sander   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-04-24 txn "Thomas bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-04-24 18:18:26.241160"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Thomas      1 CM
+  Liabilities:Bar:Members:Thomas   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
