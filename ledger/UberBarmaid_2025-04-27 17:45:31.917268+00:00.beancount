@@ -1,0 +1,10 @@
+2025-04-27 txn "Yvan bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-04-27 17:45:31.913027"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
