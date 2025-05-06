@@ -104,3 +104,15 @@
   Liabilities:Bar:Members:Mateo   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-05-06 txn "Mateo bought 3 items for €3.50"
+  type: "purchase"
+  timestamp: "2025-05-06 23:20:56.689198"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Assets:Inventory:Bar              -1 CHIP
+  Liabilities:Bar:Members:Mateo      1 CHIP
+  Liabilities:Bar:Members:Mateo   3.50 EUR
+  Income:Bar                     -3.50 EUR
+
