@@ -116,3 +116,13 @@
   Liabilities:Bar:Members:Mateo   3.50 EUR
   Income:Bar                     -3.50 EUR
 
+2025-05-08 txn "Thomas bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-05-08 18:46:22.397416"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Thomas      1 CM
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Thomas      1 SNACK
+  Liabilities:Bar:Members:Thomas   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
