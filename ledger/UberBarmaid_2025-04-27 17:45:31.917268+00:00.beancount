@@ -314,3 +314,13 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2025-05-15 txn "Johan bought 3 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-05-15 21:47:30.244658"
+  Assets:Inventory:Bar              -2 SODA
+  Liabilities:Bar:Members:Johan      2 SODA
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Johan      1 SNACK
+  Liabilities:Bar:Members:Johan   4.00 EUR
+  Income:Bar                     -4.00 EUR
+
