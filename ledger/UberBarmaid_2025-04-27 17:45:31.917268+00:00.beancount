@@ -262,3 +262,11 @@
   Liabilities:Bar:Members:Miker   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2025-05-15 txn "Marco bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-05-15 19:08:12.903477"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Marco      1 GERMAN
+  Liabilities:Bar:Members:Marco   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
