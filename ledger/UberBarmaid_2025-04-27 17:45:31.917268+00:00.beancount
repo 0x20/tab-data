@@ -396,3 +396,11 @@
   Liabilities:Bar:Members:DJefke   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2025-05-19 txn "Gust bought 2 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-19 19:49:39.407728"
+  Assets:Inventory:Bar             -2 SODA
+  Liabilities:Bar:Members:Gust      2 SODA
+  Liabilities:Bar:Members:Gust   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
