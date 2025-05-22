@@ -556,3 +556,11 @@
   Liabilities:Bar:Members:Joren   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2025-05-22 txn "Err0r bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-05-22 21:14:57.255623"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Err0r      1 SODA
+  Liabilities:Bar:Members:Err0r   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
