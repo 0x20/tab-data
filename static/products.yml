@@ -31,7 +31,7 @@
   event_price: 0.75
   currency: TEA
   category: drink
-  visible: False    
+  visible: False
 
 # Alcohol:
 - name: Beer
@@ -51,7 +51,7 @@
   event_price: 3.00
   currency: CIDER
   category: alcohol
-  visible: True
+  visible: False
 - name: Cocktail
   price: 4.00
   event_price: 6.00
@@ -72,7 +72,7 @@
   currency: CHIP
   category: food
   visible: True
-  
+
 # Swag:
 - name: Wristband
   price: 1.00
@@ -285,10 +285,10 @@
   visible: False
 - name: Croque
   price: 1.5
-  event_price: 2.00
+  event_price: 3.00
   currency: CROQUE
   category: food
-  visible: False
+  visible: True
 - name: Loempia
   price: 2.00
   event_price: 3.00
@@ -300,13 +300,19 @@
   event_price: 15.00
   currency: FOOD
   category: food
-  visible: True
+  visible: False
 - name: FOOD 2.5
   price: 2.50
   event_price: 3.75
   currency: FOOD2.5
   category: food
   visible: False
+- name: Cake
+  price: 2.50
+  event_price: 2.50
+  currency: CAKE
+  category: food
+  visible: True
 - name: Snickers
   price: 0.60
   event_price: 0.90
