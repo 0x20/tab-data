@@ -190,3 +190,13 @@
   Liabilities:Bar:Members:Koen  -7.50 EUR
   Assets:Cash:Bar                7.50 EUR
 
+2025-05-23 txn "Gust bought 2 items for €8.50"
+  type: "purchase"
+  timestamp: "2025-05-23 19:28:00.773219"
+  Assets:Inventory:Bar             -1 COCKTAIL
+  Liabilities:Bar:Members:Gust      1 COCKTAIL
+  Assets:Inventory:Bar             -1 BEER
+  Liabilities:Bar:Members:Gust      1 BEER
+  Liabilities:Bar:Members:Gust   8.50 EUR
+  Income:Bar                    -8.50 EUR
+
