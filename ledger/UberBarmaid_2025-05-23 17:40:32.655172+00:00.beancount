@@ -130,3 +130,17 @@
   Liabilities:Bar:Members:DJ   3.50 EUR
   Income:Bar                  -3.50 EUR
 
+2025-05-23 txn "--CASH-- bought 4 items for €12.50"
+  type: "purchase"
+  timestamp: "2025-05-23 19:05:50.797402"
+  Assets:Inventory:Bar      -1 GERMAN
+  Assets:Cash:Bar            1 GERMAN
+  Assets:Inventory:Bar      -1 CM
+  Assets:Cash:Bar            1 CM
+  Assets:Inventory:Bar      -1 WATER
+  Assets:Cash:Bar            1 WATER
+  Assets:Inventory:Bar      -1 DUVEL
+  Assets:Cash:Bar            1 DUVEL
+  Assets:Cash:Bar        12.50 EUR
+  Income:Bar            -12.50 EUR
+
