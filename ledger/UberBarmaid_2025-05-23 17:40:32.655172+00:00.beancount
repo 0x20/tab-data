@@ -380,3 +380,11 @@
   Liabilities:Bar:Members:Johan   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-05-23 txn "Gust bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-05-23 21:20:14.492569"
+  Assets:Inventory:Bar             -1 CHIP
+  Liabilities:Bar:Members:Gust      1 CHIP
+  Liabilities:Bar:Members:Gust   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
