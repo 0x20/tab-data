@@ -316,3 +316,11 @@
   Liabilities:Bar:Members:Joren   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-05-23 txn "Thijs bought 1 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-05-23 20:30:52.968412"
+  Assets:Inventory:Bar              -1 COCKTAIL
+  Liabilities:Bar:Members:Thijs      1 COCKTAIL
+  Liabilities:Bar:Members:Thijs   6.00 EUR
+  Income:Bar                     -6.00 EUR
+
