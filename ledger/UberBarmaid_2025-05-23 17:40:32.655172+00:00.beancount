@@ -348,3 +348,11 @@
   Liabilities:Bar:Members:Bloemist   5.00 EUR
   Income:Bar                        -5.00 EUR
 
+2025-05-23 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-05-23 20:58:46.945888"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
