@@ -388,3 +388,11 @@
   Liabilities:Bar:Members:Gust   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-05-23 txn "Frp bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-05-23 21:22:05.978406"
+  Assets:Inventory:Bar            -1 CHIP
+  Liabilities:Bar:Members:Frp      1 CHIP
+  Liabilities:Bar:Members:Frp   1.50 EUR
+  Income:Bar                   -1.50 EUR
+
