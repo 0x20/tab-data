@@ -122,3 +122,11 @@
   Liabilities:Bar:Members:Bloemist   2.50 EUR
   Income:Bar                        -2.50 EUR
 
+2025-05-23 txn "DJ bought 1 items for €3.50"
+  type: "purchase"
+  timestamp: "2025-05-23 18:49:45.310037"
+  Assets:Inventory:Bar           -1 GERMAN
+  Liabilities:Bar:Members:DJ      1 GERMAN
+  Liabilities:Bar:Members:DJ   3.50 EUR
+  Income:Bar                  -3.50 EUR
+
