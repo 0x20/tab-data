@@ -200,3 +200,13 @@
   Liabilities:Bar:Members:Gust   8.50 EUR
   Income:Bar                    -8.50 EUR
 
+2025-05-23 txn "--CASH-- bought 2 items for €6.50"
+  type: "purchase"
+  timestamp: "2025-05-23 19:35:41.554909"
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        6.50 EUR
+  Income:Bar            -6.50 EUR
+
