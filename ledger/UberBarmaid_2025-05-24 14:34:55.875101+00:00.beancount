@@ -148,3 +148,15 @@
   Liabilities:Bar:Members:Frp   2.50 EUR
   Income:Bar                   -2.50 EUR
 
+2025-05-24 txn "Gust bought 3 items for €8.50"
+  type: "purchase"
+  timestamp: "2025-05-24 16:07:14.206262"
+  Assets:Inventory:Bar             -1 KOMBUCHA
+  Liabilities:Bar:Members:Gust      1 KOMBUCHA
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Gust      1 SODA
+  Assets:Inventory:Bar             -1 CAKE
+  Liabilities:Bar:Members:Gust      1 CAKE
+  Liabilities:Bar:Members:Gust   8.50 EUR
+  Income:Bar                    -8.50 EUR
+
