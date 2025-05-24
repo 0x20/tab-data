@@ -318,3 +318,13 @@
   Liabilities:Bar:Members:Fearless   3.05 EUR
   Assets:Cash:Bar                   -3.05 EUR
 
+2025-05-24 txn "--CASH-- bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-05-24 13:34:39.956983"
+  Assets:Inventory:Bar     -1 GERMAN
+  Assets:Cash:Bar           1 GERMAN
+  Assets:Inventory:Bar     -1 CAKE
+  Assets:Cash:Bar           1 CAKE
+  Assets:Cash:Bar        6.00 EUR
+  Income:Bar            -6.00 EUR
+
