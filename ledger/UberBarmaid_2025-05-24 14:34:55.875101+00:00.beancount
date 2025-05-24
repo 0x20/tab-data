@@ -360,3 +360,9 @@
   Assets:Cash:Bar        3.50 EUR
   Income:Bar            -3.50 EUR
 
+2025-05-24 txn "Bloemist gave --CASH-- a gift of €12.50"
+  type: "transfer"
+  timestamp: "2025-05-24 17:21:54.307480"
+  Liabilities:Bar:Members:Bloemist   12.50 EUR
+  Assets:Cash:Bar                   -12.50 EUR
+
