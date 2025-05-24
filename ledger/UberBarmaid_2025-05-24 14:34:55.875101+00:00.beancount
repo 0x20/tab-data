@@ -416,3 +416,11 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2025-05-24 txn "Thomas bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-05-24 17:58:30.599116"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Thomas      1 CM
+  Liabilities:Bar:Members:Thomas   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
