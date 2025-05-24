@@ -590,3 +590,11 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR
   Income:Bar                        -1.50 EUR
 
+2025-05-24 txn "Joren bought 1 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-05-24 20:37:35.106526"
+  Assets:Inventory:Bar              -1 COCKTAIL
+  Liabilities:Bar:Members:Joren      1 COCKTAIL
+  Liabilities:Bar:Members:Joren   6.00 EUR
+  Income:Bar                     -6.00 EUR
+
