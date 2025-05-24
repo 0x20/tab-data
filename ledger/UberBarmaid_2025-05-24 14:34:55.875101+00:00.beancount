@@ -640,3 +640,11 @@
   Liabilities:Bar:Members:Gust   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-05-24 txn "Gust bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-05-24 21:29:17.885339"
+  Assets:Inventory:Bar             -2 CROQUE
+  Liabilities:Bar:Members:Gust      2 CROQUE
+  Liabilities:Bar:Members:Gust   6.00 EUR
+  Income:Bar                    -6.00 EUR
+
