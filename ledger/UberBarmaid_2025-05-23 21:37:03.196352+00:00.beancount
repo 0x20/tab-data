@@ -204,3 +204,11 @@
   Liabilities:Bar:Members:DJefke   6.50 EUR
   Income:Bar                      -6.50 EUR
 
+2025-05-24 txn "Carro​armato0 bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-05-24 12:23:38.153478"
+  Assets:Inventory:Bar                     -1 SNACK
+  Liabilities:Bar:Members:Carroarmato0      1 SNACK
+  Liabilities:Bar:Members:Carroarmato0   1.50 EUR
+  Income:Bar                            -1.50 EUR
+
