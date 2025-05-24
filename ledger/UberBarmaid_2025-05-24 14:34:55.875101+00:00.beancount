@@ -38,3 +38,11 @@
   Liabilities:Bar:Members:Mateo   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2025-05-24 txn "Bloemist bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-05-24 14:44:47.311455"
+  Assets:Inventory:Bar                 -1 CAKE
+  Liabilities:Bar:Members:Bloemist      1 CAKE
+  Liabilities:Bar:Members:Bloemist   2.50 EUR
+  Income:Bar                        -2.50 EUR
+
