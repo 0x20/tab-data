@@ -112,3 +112,9 @@
   Liabilities:Bar:Members:Carroarmato0   7.50 EUR
   Income:Bar                            -7.50 EUR
 
+2025-05-24 txn "--CASH-- gave Carro​armato0 a gift of €7.50"
+  type: "transfer"
+  timestamp: "2025-05-24 11:32:33.685384"
+  Assets:Cash:Bar                        7.50 EUR
+  Liabilities:Bar:Members:Carroarmato0  -7.50 EUR
+
