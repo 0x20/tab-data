@@ -232,3 +232,13 @@
   Liabilities:Bar:Members:Joren   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2025-05-24 txn "Mateo bought 3 items for €8.50"
+  type: "purchase"
+  timestamp: "2025-05-24 16:33:35.282419"
+  Assets:Inventory:Bar              -2 CROQUE
+  Liabilities:Bar:Members:Mateo      2 CROQUE
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   8.50 EUR
+  Income:Bar                     -8.50 EUR
+
