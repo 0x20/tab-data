@@ -382,3 +382,13 @@
   Liabilities:Bar:Members:Renze   5.00 EUR
   Income:Bar                     -5.00 EUR
 
+2025-05-24 txn "Matth bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-05-24 17:36:12.729200"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Matth      1 GERMAN
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Matth      1 SODA
+  Liabilities:Bar:Members:Matth   6.00 EUR
+  Income:Bar                     -6.00 EUR
+
