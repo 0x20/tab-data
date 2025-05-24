@@ -156,3 +156,9 @@
   Liabilities:Bar:Members:Frp   1.50 EUR
   Income:Bar                   -1.50 EUR
 
+2025-05-24 txn "Renze deposited €10.00"
+  type: "deposit"
+  timestamp: "2025-05-24 11:56:46.687686"
+  Liabilities:Bar:Members:Renze  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
