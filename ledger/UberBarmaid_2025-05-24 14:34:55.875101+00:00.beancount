@@ -540,3 +540,11 @@
   Liabilities:Bar:Members:Joren   4.00 EUR
   Income:Bar                     -4.00 EUR
 
+2025-05-24 txn "--CASH-- bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-05-24 19:45:37.222576"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        2.50 EUR
+  Income:Bar            -2.50 EUR
+
