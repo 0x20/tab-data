@@ -174,3 +174,13 @@
   Liabilities:Bar:Members:Gust   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2025-05-24 txn "Joren bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-05-24 16:11:49.248451"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Joren      1 BEER
+  Assets:Inventory:Bar              -1 CHIP
+  Liabilities:Bar:Members:Joren      1 CHIP
+  Liabilities:Bar:Members:Joren   4.00 EUR
+  Income:Bar                     -4.00 EUR
+
