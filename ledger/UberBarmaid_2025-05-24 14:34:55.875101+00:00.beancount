@@ -276,3 +276,11 @@
   Liabilities:Bar:Members:Gust   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2025-05-24 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-24 16:52:55.718508"
+  Assets:Inventory:Bar              -1 CROQUE
+  Liabilities:Bar:Members:Miker      1 CROQUE
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
