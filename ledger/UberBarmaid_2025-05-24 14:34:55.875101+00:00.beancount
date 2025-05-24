@@ -216,3 +216,11 @@
   Liabilities:Bar:Members:Thomas   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2025-05-24 txn "Frp bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-24 16:31:20.333497"
+  Assets:Inventory:Bar            -1 CROQUE
+  Liabilities:Bar:Members:Frp      1 CROQUE
+  Liabilities:Bar:Members:Frp   3.00 EUR
+  Income:Bar                   -3.00 EUR
+
