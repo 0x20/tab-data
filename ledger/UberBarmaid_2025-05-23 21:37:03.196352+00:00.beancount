@@ -212,3 +212,11 @@
   Liabilities:Bar:Members:Carroarmato0   1.50 EUR
   Income:Bar                            -1.50 EUR
 
+2025-05-24 txn "Mateo bought 1 items for €3.50"
+  type: "purchase"
+  timestamp: "2025-05-24 12:24:01.124643"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Mateo      1 GERMAN
+  Liabilities:Bar:Members:Mateo   3.50 EUR
+  Income:Bar                     -3.50 EUR
+
