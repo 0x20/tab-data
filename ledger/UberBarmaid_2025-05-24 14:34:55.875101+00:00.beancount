@@ -30,3 +30,11 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2025-05-24 txn "Mateo bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-24 14:43:51.716445"
+  Assets:Inventory:Bar              -1 CROQUE
+  Liabilities:Bar:Members:Mateo      1 CROQUE
+  Liabilities:Bar:Members:Mateo   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
