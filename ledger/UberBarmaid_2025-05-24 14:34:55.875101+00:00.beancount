@@ -224,3 +224,11 @@
   Liabilities:Bar:Members:Frp   3.00 EUR
   Income:Bar                   -3.00 EUR
 
+2025-05-24 txn "Joren bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-24 16:31:34.377677"
+  Assets:Inventory:Bar              -1 CROQUE
+  Liabilities:Bar:Members:Joren      1 CROQUE
+  Liabilities:Bar:Members:Joren   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
