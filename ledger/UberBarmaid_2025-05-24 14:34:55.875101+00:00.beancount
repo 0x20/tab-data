@@ -664,3 +664,9 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-05-24 txn "Gust deposited €100.00"
+  type: "deposit"
+  timestamp: "2025-05-24 21:36:53.207069"
+  Liabilities:Bar:Members:Gust  -100.00 EUR
+  Assets:Cash:Bar                100.00 EUR
+
