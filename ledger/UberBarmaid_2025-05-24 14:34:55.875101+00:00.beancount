@@ -614,3 +614,13 @@
   Liabilities:Bar:Members:Bloemist   4.00 EUR
   Income:Bar                        -4.00 EUR
 
+2025-05-24 txn "--CASH-- bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-05-24 20:56:52.567799"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Cash:Bar        4.00 EUR
+  Income:Bar            -4.00 EUR
+
