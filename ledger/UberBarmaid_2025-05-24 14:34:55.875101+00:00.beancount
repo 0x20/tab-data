@@ -514,3 +514,11 @@
   Assets:Cash:Bar        3.00 EUR
   Income:Bar            -3.00 EUR
 
+2025-05-24 txn "Thomas bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-24 19:31:17.498414"
+  Assets:Inventory:Bar               -1 CROQUE
+  Liabilities:Bar:Members:Thomas      1 CROQUE
+  Liabilities:Bar:Members:Thomas   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
