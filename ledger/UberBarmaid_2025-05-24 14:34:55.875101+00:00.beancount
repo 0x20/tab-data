@@ -424,3 +424,13 @@
   Liabilities:Bar:Members:Thomas   4.00 EUR
   Income:Bar                      -4.00 EUR
 
+2025-05-24 txn "Miker bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-05-24 17:59:26.339791"
+  Assets:Inventory:Bar              -1 KOMBUCHA
+  Liabilities:Bar:Members:Miker      1 KOMBUCHA
+  Assets:Inventory:Bar              -1 CAKE
+  Liabilities:Bar:Members:Miker      1 CAKE
+  Liabilities:Bar:Members:Miker   6.00 EUR
+  Income:Bar                     -6.00 EUR
+
