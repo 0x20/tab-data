@@ -240,3 +240,13 @@
   Liabilities:Bar:Members:Carroarmato0   2.50 EUR
   Income:Bar                            -2.50 EUR
 
+2025-05-24 txn "--CASH-- bought 3 items for €6.50"
+  type: "purchase"
+  timestamp: "2025-05-24 12:53:30.269508"
+  Assets:Inventory:Bar     -2 SODA
+  Assets:Cash:Bar           2 SODA
+  Assets:Inventory:Bar     -1 SNACK
+  Assets:Cash:Bar           1 SNACK
+  Assets:Cash:Bar        6.50 EUR
+  Income:Bar            -6.50 EUR
+
