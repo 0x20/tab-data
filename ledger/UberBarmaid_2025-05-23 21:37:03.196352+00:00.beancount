@@ -328,3 +328,13 @@
   Assets:Cash:Bar        6.00 EUR
   Income:Bar            -6.00 EUR
 
+2025-05-24 txn "--CASH-- bought 4 items for €12.00"
+  type: "purchase"
+  timestamp: "2025-05-24 13:37:16.924343"
+  Assets:Inventory:Bar      -2 CAKE
+  Assets:Cash:Bar            2 CAKE
+  Assets:Inventory:Bar      -2 GERMAN
+  Assets:Cash:Bar            2 GERMAN
+  Assets:Cash:Bar        12.00 EUR
+  Income:Bar            -12.00 EUR
+
