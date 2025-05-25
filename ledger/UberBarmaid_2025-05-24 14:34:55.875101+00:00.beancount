@@ -830,3 +830,9 @@
   Liabilities:Bar:Members:Frp   2.50 EUR
   Income:Bar                   -2.50 EUR
 
+2025-05-25 txn "Sasja deposited €6.00"
+  type: "deposit"
+  timestamp: "2025-05-25 12:37:28.817564"
+  Liabilities:Bar:Members:Sasja  -6.00 EUR
+  Assets:Cash:Bar                 6.00 EUR
+
