@@ -882,3 +882,9 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2025-05-25 txn "--CASH-- deposited €5.00"
+  type: "deposit"
+  timestamp: "2025-05-25 12:49:20.780231"
+  Assets:Cash:Bar  -5.00 EUR
+  Assets:Cash:Bar   5.00 EUR
+
