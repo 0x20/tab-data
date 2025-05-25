@@ -712,3 +712,9 @@
   Liabilities:Bar:Members:Bloemist   3.50 EUR
   Income:Bar                        -3.50 EUR
 
+2025-05-25 txn "DJefke deposited €50.00"
+  type: "deposit"
+  timestamp: "2025-05-25 10:36:03.027603"
+  Liabilities:Bar:Members:DJefke  -50.00 EUR
+  Assets:Cash:Bar                  50.00 EUR
+
