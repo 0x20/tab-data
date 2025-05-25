@@ -928,3 +928,11 @@
   Liabilities:Bar:Members:Bloemist   4.00 EUR
   Income:Bar                        -4.00 EUR
 
+2025-05-25 txn "Gust bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-05-25 14:04:34.227912"
+  Assets:Inventory:Bar             -1 CAKE
+  Liabilities:Bar:Members:Gust      1 CAKE
+  Liabilities:Bar:Members:Gust   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
