@@ -1182,3 +1182,11 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2025-05-25 txn "--CASH-- bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-05-25 17:47:02.493275"
+  Assets:Inventory:Bar     -1 BEER
+  Assets:Cash:Bar           1 BEER
+  Assets:Cash:Bar        2.50 EUR
+  Income:Bar            -2.50 EUR
+
