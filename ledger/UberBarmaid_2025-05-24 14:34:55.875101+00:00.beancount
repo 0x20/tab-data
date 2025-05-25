@@ -806,3 +806,13 @@
   Liabilities:Bar:Members:Sasja   6.00 EUR
   Income:Bar                     -6.00 EUR
 
+2025-05-25 txn "--CASH-- bought 3 items for €7.50"
+  type: "purchase"
+  timestamp: "2025-05-25 12:34:16.881152"
+  Assets:Inventory:Bar     -2 SODA
+  Assets:Cash:Bar           2 SODA
+  Assets:Inventory:Bar     -1 CAKE
+  Assets:Cash:Bar           1 CAKE
+  Assets:Cash:Bar        7.50 EUR
+  Income:Bar            -7.50 EUR
+
