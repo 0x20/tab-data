@@ -816,3 +816,9 @@
   Assets:Cash:Bar        7.50 EUR
   Income:Bar            -7.50 EUR
 
+2025-05-25 txn "Renze deposited €10.00"
+  type: "deposit"
+  timestamp: "2025-05-25 12:36:23.000331"
+  Liabilities:Bar:Members:Renze  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
