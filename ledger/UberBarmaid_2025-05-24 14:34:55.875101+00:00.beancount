@@ -1166,3 +1166,11 @@
   Assets:Cash:Bar        2.50 EUR
   Income:Bar            -2.50 EUR
 
+2025-05-25 txn "Renze bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-05-25 17:05:02.186888"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Renze      1 CM
+  Liabilities:Bar:Members:Renze   4.00 EUR
+  Income:Bar                     -4.00 EUR
+
