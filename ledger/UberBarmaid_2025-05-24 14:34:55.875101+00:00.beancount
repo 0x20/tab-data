@@ -852,3 +852,9 @@
   Liabilities:Bar:Members:Bloemist   3.50 EUR
   Income:Bar                        -3.50 EUR
 
+2025-05-25 txn "DJefke gave --CASH-- a gift of €5.00"
+  type: "transfer"
+  timestamp: "2025-05-25 12:45:20.827796"
+  Liabilities:Bar:Members:DJefke   5.00 EUR
+  Assets:Cash:Bar                 -5.00 EUR
+
