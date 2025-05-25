@@ -976,3 +976,9 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2025-05-25 txn "Thijs deposited €50.00"
+  type: "deposit"
+  timestamp: "2025-05-25 14:24:12.471078"
+  Liabilities:Bar:Members:Thijs  -50.00 EUR
+  Assets:Cash:Bar                 50.00 EUR
+
