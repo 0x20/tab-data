@@ -750,3 +750,13 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2025-05-25 txn "--CASH-- bought 2 items for €7.50"
+  type: "purchase"
+  timestamp: "2025-05-25 11:00:44.338152"
+  Assets:Inventory:Bar     -1 CM
+  Assets:Cash:Bar           1 CM
+  Assets:Inventory:Bar     -1 GERMAN
+  Assets:Cash:Bar           1 GERMAN
+  Assets:Cash:Bar        7.50 EUR
+  Income:Bar            -7.50 EUR
+
