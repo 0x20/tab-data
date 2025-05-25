@@ -836,3 +836,11 @@
   Liabilities:Bar:Members:Sasja  -6.00 EUR
   Assets:Cash:Bar                 6.00 EUR
 
+2025-05-25 txn "Miker bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-05-25 12:40:14.183127"
+  Assets:Inventory:Bar              -1 CAKE
+  Liabilities:Bar:Members:Miker      1 CAKE
+  Liabilities:Bar:Members:Miker   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
