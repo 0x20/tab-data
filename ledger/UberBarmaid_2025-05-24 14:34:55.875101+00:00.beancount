@@ -990,3 +990,9 @@
   Liabilities:Bar:Members:Thijs   3.50 EUR
   Income:Bar                     -3.50 EUR
 
+2025-05-25 txn "--CASH-- deposited €2.50"
+  type: "deposit"
+  timestamp: "2025-05-25 14:25:02.766396"
+  Assets:Cash:Bar  -2.50 EUR
+  Assets:Cash:Bar   2.50 EUR
+
