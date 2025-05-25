@@ -858,3 +858,11 @@
   Liabilities:Bar:Members:DJefke   5.00 EUR
   Assets:Cash:Bar                 -5.00 EUR
 
+2025-05-25 txn "Gust bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2025-05-25 12:45:34.295765"
+  Assets:Inventory:Bar             -2 CAKE
+  Liabilities:Bar:Members:Gust      2 CAKE
+  Liabilities:Bar:Members:Gust   5.00 EUR
+  Income:Bar                    -5.00 EUR
+
