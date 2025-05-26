@@ -1,0 +1,8 @@
+2025-05-26 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-26 14:03:03.750203"
+  Assets:Inventory:Bar              -1 KOMBUCHA
+  Liabilities:Bar:Members:Miker      1 KOMBUCHA
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
