@@ -68,3 +68,11 @@
   Liabilities:Bar:Members:Err0r   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-05-28 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-05-28 12:25:34.271170"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
