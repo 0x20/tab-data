@@ -122,3 +122,11 @@
   Liabilities:Bar:Members:Gust   6.00 EUR
   Income:Bar                    -6.00 EUR
 
+2025-05-29 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-29 13:05:43.217890"
+  Assets:Inventory:Bar              -1 KOMBUCHA
+  Liabilities:Bar:Members:Miker      1 KOMBUCHA
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
