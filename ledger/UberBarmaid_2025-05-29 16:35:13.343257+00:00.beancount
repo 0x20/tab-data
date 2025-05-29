@@ -1,0 +1,8 @@
+2025-05-29 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-05-29 16:35:13.338242"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
