@@ -6,3 +6,11 @@
   Liabilities:Bar:Members:DJefke   0.75 EUR
   Income:Bar                      -0.75 EUR
 
+2025-05-29 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-05-29 18:58:54.627615"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Miker      1 CM
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
