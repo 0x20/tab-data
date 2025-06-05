@@ -70,3 +70,9 @@
   Liabilities:Bar:Members:Miker   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-06-05 txn "Johan gave --CASH-- a gift of €2.50"
+  type: "transfer"
+  timestamp: "2025-06-05 22:18:09.462675"
+  Liabilities:Bar:Members:Johan   2.50 EUR
+  Assets:Cash:Bar                -2.50 EUR
+
