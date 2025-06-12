@@ -363,3 +363,11 @@
   Liabilities:Bar:Members:Miker   1.75 EUR
   Income:Bar                     -1.75 EUR
 
+2025-06-12 txn "Err0r bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-06-12 23:07:52.718647"
+  Assets:Inventory:Bar              -1 KOMBUCHA
+  Liabilities:Bar:Members:Err0r      1 KOMBUCHA
+  Liabilities:Bar:Members:Err0r   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
