@@ -217,3 +217,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-06-12 txn "Thomas bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-06-12 19:15:47.811950"
+  Assets:Inventory:Bar               -1 DUVEL
+  Liabilities:Bar:Members:Thomas      1 DUVEL
+  Liabilities:Bar:Members:Thomas   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
