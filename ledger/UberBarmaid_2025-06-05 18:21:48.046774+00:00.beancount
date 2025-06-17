@@ -419,3 +419,11 @@
   Liabilities:Bar:Members:Mateo   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2025-06-17 txn "Birger bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-06-17 17:23:26.430429"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Birger      1 GERMAN
+  Liabilities:Bar:Members:Birger   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
