@@ -597,3 +597,14 @@
   Liabilities:Bar:Members:Gust   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2025-06-19 txn "--CASH-- bought 4 items for €8.50"
+  type: "purchase"
+  timestamp: "2025-06-19 21:58:57.032492"
+  Assets:Inventory:Bar             -3 PASSPORT
+  Assets:Cash:Bar                   3 PASSPORT
+  Assets:Inventory:Bar             -1 CHIP
+  Assets:Cash:Bar                   1 CHIP
+  Assets:Cash:Bar                8.50 EUR
+  Liabilities:Bar:Members:Bart  -3.60 EUR
+  Income:Bar                    -4.90 EUR
+
