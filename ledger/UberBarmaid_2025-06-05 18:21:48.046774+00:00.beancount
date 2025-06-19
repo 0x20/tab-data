@@ -447,3 +447,11 @@
   Liabilities:Bar:Members:Birger   4.00 EUR
   Income:Bar                      -4.00 EUR
 
+2025-06-19 txn "DJefke bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-06-19 15:57:17.734392"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
