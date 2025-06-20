@@ -30,3 +30,9 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2025-06-20 txn "Carro​armato0 deposited €37.50"
+  type: "deposit"
+  timestamp: "2025-06-20 21:56:22.046911"
+  Liabilities:Bar:Members:Carroarmato0  -37.50 EUR
+  Assets:Cash:Bar                        37.50 EUR
+
