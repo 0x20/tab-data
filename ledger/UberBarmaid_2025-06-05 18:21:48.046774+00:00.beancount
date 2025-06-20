@@ -650,3 +650,12 @@
   Liabilities:Bar:Members:Miker   1.75 EUR
   Income:Bar                     -1.75 EUR
 
+2025-06-20 txn "Carro​armato0 bought 15 items for €37.50"
+  type: "purchase"
+  timestamp: "2025-06-20 19:11:08.299890"
+  Assets:Inventory:Bar                     -15 PASSPORT
+  Liabilities:Bar:Members:Carroarmato0      15 PASSPORT
+  Liabilities:Bar:Members:Carroarmato0   37.50 EUR
+  Liabilities:Bar:Members:Bart          -18.00 EUR
+  Income:Bar                            -19.50 EUR
+
