@@ -1,0 +1,10 @@
+2025-06-20 txn "DJefke bought 2 items for €5.50"
+  type: "purchase"
+  timestamp: "2025-06-20 21:46:32.076848"
+  Assets:Inventory:Bar               -1 KOMBUCHA
+  Liabilities:Bar:Members:DJefke      1 KOMBUCHA
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:DJefke      1 GERMAN
+  Liabilities:Bar:Members:DJefke   5.50 EUR
+  Income:Bar                      -5.50 EUR
+
