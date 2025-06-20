@@ -36,3 +36,9 @@
   Liabilities:Bar:Members:Carroarmato0  -37.50 EUR
   Assets:Cash:Bar                        37.50 EUR
 
+2025-06-20 txn "qwaxys deposited €-18.00"
+  type: "deposit"
+  timestamp: "2025-06-20 21:57:10.771556"
+  Liabilities:Bar:Members:Bart   18.00 EUR
+  Assets:Cash:Bar               -18.00 EUR
+
