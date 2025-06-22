@@ -60,3 +60,11 @@
   Liabilities:Bar:Members:Gust   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2025-06-22 txn "Gust bought 2 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-06-22 12:12:07.735006"
+  Assets:Inventory:Bar             -2 WATER
+  Liabilities:Bar:Members:Gust      2 WATER
+  Liabilities:Bar:Members:Gust   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
