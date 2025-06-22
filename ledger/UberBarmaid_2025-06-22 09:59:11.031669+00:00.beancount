@@ -14,3 +14,9 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2025-06-22 txn "Johan gave Miker a gift of €6.21"
+  type: "transfer"
+  timestamp: "2025-06-22 11:07:43.450117"
+  Liabilities:Bar:Members:Johan   6.21 EUR
+  Liabilities:Bar:Members:Miker  -6.21 EUR
+
