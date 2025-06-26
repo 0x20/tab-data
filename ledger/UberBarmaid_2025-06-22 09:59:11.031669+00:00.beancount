@@ -230,3 +230,11 @@
   Liabilities:Bar:Members:DJefke   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2025-06-26 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-06-26 11:20:21.094062"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
