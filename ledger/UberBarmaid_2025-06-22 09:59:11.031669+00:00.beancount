@@ -345,3 +345,9 @@
   Liabilities:Bar:Members:Thomas  -40.00 EUR
   Assets:Cash:Bar                  40.00 EUR
 
+2025-06-26 txn "Thomas gave DJefke a gift of €7.00"
+  type: "transfer"
+  timestamp: "2025-06-26 20:12:12.710107"
+  Liabilities:Bar:Members:Thomas   7.00 EUR
+  Liabilities:Bar:Members:DJefke  -7.00 EUR
+
