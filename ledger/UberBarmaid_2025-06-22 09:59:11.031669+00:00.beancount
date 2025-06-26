@@ -272,3 +272,13 @@
   Liabilities:Bar:Members:DJefke   15.00 EUR
   Income:Bar                      -15.00 EUR
 
+2025-06-26 txn "Thomas bought 2 items for €3.50"
+  type: "purchase"
+  timestamp: "2025-06-26 18:16:49.210499"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Thomas      1 CHIP
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Thomas      1 GERMAN
+  Liabilities:Bar:Members:Thomas   3.50 EUR
+  Income:Bar                      -3.50 EUR
+
