@@ -1,0 +1,8 @@
+2025-06-26 txn "--CASH-- bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-06-26 20:44:12.252376"
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Cash:Bar        1.00 EUR
+  Income:Bar            -1.00 EUR
+
