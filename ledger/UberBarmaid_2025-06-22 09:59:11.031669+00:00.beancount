@@ -313,3 +313,13 @@
   Assets:Cash:Bar        3.00 EUR
   Income:Bar            -3.00 EUR
 
+2025-06-26 txn "Thomas bought 2 items for €3.50"
+  type: "purchase"
+  timestamp: "2025-06-26 19:22:11.852629"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Thomas      1 GERMAN
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Thomas      1 SNACK
+  Liabilities:Bar:Members:Thomas   3.50 EUR
+  Income:Bar                      -3.50 EUR
+
