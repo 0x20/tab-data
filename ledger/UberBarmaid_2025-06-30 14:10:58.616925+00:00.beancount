@@ -1,0 +1,10 @@
+2025-06-30 txn "Miker bought 2 items for €4.50"
+  type: "purchase"
+  timestamp: "2025-06-30 14:10:58.612119"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Miker      1 CM
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   4.50 EUR
+  Income:Bar                     -4.50 EUR
+
