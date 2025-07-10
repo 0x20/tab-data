@@ -158,3 +158,9 @@
   Liabilities:Bar:Members:Mateo   6.00 EUR
   Income:Bar                     -6.00 EUR
 
+2025-07-10 txn "Joris deposited €10.00"
+  type: "deposit"
+  timestamp: "2025-07-10 19:50:48.601100"
+  Liabilities:Bar:Members:Joris  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
