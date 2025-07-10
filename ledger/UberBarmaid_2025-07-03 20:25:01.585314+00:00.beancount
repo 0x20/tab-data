@@ -196,3 +196,11 @@
   Liabilities:Bar:Members:Thomas   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2025-07-10 txn "Thomas bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-07-10 21:00:04.856999"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Thomas      1 GERMAN
+  Liabilities:Bar:Members:Thomas   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
