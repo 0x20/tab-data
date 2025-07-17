@@ -122,3 +122,11 @@
   Liabilities:Bar:Members:DJefke   0.75 EUR
   Income:Bar                      -0.75 EUR
 
+2025-07-17 txn "Thomas bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2025-07-17 18:47:46.996280"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:Thomas      1 WATER
+  Liabilities:Bar:Members:Thomas   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
