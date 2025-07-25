@@ -486,3 +486,11 @@
   Liabilities:Bar:Members:Sander  -2.00 EUR
   Assets:Cash:Bar                  2.00 EUR
 
+2025-07-25 txn "Mateo bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-07-25 22:30:12.761830"
+  Assets:Inventory:Bar              -1 CHIP
+  Liabilities:Bar:Members:Mateo      1 CHIP
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
