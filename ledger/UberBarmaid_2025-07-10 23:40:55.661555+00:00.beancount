@@ -732,3 +732,11 @@
   Liabilities:Bar:Members:Mats  -5.00 EUR
   Assets:Cash:Bar                5.00 EUR
 
+2025-07-28 txn "Mats bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-07-28 19:34:02.016594"
+  Assets:Inventory:Bar             -2 CM
+  Liabilities:Bar:Members:Mats      2 CM
+  Liabilities:Bar:Members:Mats   6.00 EUR
+  Income:Bar                    -6.00 EUR
+
