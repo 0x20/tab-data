@@ -960,3 +960,11 @@
   Liabilities:Bar:Members:Frp   1.50 EUR
   Income:Bar                   -1.50 EUR
 
+2025-07-31 txn "Koen bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-07-31 19:34:49.277706"
+  Assets:Inventory:Bar             -1 CM
+  Liabilities:Bar:Members:Koen      1 CM
+  Liabilities:Bar:Members:Koen   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
