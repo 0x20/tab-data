@@ -912,3 +912,11 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-07-31 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-07-31 18:10:11.264616"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
