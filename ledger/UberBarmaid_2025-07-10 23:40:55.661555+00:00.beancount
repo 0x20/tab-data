@@ -986,3 +986,9 @@
   Liabilities:Bar:Members:DJefke   1.75 EUR
   Income:Bar                      -1.75 EUR
 
+2025-07-31 txn "Mateo gave Mats a gift of €10.90"
+  type: "transfer"
+  timestamp: "2025-07-31 20:27:50.144853"
+  Liabilities:Bar:Members:Mateo   10.90 EUR
+  Liabilities:Bar:Members:Mats   -10.90 EUR
+
