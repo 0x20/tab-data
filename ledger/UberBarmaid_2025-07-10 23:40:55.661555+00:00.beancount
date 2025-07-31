@@ -856,3 +856,11 @@
   Liabilities:Bar:Members:Mats   0.75 EUR
   Income:Bar                    -0.75 EUR
 
+2025-07-31 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2025-07-31 16:17:03.951472"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
