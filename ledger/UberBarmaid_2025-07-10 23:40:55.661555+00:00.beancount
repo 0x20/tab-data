@@ -1110,3 +1110,13 @@
   Liabilities:Bar:Members:Mateo  -50.00 EUR
   Assets:Cash:Bar                 50.00 EUR
 
+2025-08-01 txn "Mateo bought 3 items for €4.00"
+  type: "purchase"
+  timestamp: "2025-08-01 21:04:40.916493"
+  Assets:Inventory:Bar              -2 WATER
+  Liabilities:Bar:Members:Mateo      2 WATER
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Mateo      1 GERMAN
+  Liabilities:Bar:Members:Mateo   4.00 EUR
+  Income:Bar                     -4.00 EUR
+
