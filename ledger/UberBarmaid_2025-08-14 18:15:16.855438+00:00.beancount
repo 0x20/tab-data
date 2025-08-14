@@ -6,3 +6,11 @@
   Liabilities:Bar:Members:Thomas   5.00 EUR
   Income:Bar                      -5.00 EUR
 
+2025-08-14 txn "Joris bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-08-14 18:39:14.141332"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Joris      1 SODA
+  Liabilities:Bar:Members:Joris   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
