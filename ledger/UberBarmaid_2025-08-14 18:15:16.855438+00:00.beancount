@@ -112,3 +112,9 @@
   Liabilities:Bar:Members:Err0r  -50.00 EUR
   Assets:Cash:Bar                 50.00 EUR
 
+2025-08-14 txn "Err0r gave Mateo a gift of €18.00"
+  type: "transfer"
+  timestamp: "2025-08-14 22:34:14.960172"
+  Liabilities:Bar:Members:Err0r   18.00 EUR
+  Liabilities:Bar:Members:Mateo  -18.00 EUR
+
