@@ -1,0 +1,8 @@
+2025-08-14 txn "Thomas bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2025-08-14 18:15:16.850171"
+  Assets:Inventory:Bar               -2 DUVEL
+  Liabilities:Bar:Members:Thomas      2 DUVEL
+  Liabilities:Bar:Members:Thomas   5.00 EUR
+  Income:Bar                      -5.00 EUR
+
