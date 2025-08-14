@@ -118,3 +118,9 @@
   Liabilities:Bar:Members:Err0r   18.00 EUR
   Liabilities:Bar:Members:Mateo  -18.00 EUR
 
+2025-08-14 txn "Err0r gave Frp a gift of €18.00"
+  type: "transfer"
+  timestamp: "2025-08-14 22:34:43.237048"
+  Liabilities:Bar:Members:Err0r   18.00 EUR
+  Liabilities:Bar:Members:Frp    -18.00 EUR
+
