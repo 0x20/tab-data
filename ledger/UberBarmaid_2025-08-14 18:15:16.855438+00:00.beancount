@@ -56,3 +56,11 @@
   Liabilities:Bar:Members:Joris   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2025-08-14 txn "Joris bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-08-14 19:50:02.657624"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Joris      1 SNACK
+  Liabilities:Bar:Members:Joris   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
