@@ -354,3 +354,11 @@
   Liabilities:Bar:Members:Miker   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-08-21 txn "Mateo bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2025-08-21 22:13:46.927278"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Mateo      1 WATER
+  Liabilities:Bar:Members:Mateo   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
