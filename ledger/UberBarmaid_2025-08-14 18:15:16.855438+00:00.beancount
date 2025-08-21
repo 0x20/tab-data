@@ -214,3 +214,11 @@
   Liabilities:Bar:Members:Yvan   3.50 EUR
   Income:Bar                    -3.50 EUR
 
+2025-08-21 txn "Thomas bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-08-21 18:04:46.163090"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Thomas      1 GERMAN
+  Liabilities:Bar:Members:Thomas   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
