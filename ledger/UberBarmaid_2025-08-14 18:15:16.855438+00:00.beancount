@@ -480,3 +480,11 @@
   Liabilities:Bar:Members:Yvan   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2025-08-28 txn "Thijs bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-08-28 14:35:42.212684"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Thijs      1 GERMAN
+  Liabilities:Bar:Members:Thijs   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
