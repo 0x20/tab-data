@@ -504,3 +504,13 @@
   Liabilities:Bar:Members:Yvan   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2025-08-28 txn "--CASH-- bought 2 items for €15.75"
+  type: "purchase"
+  timestamp: "2025-08-28 15:25:29.349078"
+  Assets:Inventory:Bar      -1 WATER
+  Assets:Cash:Bar            1 WATER
+  Assets:Inventory:Bar      -1 TSHIRT
+  Assets:Cash:Bar            1 TSHIRT
+  Assets:Cash:Bar        15.75 EUR
+  Income:Bar            -15.75 EUR
+
