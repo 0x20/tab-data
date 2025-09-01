@@ -678,3 +678,11 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2025-09-01 txn "Els bought 1 items for €1.33"
+  type: "purchase"
+  timestamp: "2025-09-01 12:58:27.915943"
+  Assets:Inventory:Bar            -1 CARA
+  Liabilities:Bar:Members:Els      1 CARA
+  Liabilities:Bar:Members:Els   1.33 EUR
+  Income:Bar                   -1.33 EUR
+
