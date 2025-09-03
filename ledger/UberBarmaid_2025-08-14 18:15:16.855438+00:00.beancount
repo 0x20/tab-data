@@ -820,3 +820,9 @@
   Liabilities:Bar:Members:Miker   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2025-09-03 txn "Miker gave Space a gift of €7.56"
+  type: "transfer"
+  timestamp: "2025-09-03 22:33:27.155474"
+  Liabilities:Bar:Members:Miker   7.56 EUR
+  Liabilities:Bar:Members:Space  -7.56 EUR
+
