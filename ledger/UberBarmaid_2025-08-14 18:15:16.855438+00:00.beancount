@@ -1146,3 +1146,11 @@
   Liabilities:Bar:Members:Bloemist  -40.00 EUR
   Assets:Cash:Bar                    40.00 EUR
 
+2025-09-12 txn "Bloemist bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-09-12 01:15:54.746678"
+  Assets:Inventory:Bar                 -1 SNACK
+  Liabilities:Bar:Members:Bloemist      1 SNACK
+  Liabilities:Bar:Members:Bloemist   1.00 EUR
+  Income:Bar                        -1.00 EUR
+
