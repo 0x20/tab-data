@@ -1226,3 +1226,11 @@
   Liabilities:Bar:Members:Gust   0.75 EUR
   Income:Bar                    -0.75 EUR
 
+2025-09-14 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2025-09-14 19:56:17.941169"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
