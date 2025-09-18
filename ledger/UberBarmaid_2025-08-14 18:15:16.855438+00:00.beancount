@@ -1276,3 +1276,11 @@
   Liabilities:Bar:Members:Miker   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2025-09-18 txn "Thomas bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-09-18 17:25:11.933923"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Thomas      1 SODA
+  Liabilities:Bar:Members:Thomas   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
