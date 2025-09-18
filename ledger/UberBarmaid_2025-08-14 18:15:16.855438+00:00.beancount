@@ -1284,3 +1284,11 @@
   Liabilities:Bar:Members:Thomas   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-09-18 txn "Thijs bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-09-18 17:25:22.158976"
+  Assets:Inventory:Bar              -1 KOMBUCHA
+  Liabilities:Bar:Members:Thijs      1 KOMBUCHA
+  Liabilities:Bar:Members:Thijs   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
