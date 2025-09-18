@@ -1366,3 +1366,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-09-18 txn "Frp bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-09-18 20:32:33.104030"
+  Assets:Inventory:Bar            -1 GERMAN
+  Liabilities:Bar:Members:Frp      1 GERMAN
+  Liabilities:Bar:Members:Frp   2.50 EUR
+  Income:Bar                   -2.50 EUR
+
