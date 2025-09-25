@@ -1518,3 +1518,11 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-09-25 txn "Thomas bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-09-25 18:03:52.044827"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Thomas      1 CM
+  Liabilities:Bar:Members:Thomas   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
