@@ -1534,3 +1534,13 @@
   Liabilities:Bar:Members:Joris   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-09-25 txn "Bloemist bought 3 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-09-25 18:06:10.361885"
+  Assets:Inventory:Bar                 -2 BEER
+  Liabilities:Bar:Members:Bloemist      2 BEER
+  Assets:Inventory:Bar                 -1 CM
+  Liabilities:Bar:Members:Bloemist      1 CM
+  Liabilities:Bar:Members:Bloemist   6.00 EUR
+  Income:Bar                        -6.00 EUR
+
