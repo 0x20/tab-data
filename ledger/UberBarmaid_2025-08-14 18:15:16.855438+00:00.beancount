@@ -1600,3 +1600,13 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-09-25 txn "Gust bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2025-09-25 20:01:52.105580"
+  Assets:Inventory:Bar             -1 CHIP
+  Liabilities:Bar:Members:Gust      1 CHIP
+  Assets:Inventory:Bar             -1 WATER
+  Liabilities:Bar:Members:Gust      1 WATER
+  Liabilities:Bar:Members:Gust   1.75 EUR
+  Income:Bar                    -1.75 EUR
+
