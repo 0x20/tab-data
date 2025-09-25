@@ -1560,3 +1560,13 @@
   Liabilities:Bar:Members:Stefaan   1.50 EUR
   Income:Bar                       -1.50 EUR
 
+2025-09-25 txn "Gust bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2025-09-25 19:01:40.177010"
+  Assets:Inventory:Bar             -1 KOMBUCHA
+  Liabilities:Bar:Members:Gust      1 KOMBUCHA
+  Assets:Inventory:Bar             -1 CM
+  Liabilities:Bar:Members:Gust      1 CM
+  Liabilities:Bar:Members:Gust   6.00 EUR
+  Income:Bar                    -6.00 EUR
+
