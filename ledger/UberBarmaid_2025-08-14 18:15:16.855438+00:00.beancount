@@ -1490,3 +1490,9 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-09-25 txn "Mateo deposited €2.50"
+  type: "deposit"
+  timestamp: "2025-09-25 17:13:35.310186"
+  Liabilities:Bar:Members:Mateo  -2.50 EUR
+  Assets:Cash:Bar                 2.50 EUR
+
