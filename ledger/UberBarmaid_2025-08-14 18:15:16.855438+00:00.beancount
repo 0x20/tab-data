@@ -1680,3 +1680,9 @@
   Liabilities:Bar:Members:Miker   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2025-09-25 txn "Koen deposited €3.00"
+  type: "deposit"
+  timestamp: "2025-09-25 21:56:09.483215"
+  Liabilities:Bar:Members:Koen  -3.00 EUR
+  Assets:Cash:Bar                3.00 EUR
+
