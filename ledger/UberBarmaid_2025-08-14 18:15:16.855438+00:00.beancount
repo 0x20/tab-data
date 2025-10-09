@@ -1878,3 +1878,9 @@
   Liabilities:Bar:Members:Joris   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2025-10-09 txn "Thijs gave Joris a gift of €0.75"
+  type: "transfer"
+  timestamp: "2025-10-09 18:47:47.931642"
+  Liabilities:Bar:Members:Thijs   0.75 EUR
+  Liabilities:Bar:Members:Joris  -0.75 EUR
+
