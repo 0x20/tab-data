@@ -1870,3 +1870,11 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2025-10-09 txn "Joris bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2025-10-09 18:47:30.372125"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Joris      1 WATER
+  Liabilities:Bar:Members:Joris   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
