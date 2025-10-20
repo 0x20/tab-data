@@ -2404,3 +2404,9 @@
   Liabilities:Bar:Members:DJefke   4.00 EUR
   Income:Bar                      -4.00 EUR
 
+2025-10-20 txn "DJefke deposited €50.00"
+  type: "deposit"
+  timestamp: "2025-10-20 10:49:43.490303"
+  Liabilities:Bar:Members:DJefke  -50.00 EUR
+  Assets:Cash:Bar                  50.00 EUR
+
