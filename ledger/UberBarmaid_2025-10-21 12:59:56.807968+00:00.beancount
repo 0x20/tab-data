@@ -190,3 +190,13 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-10-23 txn "Johan bought 13 items for €15.50"
+  type: "purchase"
+  timestamp: "2025-10-23 22:47:07.860208"
+  Assets:Inventory:Bar               -5 SODA
+  Liabilities:Bar:Members:Johan       5 SODA
+  Assets:Inventory:Bar               -8 SNACK
+  Liabilities:Bar:Members:Johan       8 SNACK
+  Liabilities:Bar:Members:Johan   15.50 EUR
+  Income:Bar                     -15.50 EUR
+
