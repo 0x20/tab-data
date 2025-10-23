@@ -70,3 +70,9 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2025-10-23 txn "Thomas gave Miker a gift of €46.65"
+  type: "transfer"
+  timestamp: "2025-10-23 18:31:16.580188"
+  Liabilities:Bar:Members:Thomas   46.65 EUR
+  Liabilities:Bar:Members:Miker   -46.65 EUR
+
