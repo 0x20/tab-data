@@ -76,3 +76,9 @@
   Liabilities:Bar:Members:Thomas   46.65 EUR
   Liabilities:Bar:Members:Miker   -46.65 EUR
 
+2025-10-23 txn "Thomas deposited €50.00"
+  type: "deposit"
+  timestamp: "2025-10-23 18:32:10.568264"
+  Liabilities:Bar:Members:Thomas  -50.00 EUR
+  Assets:Cash:Bar                  50.00 EUR
+
