@@ -636,3 +636,9 @@
   Liabilities:Bar:Members:Johan   8.00 EUR
   Income:Bar                     -8.00 EUR
 
+2025-11-06 txn "Johan gave 3D-printer a gift of €1.00"
+  type: "transfer"
+  timestamp: "2025-11-06 23:35:02.236342"
+  Liabilities:Bar:Members:Johan        1.00 EUR
+  Liabilities:Bar:Members:3D-printer  -1.00 EUR
+
