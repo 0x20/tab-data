@@ -562,3 +562,11 @@
   Liabilities:Bar:Members:Joren   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2025-11-06 txn "Frp bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2025-11-06 20:44:25.661051"
+  Assets:Inventory:Bar            -1 WATER
+  Liabilities:Bar:Members:Frp      1 WATER
+  Liabilities:Bar:Members:Frp   0.75 EUR
+  Income:Bar                   -0.75 EUR
+
