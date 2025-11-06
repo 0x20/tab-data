@@ -642,3 +642,9 @@
   Liabilities:Bar:Members:Johan        1.00 EUR
   Liabilities:Bar:Members:3D-printer  -1.00 EUR
 
+2025-11-06 txn "Koen deposited €10.00"
+  type: "deposit"
+  timestamp: "2025-11-06 23:35:13.402636"
+  Liabilities:Bar:Members:Koen  -10.00 EUR
+  Assets:Cash:Bar                10.00 EUR
+
