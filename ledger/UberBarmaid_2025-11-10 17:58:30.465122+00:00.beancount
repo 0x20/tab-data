@@ -6,3 +6,13 @@
   Liabilities:Bar:Members:Miker   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2025-11-10 txn "--CASH-- bought 2 items for €4.50"
+  type: "purchase"
+  timestamp: "2025-11-10 18:08:59.328352"
+  Assets:Inventory:Bar     -1 CM
+  Assets:Cash:Bar           1 CM
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        4.50 EUR
+  Income:Bar            -4.50 EUR
+
