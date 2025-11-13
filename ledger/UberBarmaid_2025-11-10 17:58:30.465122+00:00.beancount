@@ -96,3 +96,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-11-13 txn "Joren bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-11-13 19:24:48.275549"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Joren      1 CM
+  Liabilities:Bar:Members:Joren   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
