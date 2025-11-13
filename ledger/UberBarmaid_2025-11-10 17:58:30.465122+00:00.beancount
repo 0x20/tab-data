@@ -144,3 +144,11 @@
   Liabilities:Bar:Members:Sander   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-11-13 txn "Joren bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-11-13 21:08:54.587963"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Joren      1 BEER
+  Liabilities:Bar:Members:Joren   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
