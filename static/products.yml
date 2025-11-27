@@ -12,7 +12,7 @@
   currency: CHOCO_MILK
   category: drink
   visible: False
-- name: Fritz / Club Mate Cola
+- name: Fritz
   price: 2.50
   event_price: 3.50
   currency: GERMAN
@@ -57,7 +57,7 @@
   event_price: 6.00
   currency: COCKTAIL
   category: alcohol
-  visible: True
+  visible: False
 
 # Snacks etc:
 - name: Snack Bar
@@ -67,8 +67,8 @@
   category: food
   visible: True
 - name: Chips
-  price: 1.00
-  event_price: 1.50
+  price: 1.50
+  event_price: 2.50
   currency: CHIP
   category: food
   visible: True
