@@ -1124,3 +1124,11 @@
   Liabilities:Bar:Members:Thijs   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2025-12-04 txn "--CASH-- bought 5 items for €15.00"
+  type: "purchase"
+  timestamp: "2025-12-04 20:06:39.591340"
+  Assets:Inventory:Bar      -5 CM
+  Assets:Cash:Bar            5 CM
+  Assets:Cash:Bar        15.00 EUR
+  Income:Bar            -15.00 EUR
+
