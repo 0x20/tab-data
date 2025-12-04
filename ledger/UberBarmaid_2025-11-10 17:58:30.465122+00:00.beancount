@@ -1224,3 +1224,13 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-12-04 txn "--CASH-- bought 3 items for €3.50"
+  type: "purchase"
+  timestamp: "2025-12-04 23:32:11.333996"
+  Assets:Inventory:Bar     -2 SNACK
+  Assets:Cash:Bar           2 SNACK
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        3.50 EUR
+  Income:Bar            -3.50 EUR
+
