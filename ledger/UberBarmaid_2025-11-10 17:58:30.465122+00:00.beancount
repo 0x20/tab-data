@@ -1300,3 +1300,9 @@
   Liabilities:Bar:Members:Bart   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2025-12-07 txn "Koen gave qwaxys a gift of €10.50"
+  type: "transfer"
+  timestamp: "2025-12-07 14:25:45.014438"
+  Liabilities:Bar:Members:Koen   10.50 EUR
+  Liabilities:Bar:Members:Bart  -10.50 EUR
+
