@@ -1312,3 +1312,11 @@
   Liabilities:Bar:Members:Yvan   17.50 EUR
   Liabilities:Bar:Members:Bart  -17.50 EUR
 
+2025-12-07 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-12-07 14:40:41.702167"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
