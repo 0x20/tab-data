@@ -1306,3 +1306,9 @@
   Liabilities:Bar:Members:Koen   10.50 EUR
   Liabilities:Bar:Members:Bart  -10.50 EUR
 
+2025-12-07 txn "Yvan gave qwaxys a gift of €17.50"
+  type: "transfer"
+  timestamp: "2025-12-07 14:26:12.422936"
+  Liabilities:Bar:Members:Yvan   17.50 EUR
+  Liabilities:Bar:Members:Bart  -17.50 EUR
+
