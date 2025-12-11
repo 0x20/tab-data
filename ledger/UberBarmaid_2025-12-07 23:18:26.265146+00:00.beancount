@@ -178,3 +178,11 @@
   Liabilities:Bar:Members:Ariana   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-12-11 txn "Ariana bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-12-11 20:48:51.868746"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Ariana      1 SODA
+  Liabilities:Bar:Members:Ariana   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
