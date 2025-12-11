@@ -116,3 +116,9 @@
   Liabilities:Bar:Members:Koen   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2025-12-11 txn "Ariana deposited €50.00"
+  type: "deposit"
+  timestamp: "2025-12-11 18:23:13.577527"
+  Liabilities:Bar:Members:Ariana  -50.00 EUR
+  Assets:Cash:Bar                  50.00 EUR
+
