@@ -408,3 +408,11 @@
   Liabilities:Bar:Members:Ariana   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-12-18 txn "Space bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2025-12-18 22:40:19.875711"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Space      1 SODA
+  Liabilities:Bar:Members:Space   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
