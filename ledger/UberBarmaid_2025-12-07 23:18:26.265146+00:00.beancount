@@ -422,3 +422,11 @@
   Liabilities:Bar:Members:Ariana   1.50 EUR
   Liabilities:Bar:Members:Space   -1.50 EUR
 
+2025-12-18 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-12-18 22:44:51.073278"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
