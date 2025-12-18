@@ -382,3 +382,13 @@
   Liabilities:Bar:Members:Ariana   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2025-12-18 txn "Miker bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2025-12-18 22:08:03.763267"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
