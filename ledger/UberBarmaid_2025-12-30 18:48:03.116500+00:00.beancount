@@ -86,3 +86,11 @@
   Liabilities:Bar:Members:Joris   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2025-12-30 txn "Ariana bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2025-12-30 21:40:01.817812"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Liabilities:Bar:Members:Ariana   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
