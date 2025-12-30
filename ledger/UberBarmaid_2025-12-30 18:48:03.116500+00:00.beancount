@@ -104,3 +104,11 @@
   Liabilities:Bar:Members:Thomas   1.75 EUR
   Income:Bar                      -1.75 EUR
 
+2025-12-30 txn "Stefaan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-12-30 21:54:31.498705"
+  Assets:Inventory:Bar                -1 SNACK
+  Liabilities:Bar:Members:Stefaan      1 SNACK
+  Liabilities:Bar:Members:Stefaan   1.00 EUR
+  Income:Bar                       -1.00 EUR
+
