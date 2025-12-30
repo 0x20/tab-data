@@ -136,3 +136,11 @@
   Liabilities:Bar:Members:Stefaan   1.00 EUR
   Income:Bar                       -1.00 EUR
 
+2025-12-30 txn "Ariana bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-12-30 22:53:48.867284"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Ariana      1 SNACK
+  Liabilities:Bar:Members:Ariana   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
