@@ -116,3 +116,13 @@
   Liabilities:Bar:Members:Thomas   0.75 EUR
   Income:Bar                      -0.75 EUR
 
+2026-01-08 txn "Bloemist bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-01-08 22:16:00.202492"
+  Assets:Inventory:Bar                 -1 SNACK
+  Liabilities:Bar:Members:Bloemist      1 SNACK
+  Assets:Inventory:Bar                 -1 CM
+  Liabilities:Bar:Members:Bloemist      1 CM
+  Liabilities:Bar:Members:Bloemist   4.00 EUR
+  Income:Bar                        -4.00 EUR
+
