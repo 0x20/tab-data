@@ -126,3 +126,11 @@
   Liabilities:Bar:Members:Bloemist   4.00 EUR
   Income:Bar                        -4.00 EUR
 
+2026-01-08 txn "qwaxys bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-01-08 22:19:41.197070"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Bart      1 SODA
+  Liabilities:Bar:Members:Bart   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
