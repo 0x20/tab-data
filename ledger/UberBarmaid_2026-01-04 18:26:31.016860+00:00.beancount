@@ -84,3 +84,11 @@
   Assets:Cash:Bar        1.50 EUR
   Income:Bar            -1.50 EUR
 
+2026-01-08 txn "Thomas bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-01-08 20:04:31.156620"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Thomas      1 CHIP
+  Liabilities:Bar:Members:Thomas   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
