@@ -22,3 +22,9 @@
   Assets:Cash:Bar        1.50 EUR
   Income:Bar            -1.50 EUR
 
+2026-01-15 txn "qwaxys gave DJefke a gift of €4.50"
+  type: "transfer"
+  timestamp: "2026-01-15 18:55:48.124339"
+  Liabilities:Bar:Members:Bart     4.50 EUR
+  Liabilities:Bar:Members:DJefke  -4.50 EUR
+
