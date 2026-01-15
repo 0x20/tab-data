@@ -212,3 +212,9 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2026-01-15 txn "Koen deposited €2.00"
+  type: "deposit"
+  timestamp: "2026-01-15 22:51:02.258750"
+  Liabilities:Bar:Members:Koen  -2.00 EUR
+  Assets:Cash:Bar                2.00 EUR
+
