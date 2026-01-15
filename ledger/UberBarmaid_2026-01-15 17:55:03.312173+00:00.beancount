@@ -36,3 +36,9 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-01-15 txn "Ariana deposited €50.00"
+  type: "deposit"
+  timestamp: "2026-01-15 19:12:51.439389"
+  Liabilities:Bar:Members:Ariana  -50.00 EUR
+  Assets:Cash:Bar                  50.00 EUR
+
