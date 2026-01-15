@@ -218,3 +218,13 @@
   Liabilities:Bar:Members:Koen  -2.00 EUR
   Assets:Cash:Bar                2.00 EUR
 
+2026-01-15 txn "Ariana bought 3 items for €5.00"
+  type: "purchase"
+  timestamp: "2026-01-15 22:56:17.859077"
+  Assets:Inventory:Bar               -2 SNACK
+  Liabilities:Bar:Members:Ariana      2 SNACK
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Liabilities:Bar:Members:Ariana   5.00 EUR
+  Income:Bar                      -5.00 EUR
+
