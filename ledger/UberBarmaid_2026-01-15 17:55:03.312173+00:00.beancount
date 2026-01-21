@@ -498,3 +498,11 @@
   Assets:Cash:Bar        3.00 EUR
   Income:Bar            -3.00 EUR
 
+2026-01-21 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-01-21 18:42:44.892539"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
