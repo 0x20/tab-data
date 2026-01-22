@@ -744,3 +744,9 @@
   Assets:Cash:Bar                  59.79 EUR
   Liabilities:Bar:Members:DJefke  -59.79 EUR
 
+2026-01-22 txn "--CASH-- gave Bloemist a gift of €10.00"
+  type: "transfer"
+  timestamp: "2026-01-22 22:26:44.631594"
+  Assets:Cash:Bar                    10.00 EUR
+  Liabilities:Bar:Members:Bloemist  -10.00 EUR
+
