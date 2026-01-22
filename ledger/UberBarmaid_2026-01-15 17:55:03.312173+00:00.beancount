@@ -680,3 +680,11 @@
   Liabilities:Bar:Members:Mateo   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2026-01-22 txn "Thomas bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-01-22 20:44:10.899929"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Thomas      1 SODA
+  Liabilities:Bar:Members:Thomas   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
