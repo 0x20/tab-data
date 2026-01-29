@@ -1116,3 +1116,11 @@
   Liabilities:Bar:Members:Ariana   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-01-29 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-01-29 22:29:43.889161"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
