@@ -998,3 +998,13 @@
   Liabilities:Bar:Members:Ariana  -50.00 EUR
   Assets:Cash:Bar                  50.00 EUR
 
+2026-01-29 txn "Ariana bought 2 items for €4.50"
+  type: "purchase"
+  timestamp: "2026-01-29 18:03:27.866587"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Ariana      1 SODA
+  Liabilities:Bar:Members:Ariana   4.50 EUR
+  Income:Bar                      -4.50 EUR
+
