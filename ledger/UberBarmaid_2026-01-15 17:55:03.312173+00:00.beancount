@@ -1196,3 +1196,11 @@
   Liabilities:Bar:Members:Bloemist  -120.00 EUR
   Assets:Cash:Bar                    120.00 EUR
 
+2026-02-05 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-02-05 19:22:26.491134"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
