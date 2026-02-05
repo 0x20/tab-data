@@ -1220,3 +1220,11 @@
   Liabilities:Bar:Members:Miker   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2026-02-05 txn "Thijs bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-05 19:53:51.625039"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Thijs      1 SODA
+  Liabilities:Bar:Members:Thijs   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
