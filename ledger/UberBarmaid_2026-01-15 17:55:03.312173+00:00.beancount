@@ -1260,3 +1260,11 @@
   Liabilities:Bar:Members:Yvan   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2026-02-05 txn "Thomas bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-02-05 21:43:00.695376"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Thomas      1 SNACK
+  Liabilities:Bar:Members:Thomas   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
