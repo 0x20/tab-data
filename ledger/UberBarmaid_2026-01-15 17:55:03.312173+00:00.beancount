@@ -1292,3 +1292,9 @@
   Liabilities:Bar:Members:Miker   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2026-02-05 txn "Johan deposited €25.00"
+  type: "deposit"
+  timestamp: "2026-02-05 21:51:44.209439"
+  Liabilities:Bar:Members:Johan  -25.00 EUR
+  Assets:Cash:Bar                 25.00 EUR
+
