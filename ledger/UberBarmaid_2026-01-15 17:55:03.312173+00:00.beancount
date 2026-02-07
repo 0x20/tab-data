@@ -1732,3 +1732,9 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR
   Income:Bar                        -1.50 EUR
 
+2026-02-07 txn "Ariana gave DJefke a gift of €28.10"
+  type: "transfer"
+  timestamp: "2026-02-07 21:25:12.549754"
+  Liabilities:Bar:Members:Ariana   28.10 EUR
+  Liabilities:Bar:Members:DJefke  -28.10 EUR
+
