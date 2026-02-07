@@ -1662,3 +1662,9 @@
   Liabilities:Bar:Members:Ariana   15.76 EUR
   Liabilities:Bar:Members:Gust    -15.76 EUR
 
+2026-02-07 txn "Gust deposited €183.78"
+  type: "deposit"
+  timestamp: "2026-02-07 16:43:52.657491"
+  Liabilities:Bar:Members:Gust  -183.78 EUR
+  Assets:Cash:Bar                183.78 EUR
+
