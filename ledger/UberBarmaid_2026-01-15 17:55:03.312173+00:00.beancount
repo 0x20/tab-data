@@ -1630,3 +1630,11 @@
   Liabilities:Bar:Members:Miker   2.75 EUR
   Income:Bar                     -2.75 EUR
 
+2026-02-07 txn "Ariana bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-07 15:53:47.102547"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Ariana      1 CHIP
+  Liabilities:Bar:Members:Ariana   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
