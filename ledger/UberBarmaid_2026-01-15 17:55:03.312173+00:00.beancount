@@ -1656,3 +1656,9 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-02-07 txn "Ariana gave Gust a gift of €15.76"
+  type: "transfer"
+  timestamp: "2026-02-07 16:37:31.604681"
+  Liabilities:Bar:Members:Ariana   15.76 EUR
+  Liabilities:Bar:Members:Gust    -15.76 EUR
+
