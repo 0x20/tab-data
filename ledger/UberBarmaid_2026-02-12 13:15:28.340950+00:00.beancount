@@ -100,3 +100,13 @@
   Liabilities:Bar:Members:Bloemist   4.50 EUR
   Income:Bar                        -4.50 EUR
 
+2026-02-12 txn "Koen bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-02-12 20:12:07.540317"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Koen      1 SNACK
+  Liabilities:Bar:Members:Koen   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
