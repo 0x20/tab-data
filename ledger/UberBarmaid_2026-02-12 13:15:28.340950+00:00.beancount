@@ -134,3 +134,11 @@
   Liabilities:Bar:Members:Mateo   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2026-02-12 txn "qwaxys bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-02-12 21:03:46.002353"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Bart      1 SNACK
+  Liabilities:Bar:Members:Bart   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
