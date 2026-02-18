@@ -248,3 +248,11 @@
   Liabilities:Bar:Members:Bloemist   9.00 EUR
   Income:Bar                        -9.00 EUR
 
+2026-02-18 txn "Mateo bought 2 items for €2.00"
+  type: "purchase"
+  timestamp: "2026-02-18 15:47:44.990128"
+  Assets:Inventory:Bar              -2 SNACK
+  Liabilities:Bar:Members:Mateo      2 SNACK
+  Liabilities:Bar:Members:Mateo   2.00 EUR
+  Income:Bar                     -2.00 EUR
+
