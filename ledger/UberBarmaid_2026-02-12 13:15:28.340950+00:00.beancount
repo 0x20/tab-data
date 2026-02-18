@@ -272,3 +272,15 @@
   Liabilities:Bar:Members:Mateo   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2026-02-18 txn "Mateo bought 24 items for €51.00"
+  type: "purchase"
+  timestamp: "2026-02-18 16:55:22.175537"
+  Assets:Inventory:Bar              -10 DUVEL
+  Liabilities:Bar:Members:Mateo      10 DUVEL
+  Assets:Inventory:Bar               -9 BEER
+  Liabilities:Bar:Members:Mateo       9 BEER
+  Assets:Inventory:Bar               -5 GERMAN
+  Liabilities:Bar:Members:Mateo       5 GERMAN
+  Liabilities:Bar:Members:Mateo   51.00 EUR
+  Income:Bar                     -51.00 EUR
+
