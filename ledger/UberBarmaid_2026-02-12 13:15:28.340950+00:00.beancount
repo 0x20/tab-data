@@ -364,3 +364,9 @@
   Liabilities:Bar:Members:Koen  -2.00 EUR
   Assets:Cash:Bar                2.00 EUR
 
+2026-02-19 txn "Johan gave Mateo a gift of €25.00"
+  type: "transfer"
+  timestamp: "2026-02-19 21:44:42.245144"
+  Liabilities:Bar:Members:Johan   25.00 EUR
+  Liabilities:Bar:Members:Mateo  -25.00 EUR
+
