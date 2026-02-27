@@ -150,3 +150,11 @@
   Liabilities:Bar:Members:Bloemist   1.50 EUR
   Income:Bar                        -1.50 EUR
 
+2026-02-27 txn "Bloemist bought 4 items for €12.00"
+  type: "purchase"
+  timestamp: "2026-02-27 03:38:15.121214"
+  Assets:Inventory:Bar                  -4 CM
+  Liabilities:Bar:Members:Bloemist       4 CM
+  Liabilities:Bar:Members:Bloemist   12.00 EUR
+  Income:Bar                        -12.00 EUR
+
