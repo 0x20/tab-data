@@ -134,3 +134,11 @@
   Liabilities:Bar:Members:Miker   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2026-02-27 txn "Bloemist bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-27 00:12:53.508606"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Bloemist      1 BEER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR
+  Income:Bar                        -1.50 EUR
+
