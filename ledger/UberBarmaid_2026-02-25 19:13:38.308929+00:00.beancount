@@ -206,3 +206,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2026-03-04 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-04 19:59:12.680616"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
