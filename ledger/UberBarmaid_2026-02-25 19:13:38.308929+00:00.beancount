@@ -372,3 +372,9 @@
   Liabilities:Bar:Members:Ariana   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-03-05 txn "Gust gave Mateo a gift of €6.10"
+  type: "transfer"
+  timestamp: "2026-03-05 20:47:57.184358"
+  Liabilities:Bar:Members:Gust    6.10 EUR
+  Liabilities:Bar:Members:Mateo  -6.10 EUR
+
