@@ -420,3 +420,9 @@
   Liabilities:Bar:Members:Ariana   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2026-03-05 txn "qwaxys gave Koen a gift of €15.00"
+  type: "transfer"
+  timestamp: "2026-03-05 22:36:06.289247"
+  Liabilities:Bar:Members:Bart   15.00 EUR
+  Liabilities:Bar:Members:Koen  -15.00 EUR
+
