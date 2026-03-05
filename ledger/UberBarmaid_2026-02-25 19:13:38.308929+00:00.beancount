@@ -378,3 +378,9 @@
   Liabilities:Bar:Members:Gust    6.10 EUR
   Liabilities:Bar:Members:Mateo  -6.10 EUR
 
+2026-03-05 txn "DJefke deposited €131.06"
+  type: "deposit"
+  timestamp: "2026-03-05 21:06:43.562378"
+  Liabilities:Bar:Members:DJefke  -131.06 EUR
+  Assets:Cash:Bar                  131.06 EUR
+
