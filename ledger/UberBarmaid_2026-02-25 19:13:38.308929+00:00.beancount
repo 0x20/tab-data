@@ -484,3 +484,9 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2026-03-06 txn "qwaxys deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-03-06 01:25:49.483291"
+  Liabilities:Bar:Members:Bart  -10.00 EUR
+  Assets:Cash:Bar                10.00 EUR
+
