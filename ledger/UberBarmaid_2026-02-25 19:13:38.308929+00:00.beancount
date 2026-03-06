@@ -490,3 +490,11 @@
   Liabilities:Bar:Members:Bart  -10.00 EUR
   Assets:Cash:Bar                10.00 EUR
 
+2026-03-06 txn "Bloemist bought 5 items for €15.00"
+  type: "purchase"
+  timestamp: "2026-03-06 01:51:49.658968"
+  Assets:Inventory:Bar                  -5 CM
+  Liabilities:Bar:Members:Bloemist       5 CM
+  Liabilities:Bar:Members:Bloemist   15.00 EUR
+  Income:Bar                        -15.00 EUR
+
