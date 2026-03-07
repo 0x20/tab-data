@@ -560,3 +560,11 @@
   Assets:Cash:Bar        1.50 EUR
   Income:Bar            -1.50 EUR
 
+2026-03-07 txn "qwaxys bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 15:17:54.751274"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Bart      1 SODA
+  Liabilities:Bar:Members:Bart   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
