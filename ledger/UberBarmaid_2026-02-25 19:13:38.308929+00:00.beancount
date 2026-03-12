@@ -756,3 +756,15 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-03-12 txn "Ariana bought 4 items for €6.50"
+  type: "purchase"
+  timestamp: "2026-03-12 19:26:32.907684"
+  Assets:Inventory:Bar               -2 SNACK
+  Liabilities:Bar:Members:Ariana      2 SNACK
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Ariana      1 SODA
+  Liabilities:Bar:Members:Ariana   6.50 EUR
+  Income:Bar                      -6.50 EUR
+
