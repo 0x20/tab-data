@@ -12,3 +12,11 @@
   Liabilities:Bar:Members:Bart    3.09 EUR
   Liabilities:Bar:Members:Sasja  -3.09 EUR
 
+2026-03-19 txn "Thomas bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-19 19:03:10.914851"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:Thomas      1 WATER
+  Liabilities:Bar:Members:Thomas   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
