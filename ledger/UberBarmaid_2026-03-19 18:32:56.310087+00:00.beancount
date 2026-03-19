@@ -44,3 +44,9 @@
   Liabilities:Bar:Members:Ariana   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2026-03-19 txn "Fearless deposited €4.50"
+  type: "deposit"
+  timestamp: "2026-03-19 19:25:07.825492"
+  Liabilities:Bar:Members:Fearless  -4.50 EUR
+  Assets:Cash:Bar                    4.50 EUR
+
