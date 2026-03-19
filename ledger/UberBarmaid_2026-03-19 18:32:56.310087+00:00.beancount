@@ -6,3 +6,9 @@
   Liabilities:Bar:Members:Bart   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-03-19 txn "qwaxys gave Sasja a gift of €3.09"
+  type: "transfer"
+  timestamp: "2026-03-19 18:33:17.627531"
+  Liabilities:Bar:Members:Bart    3.09 EUR
+  Liabilities:Bar:Members:Sasja  -3.09 EUR
+
