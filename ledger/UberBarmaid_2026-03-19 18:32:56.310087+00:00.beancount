@@ -206,3 +206,9 @@
   Liabilities:Bar:Members:Bloemist   6.00 EUR
   Income:Bar                        -6.00 EUR
 
+2026-03-20 txn "Johan deposited €54.61"
+  type: "deposit"
+  timestamp: "2026-03-20 18:28:30.362821"
+  Liabilities:Bar:Members:Johan  -54.61 EUR
+  Assets:Cash:Bar                 54.61 EUR
+
