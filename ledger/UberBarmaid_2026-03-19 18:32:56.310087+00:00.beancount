@@ -198,3 +198,11 @@
   Liabilities:Bar:Members:Fearless   1.50 EUR
   Income:Bar                        -1.50 EUR
 
+2026-03-20 txn "Bloemist bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2026-03-20 02:22:05.267232"
+  Assets:Inventory:Bar                 -2 CM
+  Liabilities:Bar:Members:Bloemist      2 CM
+  Liabilities:Bar:Members:Bloemist   6.00 EUR
+  Income:Bar                        -6.00 EUR
+
