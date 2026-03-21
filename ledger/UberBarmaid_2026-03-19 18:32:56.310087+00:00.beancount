@@ -288,3 +288,11 @@
   Liabilities:Bar:Members:Mateo  -10.00 EUR
   Assets:Cash:Bar                 10.00 EUR
 
+2026-03-21 txn "Bloemist bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-21 20:28:15.832050"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Bloemist      1 BEER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR
+  Income:Bar                        -1.50 EUR
+
