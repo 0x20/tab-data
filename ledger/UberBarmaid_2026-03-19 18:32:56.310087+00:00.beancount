@@ -490,3 +490,13 @@
   Liabilities:Bar:Members:Mateo   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2026-03-24 txn "Ariana bought 2 items for €4.50"
+  type: "purchase"
+  timestamp: "2026-03-24 16:58:32.718814"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Ariana      1 CHIP
+  Liabilities:Bar:Members:Ariana   4.50 EUR
+  Income:Bar                      -4.50 EUR
+
