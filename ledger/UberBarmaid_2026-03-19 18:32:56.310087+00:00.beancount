@@ -590,3 +590,13 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-03-25 txn "DJefke bought 3 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-25 16:50:16.153597"
+  Assets:Inventory:Bar               -2 WATER
+  Liabilities:Bar:Members:DJefke      2 WATER
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
