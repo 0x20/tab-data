@@ -632,3 +632,11 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-03-26 txn "On8wr bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-26 15:54:40.871142"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:On8wr      1 SODA
+  Liabilities:Bar:Members:On8wr   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
