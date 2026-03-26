@@ -664,3 +664,9 @@
   Liabilities:Bar:Members:DJefke   0.75 EUR
   Income:Bar                      -0.75 EUR
 
+2026-03-26 txn "On8wr gave DJefke a gift of €19.00"
+  type: "transfer"
+  timestamp: "2026-03-26 18:02:58.397103"
+  Liabilities:Bar:Members:On8wr    19.00 EUR
+  Liabilities:Bar:Members:DJefke  -19.00 EUR
+
