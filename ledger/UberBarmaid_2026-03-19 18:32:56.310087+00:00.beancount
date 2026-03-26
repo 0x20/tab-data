@@ -718,3 +718,11 @@
   Liabilities:Bar:Members:Miker   1.75 EUR
   Income:Bar                     -1.75 EUR
 
+2026-03-26 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-26 20:57:28.543756"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
