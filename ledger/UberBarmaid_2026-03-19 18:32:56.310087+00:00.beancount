@@ -920,3 +920,13 @@
   Liabilities:Bar:Members:Mateo  -10.00 EUR
   Assets:Cash:Bar                 10.00 EUR
 
+2026-04-02 txn "Miker bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2026-04-02 20:38:28.599270"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
