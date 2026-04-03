@@ -980,3 +980,9 @@
   Liabilities:Bar:Members:Bloemist   1.00 EUR
   Income:Bar                        -1.00 EUR
 
+2026-04-03 txn "Bloemist deposited €110.01"
+  type: "deposit"
+  timestamp: "2026-04-03 01:22:00.205273"
+  Liabilities:Bar:Members:Bloemist  -110.01 EUR
+  Assets:Cash:Bar                    110.01 EUR
+
