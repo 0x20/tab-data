@@ -1152,3 +1152,13 @@
   Liabilities:Bar:Members:Koen  -10.00 EUR
   Assets:Cash:Bar                10.00 EUR
 
+2026-04-09 txn "--CASH-- bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-04-09 19:38:42.655940"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Inventory:Bar     -1 SNACK
+  Assets:Cash:Bar           1 SNACK
+  Assets:Cash:Bar        2.50 EUR
+  Income:Bar            -2.50 EUR
+
