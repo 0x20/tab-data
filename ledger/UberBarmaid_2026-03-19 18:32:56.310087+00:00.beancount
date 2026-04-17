@@ -1492,3 +1492,13 @@
   Liabilities:Bar:Members:Sander  -5.00 EUR
   Assets:Cash:Bar                  5.00 EUR
 
+2026-04-17 txn "Sander bought 2 items for €4.50"
+  type: "purchase"
+  timestamp: "2026-04-17 12:58:57.663271"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Sander      1 CM
+  Liabilities:Bar:Members:Sander   4.50 EUR
+  Income:Bar                      -4.50 EUR
+
