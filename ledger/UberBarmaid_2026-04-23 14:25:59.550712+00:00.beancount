@@ -118,3 +118,11 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2026-04-23 txn "Bloemist bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-04-23 21:26:41.301850"
+  Assets:Inventory:Bar                 -1 CHIP
+  Liabilities:Bar:Members:Bloemist      1 CHIP
+  Liabilities:Bar:Members:Bloemist   1.50 EUR
+  Income:Bar                        -1.50 EUR
+
