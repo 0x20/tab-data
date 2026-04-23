@@ -134,3 +134,11 @@
   Liabilities:Bar:Members:Miker   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2026-04-23 txn "Bloemist bought 2 items for €2.00"
+  type: "purchase"
+  timestamp: "2026-04-23 21:44:52.500821"
+  Assets:Inventory:Bar                 -2 SNACK
+  Liabilities:Bar:Members:Bloemist      2 SNACK
+  Liabilities:Bar:Members:Bloemist   2.00 EUR
+  Income:Bar                        -2.00 EUR
+
