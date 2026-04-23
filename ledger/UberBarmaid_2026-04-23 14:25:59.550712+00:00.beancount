@@ -150,3 +150,11 @@
   Liabilities:Bar:Members:Bloemist   9.00 EUR
   Income:Bar                        -9.00 EUR
 
+2026-04-23 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-04-23 23:09:28.292224"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
