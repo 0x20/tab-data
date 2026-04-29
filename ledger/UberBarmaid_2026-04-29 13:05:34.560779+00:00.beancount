@@ -1,0 +1,8 @@
+2026-04-29 txn "Yvan bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-04-29 13:05:34.556409"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
