@@ -32,3 +32,11 @@
   Liabilities:Bar:Members:Bart   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-04-29 txn "qwaxys bought 2 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-04-29 17:37:22.625098"
+  Assets:Inventory:Bar             -2 SODA
+  Liabilities:Bar:Members:Bart      2 SODA
+  Liabilities:Bar:Members:Bart   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
