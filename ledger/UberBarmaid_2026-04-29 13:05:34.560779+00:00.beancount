@@ -170,3 +170,9 @@
   Liabilities:Bar:Members:Gust   4.00 EUR
   Income:Bar                    -4.00 EUR
 
+2026-04-30 txn "Koen deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-04-30 18:22:36.750944"
+  Liabilities:Bar:Members:Koen  -10.00 EUR
+  Assets:Cash:Bar                10.00 EUR
+
