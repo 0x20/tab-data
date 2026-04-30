@@ -232,3 +232,11 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-04-30 txn "Joren bought 1 items for €1.33"
+  type: "purchase"
+  timestamp: "2026-04-30 19:08:17.326224"
+  Assets:Inventory:Bar              -1 CARA
+  Liabilities:Bar:Members:Joren      1 CARA
+  Liabilities:Bar:Members:Joren   1.33 EUR
+  Income:Bar                     -1.33 EUR
+
