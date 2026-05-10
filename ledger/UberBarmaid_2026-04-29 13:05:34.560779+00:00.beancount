@@ -710,3 +710,9 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-05-10 txn "Koen gave DJefke a gift of €7.00"
+  type: "transfer"
+  timestamp: "2026-05-10 17:10:46.569669"
+  Liabilities:Bar:Members:Koen     7.00 EUR
+  Liabilities:Bar:Members:DJefke  -7.00 EUR
+
