@@ -994,3 +994,9 @@
   Liabilities:Bar:Members:Ariana   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2026-05-14 txn "Ariana deposited €20.00"
+  type: "deposit"
+  timestamp: "2026-05-14 21:18:37.693732"
+  Liabilities:Bar:Members:Ariana  -20.00 EUR
+  Assets:Cash:Bar                  20.00 EUR
+
