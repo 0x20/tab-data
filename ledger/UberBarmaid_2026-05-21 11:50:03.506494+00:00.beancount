@@ -94,3 +94,11 @@
   Liabilities:Bar:Members:Fearless  -6.00 EUR
   Assets:Cash:Bar                    6.00 EUR
 
+2026-05-21 txn "Fearless bought 2 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-05-21 16:39:59.877065"
+  Assets:Inventory:Bar                 -2 SODA
+  Liabilities:Bar:Members:Fearless      2 SODA
+  Liabilities:Bar:Members:Fearless   3.00 EUR
+  Income:Bar                        -3.00 EUR
+
