@@ -228,3 +228,9 @@
   Liabilities:Bar:Members:Bart   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-05-21 txn "qwaxys deposited €5.00"
+  type: "deposit"
+  timestamp: "2026-05-21 19:28:35.898354"
+  Liabilities:Bar:Members:Bart  -5.00 EUR
+  Assets:Cash:Bar                5.00 EUR
+
