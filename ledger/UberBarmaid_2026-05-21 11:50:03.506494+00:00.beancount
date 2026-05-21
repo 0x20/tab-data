@@ -142,3 +142,11 @@
   Liabilities:Bar:Members:Koen   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-05-21 txn "Mats bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-05-21 17:40:25.090790"
+  Assets:Inventory:Bar             -1 CM
+  Liabilities:Bar:Members:Mats      1 CM
+  Liabilities:Bar:Members:Mats   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
