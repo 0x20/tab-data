@@ -1,0 +1,8 @@
+2026-05-22 txn "Mats bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-22 00:26:03.409736"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Mats      1 SODA
+  Liabilities:Bar:Members:Mats   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
