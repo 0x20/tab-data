@@ -60,6 +60,7 @@
   mm_name: "miker"
 2019-11-28 open Liabilities:Bar:Members:Carroarmato0
   display_name: "Carro​armato0"
+  mm_name: "carroarmato0"
 2019-11-28 open Liabilities:Bar:Members:Sven
   display_name: "OR1=1"
 2019-11-28 open Liabilities:Bar:Members:AntonAlstublieft
@@ -124,3 +125,7 @@
   mm_name: "marco"
 2025-02-13 open Liabilities:Bar:Members:Mats
   mm_name: "matthieu"
+2025-02-13 open Liabilities:Bar:Members:Ariana
+  mm_name: "ari"
+2026-05-27 open Liabilities:Bar:Members:Numi
+  mm_name: "numi"

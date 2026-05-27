@@ -1,0 +1,1014 @@
+2026-02-25 txn "Mateo bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-02-25 19:13:38.304098"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
+2026-02-25 txn "Mateo bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-02-25 21:04:15.051359"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
+2026-02-25 txn "Bloemist bought 1 items for €15.00"
+  type: "purchase"
+  timestamp: "2026-02-25 21:36:21.833974"
+  Assets:Inventory:Bar                  -1 TSHIRT
+  Liabilities:Bar:Members:Bloemist       1 TSHIRT
+  Liabilities:Bar:Members:Bloemist   15.00 EUR
+  Income:Bar                        -15.00 EUR
+
+2026-02-25 txn "Bloemist deposited €15.00"
+  type: "deposit"
+  timestamp: "2026-02-25 21:36:31.313961"
+  Liabilities:Bar:Members:Bloemist  -15.00 EUR
+  Assets:Cash:Bar                    15.00 EUR
+
+2026-02-26 txn "Yvan bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-02-26 16:13:05.893688"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
+2026-02-26 txn "Bloemist bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-02-26 17:57:59.243227"
+  Assets:Inventory:Bar                 -1 CM
+  Liabilities:Bar:Members:Bloemist      1 CM
+  Liabilities:Bar:Members:Bloemist   3.00 EUR
+  Income:Bar                        -3.00 EUR
+
+2026-02-26 txn "Yvan bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-26 18:12:50.508307"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-02-26 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-26 19:09:47.365203"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-02-26 txn "Koen deposited €3.00"
+  type: "deposit"
+  timestamp: "2026-02-26 19:10:18.227411"
+  Liabilities:Bar:Members:Koen  -3.00 EUR
+  Assets:Cash:Bar                3.00 EUR
+
+2026-02-26 txn "Thomas bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-26 19:45:28.219905"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Thomas      1 CHIP
+  Liabilities:Bar:Members:Thomas   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-02-26 txn "Miker bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-26 19:46:37.186840"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-02-26 txn "Thomas bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-26 20:36:38.323943"
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Thomas      1 CHIP
+  Liabilities:Bar:Members:Thomas   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-02-26 txn "Miker bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2026-02-26 21:31:04.084472"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
+2026-02-26 txn "Koen bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-02-26 21:37:26.898943"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Koen      1 SNACK
+  Liabilities:Bar:Members:Koen   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
+2026-02-26 txn "Koen deposited €1.00"
+  type: "deposit"
+  timestamp: "2026-02-26 21:37:52.670057"
+  Liabilities:Bar:Members:Koen  -1.00 EUR
+  Assets:Cash:Bar                1.00 EUR
+
+2026-02-26 txn "Miker bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-02-26 23:05:33.096217"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
+2026-02-26 txn "Miker bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-02-26 23:57:26.867639"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
+2026-02-27 txn "Bloemist bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-27 00:12:53.508606"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Bloemist      1 BEER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR
+  Income:Bar                        -1.50 EUR
+
+2026-02-27 txn "Bloemist bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-02-27 01:49:53.836087"
+  Assets:Inventory:Bar                 -1 BEER
+  Liabilities:Bar:Members:Bloemist      1 BEER
+  Liabilities:Bar:Members:Bloemist   1.50 EUR
+  Income:Bar                        -1.50 EUR
+
+2026-02-27 txn "Bloemist bought 4 items for €12.00"
+  type: "purchase"
+  timestamp: "2026-02-27 03:38:15.121214"
+  Assets:Inventory:Bar                  -4 CM
+  Liabilities:Bar:Members:Bloemist       4 CM
+  Liabilities:Bar:Members:Bloemist   12.00 EUR
+  Income:Bar                        -12.00 EUR
+
+2026-03-01 txn "Mateo bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-01 16:30:45.603085"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
+2026-03-01 txn "Mateo bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-01 20:11:15.790403"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
+2026-03-02 txn "DJefke bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-02 17:41:09.177357"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
+2026-03-02 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-02 19:55:43.345124"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
+2026-03-04 txn "Mateo bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-04 19:27:10.528432"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
+2026-03-04 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-04 19:40:37.807274"
+  Assets:Inventory:Bar              -1 CHIP
+  Liabilities:Bar:Members:Mateo      1 CHIP
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-03-04 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-04 19:59:12.680616"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
+2026-03-04 txn "DJ deposited €6.00"
+  type: "deposit"
+  timestamp: "2026-03-04 20:09:15.926927"
+  Liabilities:Bar:Members:DJ  -6.00 EUR
+  Assets:Cash:Bar              6.00 EUR
+
+2026-03-04 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-04 22:05:57.157252"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-05 txn "Yvan bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 12:44:11.961608"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-05 txn "DJefke bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-05 12:49:00.889281"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
+2026-03-05 txn "Yvan bought 2 items for €2.00"
+  type: "purchase"
+  timestamp: "2026-03-05 13:32:48.505150"
+  Assets:Inventory:Bar             -2 SNACK
+  Liabilities:Bar:Members:Yvan      2 SNACK
+  Liabilities:Bar:Members:Yvan   2.00 EUR
+  Income:Bar                    -2.00 EUR
+
+2026-03-05 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 15:19:08.315352"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-05 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-05 16:39:11.727568"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
+2026-03-05 txn "Yvan bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-05 16:53:21.331977"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
+2026-03-05 txn "Sander bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 17:33:39.295669"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-05 txn "Koen bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-05 17:46:51.695612"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Koen      1 SNACK
+  Liabilities:Bar:Members:Koen   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
+2026-03-05 txn "Sander bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 18:50:52.554364"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-05 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 18:58:08.619153"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-05 txn "Thijs bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 19:27:09.569061"
+  Assets:Inventory:Bar              -1 BEER
+  Liabilities:Bar:Members:Thijs      1 BEER
+  Liabilities:Bar:Members:Thijs   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-03-05 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 19:36:29.467519"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
+2026-03-05 txn "Miker deposited €100.00"
+  type: "deposit"
+  timestamp: "2026-03-05 19:50:43.831280"
+  Liabilities:Bar:Members:Miker  -100.00 EUR
+  Assets:Cash:Bar                 100.00 EUR
+
+2026-03-05 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-05 19:50:57.231411"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Miker      1 CM
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
+2026-03-05 txn "Bloemist bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-05 19:50:59.267322"
+  Assets:Inventory:Bar                 -1 CM
+  Liabilities:Bar:Members:Bloemist      1 CM
+  Liabilities:Bar:Members:Bloemist   3.00 EUR
+  Income:Bar                        -3.00 EUR
+
+2026-03-05 txn "Gust bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-05 20:02:22.015585"
+  Assets:Inventory:Bar             -1 CM
+  Liabilities:Bar:Members:Gust      1 CM
+  Liabilities:Bar:Members:Gust   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
+2026-03-05 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 20:24:48.905248"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-05 txn "Ariana bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 20:31:00.983723"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Ariana      1 SODA
+  Liabilities:Bar:Members:Ariana   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-05 txn "Gust gave Mateo a gift of €6.10"
+  type: "transfer"
+  timestamp: "2026-03-05 20:47:57.184358"
+  Liabilities:Bar:Members:Gust    6.10 EUR
+  Liabilities:Bar:Members:Mateo  -6.10 EUR
+
+2026-03-05 txn "DJefke deposited €131.06"
+  type: "deposit"
+  timestamp: "2026-03-05 21:06:43.562378"
+  Liabilities:Bar:Members:DJefke  -131.06 EUR
+  Assets:Cash:Bar                  131.06 EUR
+
+2026-03-05 txn "--CASH-- bought 2 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-05 21:07:46.618829"
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        3.00 EUR
+  Income:Bar            -3.00 EUR
+
+2026-03-05 txn "Miker bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-05 21:40:56.820090"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
+2026-03-05 txn "Ariana deposited €25.00"
+  type: "deposit"
+  timestamp: "2026-03-05 22:33:32.030950"
+  Liabilities:Bar:Members:Ariana  -25.00 EUR
+  Assets:Cash:Bar                  25.00 EUR
+
+2026-03-05 txn "Ariana bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-05 22:35:25.652815"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Ariana      1 SODA
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Ariana      1 SNACK
+  Liabilities:Bar:Members:Ariana   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
+2026-03-05 txn "qwaxys gave Koen a gift of €15.00"
+  type: "transfer"
+  timestamp: "2026-03-05 22:36:06.289247"
+  Liabilities:Bar:Members:Bart   15.00 EUR
+  Liabilities:Bar:Members:Koen  -15.00 EUR
+
+2026-03-05 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 22:40:37.890460"
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
+2026-03-05 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 22:41:13.378922"
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
+2026-03-05 txn "Miker bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2026-03-05 23:07:26.114068"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
+2026-03-05 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 23:09:37.478583"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-05 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-05 23:15:30.309462"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-06 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-06 00:01:57.349917"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-03-06 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-06 00:43:20.069748"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2026-03-06 txn "qwaxys deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-03-06 01:25:49.483291"
+  Liabilities:Bar:Members:Bart  -10.00 EUR
+  Assets:Cash:Bar                10.00 EUR
+
+2026-03-06 txn "Bloemist bought 5 items for €15.00"
+  type: "purchase"
+  timestamp: "2026-03-06 01:51:49.658968"
+  Assets:Inventory:Bar                  -5 CM
+  Liabilities:Bar:Members:Bloemist       5 CM
+  Liabilities:Bar:Members:Bloemist   15.00 EUR
+  Income:Bar                        -15.00 EUR
+
+2026-03-07 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 12:47:53.293088"
+  Assets:Inventory:Bar     -1 BEER
+  Assets:Cash:Bar           1 BEER
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
+2026-03-07 txn "qwaxys gave Koen a gift of €13.37"
+  type: "transfer"
+  timestamp: "2026-03-07 13:15:13.022226"
+  Liabilities:Bar:Members:Bart   13.37 EUR
+  Liabilities:Bar:Members:Koen  -13.37 EUR
+
+2026-03-07 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-07 13:36:27.129486"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
+2026-03-07 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 13:40:18.080317"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-07 txn "qwaxys bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 13:52:07.117923"
+  Assets:Inventory:Bar             -1 BEER
+  Liabilities:Bar:Members:Bart      1 BEER
+  Liabilities:Bar:Members:Bart   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-07 txn "Yvan bought 2 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-07 14:19:02.851295"
+  Assets:Inventory:Bar             -2 SODA
+  Liabilities:Bar:Members:Yvan      2 SODA
+  Liabilities:Bar:Members:Yvan   3.00 EUR
+  Income:Bar                    -3.00 EUR
+
+2026-03-07 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 14:30:04.334682"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-07 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 14:39:22.077663"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
+2026-03-07 txn "qwaxys bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 15:17:54.751274"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Bart      1 SODA
+  Liabilities:Bar:Members:Bart   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-07 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 15:18:03.636273"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-07 txn "--CASH-- bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-03-07 15:18:58.648131"
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        4.00 EUR
+  Income:Bar            -4.00 EUR
+
+2026-03-07 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 15:42:47.515405"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-03-07 txn "--CASH-- bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-07 15:51:02.623276"
+  Assets:Inventory:Bar     -1 SNACK
+  Assets:Cash:Bar           1 SNACK
+  Assets:Cash:Bar        1.00 EUR
+  Income:Bar            -1.00 EUR
+
+2026-03-07 txn "Mateo bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-07 16:17:28.201578"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Mateo      1 WATER
+  Liabilities:Bar:Members:Mateo   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
+2026-03-07 txn "qwaxys bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 17:10:17.331929"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Bart      1 SODA
+  Liabilities:Bar:Members:Bart   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-07 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 17:16:41.831237"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
+2026-03-07 txn "--CASH-- bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-07 17:40:11.083135"
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Cash:Bar        2.50 EUR
+  Income:Bar            -2.50 EUR
+
+2026-03-07 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-07 18:26:55.498481"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-09 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-09 09:30:52.142196"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Miker      1 CM
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
+2026-03-09 txn "DJefke bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-09 11:52:32.801672"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
+2026-03-09 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-09 12:11:49.999065"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2026-03-09 txn "Miker bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-09 13:18:34.636823"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-03-09 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-09 14:30:36.399308"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-09 txn "Miker bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2026-03-09 14:41:02.090855"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
+2026-03-09 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-09 16:42:36.368946"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
+2026-03-09 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-09 20:11:59.764334"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
+2026-03-09 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-09 20:52:07.388868"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2026-03-12 txn "DJefke bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-12 12:15:40.934292"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
+2026-03-12 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-12 14:04:13.016410"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2026-03-12 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-12 15:37:36.458175"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
+2026-03-12 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-12 15:53:37.063427"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
+2026-03-12 txn "Yvan bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-12 16:59:13.241720"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
+2026-03-12 txn "Ariana bought 4 items for €6.50"
+  type: "purchase"
+  timestamp: "2026-03-12 19:26:32.907684"
+  Assets:Inventory:Bar               -2 SNACK
+  Liabilities:Bar:Members:Ariana      2 SNACK
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Ariana      1 SODA
+  Liabilities:Bar:Members:Ariana   6.50 EUR
+  Income:Bar                      -6.50 EUR
+
+2026-03-12 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-12 19:51:28.279049"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-12 txn "Bloemist bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-12 20:20:57.719308"
+  Assets:Inventory:Bar                 -1 CM
+  Liabilities:Bar:Members:Bloemist      1 CM
+  Liabilities:Bar:Members:Bloemist   3.00 EUR
+  Income:Bar                        -3.00 EUR
+
+2026-03-12 txn "--CASH-- bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-12 20:47:50.541142"
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        1.50 EUR
+  Income:Bar            -1.50 EUR
+
+2026-03-12 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-12 21:19:22.274412"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2026-03-12 txn "Koen bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-12 21:29:49.018436"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Koen      1 SNACK
+  Liabilities:Bar:Members:Koen   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
+2026-03-12 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-12 21:31:25.282210"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
+2026-03-12 txn "qwaxys deposited €40.00"
+  type: "deposit"
+  timestamp: "2026-03-12 23:05:58.176476"
+  Liabilities:Bar:Members:Bart  -40.00 EUR
+  Assets:Cash:Bar                40.00 EUR
+
+2026-03-12 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-12 23:53:03.511241"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2026-03-13 txn "Miker bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2026-03-13 00:03:16.908434"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
+2026-03-13 txn "Bloemist bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-13 00:18:04.941663"
+  Assets:Inventory:Bar                 -1 CM
+  Liabilities:Bar:Members:Bloemist      1 CM
+  Liabilities:Bar:Members:Bloemist   3.00 EUR
+  Income:Bar                        -3.00 EUR
+
+2026-03-13 txn "Bloemist bought 3 items for €9.00"
+  type: "purchase"
+  timestamp: "2026-03-13 03:21:09.024005"
+  Assets:Inventory:Bar                 -3 CM
+  Liabilities:Bar:Members:Bloemist      3 CM
+  Liabilities:Bar:Members:Bloemist   9.00 EUR
+  Income:Bar                        -9.00 EUR
+
+2026-03-14 txn "Mateo bought 3 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-03-14 20:25:43.363260"
+  Assets:Inventory:Bar              -2 SNACK
+  Liabilities:Bar:Members:Mateo      2 SNACK
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   3.50 EUR
+  Income:Bar                     -3.50 EUR
+
+2026-03-15 txn "DJefke bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-15 12:30:08.421811"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
+2026-03-15 txn "DJefke bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2026-03-15 16:50:55.497850"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   1.75 EUR
+  Income:Bar                      -1.75 EUR
+
+2026-03-15 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-15 18:41:22.442855"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2026-03-15 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-15 20:16:38.394703"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-16 txn "Mateo bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-16 00:08:58.138138"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Liabilities:Bar:Members:Mateo   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
+2026-03-16 txn "Mateo bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-16 04:15:33.948804"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Mateo      1 WATER
+  Liabilities:Bar:Members:Mateo   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
+2026-03-16 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-16 10:22:30.497743"
+  Assets:Inventory:Bar              -1 CHIP
+  Liabilities:Bar:Members:Mateo      1 CHIP
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-03-16 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-03-16 11:46:04.616523"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Miker      1 CM
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
+2026-03-16 txn "Miker bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-16 13:19:56.025340"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
+2026-03-16 txn "Mateo bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-16 20:36:59.661032"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mateo      1 SNACK
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
+2026-03-16 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-16 23:08:59.790400"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
+2026-03-17 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-17 17:43:23.616665"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-17 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-03-17 19:49:48.651183"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
+2026-03-19 txn "Yvan bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-03-19 14:52:43.013336"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
+2026-03-19 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-03-19 16:04:31.862965"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
+2026-03-19 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-19 16:48:40.307410"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
+2026-03-19 txn "Yvan bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-03-19 17:53:05.492904"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Yvan      1 SODA
+  Liabilities:Bar:Members:Yvan   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
