@@ -57,7 +57,7 @@
   event_price: 6.00
   currency: COCKTAIL
   category: alcohol
-  visible: True
+  visible: False
 
 # Snacks etc:
 - name: Candy Bar
@@ -68,7 +68,7 @@
   visible: True
 - name: Chips
   price: 1.50
-  event_price: 2.00
+  event_price: 2.50
   currency: CHIP
   category: food
   visible: True

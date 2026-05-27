@@ -1,0 +1,44 @@
+2025-06-20 txn "DJefke bought 2 items for €5.50"
+  type: "purchase"
+  timestamp: "2025-06-20 21:46:32.076848"
+  Assets:Inventory:Bar               -1 KOMBUCHA
+  Liabilities:Bar:Members:DJefke      1 KOMBUCHA
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:DJefke      1 GERMAN
+  Liabilities:Bar:Members:DJefke   5.50 EUR
+  Income:Bar                      -5.50 EUR
+
+2025-06-20 txn "DJefke deposited €5.50"
+  type: "deposit"
+  timestamp: "2025-06-20 21:46:48.878514"
+  Liabilities:Bar:Members:DJefke  -5.50 EUR
+  Assets:Cash:Bar                  5.50 EUR
+
+2025-06-20 txn "DJefke bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2025-06-20 21:46:56.823478"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:DJefke      1 GERMAN
+  Liabilities:Bar:Members:DJefke   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
+2025-06-20 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2025-06-20 21:51:56.751522"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
+2025-06-20 txn "Carro​armato0 deposited €37.50"
+  type: "deposit"
+  timestamp: "2025-06-20 21:56:22.046911"
+  Liabilities:Bar:Members:Carroarmato0  -37.50 EUR
+  Assets:Cash:Bar                        37.50 EUR
+
+2025-06-20 txn "qwaxys deposited €-18.00"
+  type: "deposit"
+  timestamp: "2025-06-20 21:57:10.771556"
+  Liabilities:Bar:Members:Bart   18.00 EUR
+  Assets:Cash:Bar               -18.00 EUR
+
