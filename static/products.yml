@@ -12,7 +12,7 @@
   currency: CHOCO_MILK
   category: drink
   visible: False
-- name: Fritz / Club Mate Cola
+- name: Fritz
   price: 2.50
   event_price: 3.50
   currency: GERMAN
@@ -40,7 +40,7 @@
   currency: BEER
   category: alcohol
   visible: True
-- name: Fancy Beer
+- name: DUVEL
   price: 2.50
   event_price: 4.00
   currency: DUVEL
@@ -60,15 +60,15 @@
   visible: True
 
 # Snacks etc:
-- name: Snack Bar
+- name: Candy Bar
   price: 1.00
   event_price: 1.50
   currency: SNACK
   category: food
   visible: True
 - name: Chips
-  price: 1.00
-  event_price: 1.50
+  price: 1.50
+  event_price: 2.00
   currency: CHIP
   category: food
   visible: True
@@ -94,7 +94,7 @@
   event_price: 25.00
   currency: HOODIE
   category: swag
-  visible: True
+  visible: False
 - name: Passport
   price: 2.50
   event_price: 3.60
@@ -111,6 +111,7 @@
   payback:
     account: Liabilities:Bar:Members:NewlineJar
     amount: 1.00
+  visible: False
 
 # ----- end current visible list -----
 # ----- legacy/removed items: -----
@@ -229,7 +230,7 @@
   event_price: 3.50
   currency: KOMBUCHA
   category: drink
-  visible: True
+  visible: False
 
 # alcoholics
 - name: Jupiler
@@ -249,7 +250,7 @@
   event_price: 3.00
   currency: WINE
   category: alcohol
-  visible: True
+  visible: False
 - name: Kriek
   price: 1.50
   event_price: 2.50
@@ -273,7 +274,7 @@
   event_price: 1.33
   currency: CARA
   category: alcohol
-  visible: True
+  visible: False
 
 # snacks
 # catchall
@@ -285,7 +286,7 @@
   visible: False
 - name: Croque
   price: 1.5
-  event_price: 3.00
+  event_price: 2.5
   currency: CROQUE
   category: food
   visible: True
@@ -295,7 +296,7 @@
   currency: LOEMPIA
   category: food
   visible: False
-- name: Food
+- name: Burger
   price: 4.00
   event_price: 15.00
   currency: FOOD
@@ -419,9 +420,6 @@
   event_price: 1.50
   currency: ICE_CREAM
   category: food
-  payback:
-    account: Liabilities:Bar:Members:Yvan
-    amount: 0.63
   visible: False
 - name: Pizza
   # Also listed as 3.50
