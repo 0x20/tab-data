@@ -158,3 +158,11 @@
   Liabilities:Bar:Members:Koen   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2026-05-28 txn "Yvan bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-05-28 17:52:50.910192"
+  Assets:Inventory:Bar             -1 ICE_CREAM
+  Liabilities:Bar:Members:Yvan      1 ICE_CREAM
+  Liabilities:Bar:Members:Yvan   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
