@@ -78,3 +78,11 @@
   Liabilities:Bar:Members:DJefke  -50.13 EUR
   Assets:Cash:Bar                  50.13 EUR
 
+2026-05-28 txn "qwaxys bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-28 23:06:41.998397"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Bart      1 SODA
+  Liabilities:Bar:Members:Bart   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
