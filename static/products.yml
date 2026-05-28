@@ -57,6 +57,12 @@
   event_price: 6.00
   currency: COCKTAIL
   category: alcohol
+  visible: False
+- name: Shot Rum
+  price: 2.50
+  event_price: 2.50
+  currency: SHOT
+  category: alcohol
   visible: True
 
 # Snacks etc:
@@ -78,9 +84,6 @@
   price: 1.00
   event_price: 1.50
   currency: WRISTBAND
-  payback:
-    account: Liabilities:Bar:Members:Marquis
-    amount: 0.50
   visible: True
   category: swag
 - name: T-Shirt
@@ -420,7 +423,7 @@
   event_price: 1.50
   currency: ICE_CREAM
   category: food
-  visible: False
+  visible: True
 - name: Pizza
   # Also listed as 3.50
   price: 2.50
