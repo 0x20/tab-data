@@ -72,3 +72,9 @@
   Liabilities:Bar:Members:DJefke  -14.34 EUR
   Assets:Cash:Bar                  14.34 EUR
 
+2026-05-28 txn "DJefke deposited €50.13"
+  type: "deposit"
+  timestamp: "2026-05-28 23:03:05.915588"
+  Liabilities:Bar:Members:DJefke  -50.13 EUR
+  Assets:Cash:Bar                  50.13 EUR
+
