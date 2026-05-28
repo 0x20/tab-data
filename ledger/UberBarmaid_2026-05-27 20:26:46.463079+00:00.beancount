@@ -30,3 +30,9 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2026-05-28 txn "Numi deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-05-28 09:22:20.792633"
+  Liabilities:Bar:Members:Numi  -10.00 EUR
+  Assets:Cash:Bar                10.00 EUR
+
