@@ -426,3 +426,11 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2026-05-29 txn "DJ bought 1 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-05-29 22:16:40.291574"
+  Assets:Inventory:Bar           -1 GERMAN
+  Liabilities:Bar:Members:DJ      1 GERMAN
+  Liabilities:Bar:Members:DJ   3.50 EUR
+  Income:Bar                  -3.50 EUR
+
