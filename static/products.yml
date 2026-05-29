@@ -21,7 +21,7 @@
 - name: Fritz 20cl
   price: 2.0
   event_price: 2.50
-  currency: GERMAN
+  currency: GERMAN20
   category: drink
   visible: True
 - name: Club Mate
