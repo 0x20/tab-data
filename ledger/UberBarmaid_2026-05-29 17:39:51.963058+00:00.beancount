@@ -460,3 +460,11 @@
   Liabilities:Bar:Members:ON8LTE   6.50 EUR
   Income:Bar                      -6.50 EUR
 
+2026-05-29 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-29 22:59:41.618288"
+  Assets:Inventory:Bar               -1 ICE_CREAM
+  Liabilities:Bar:Members:DJefke      1 ICE_CREAM
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
