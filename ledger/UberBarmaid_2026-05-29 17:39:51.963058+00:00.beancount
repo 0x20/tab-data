@@ -198,3 +198,9 @@
   Assets:Cash:Bar        6.50 EUR
   Income:Bar            -6.50 EUR
 
+2026-05-29 txn "Hhat deposited €40.00"
+  type: "deposit"
+  timestamp: "2026-05-29 20:04:09.797532"
+  Liabilities:Bar:Members:Hhat  -40.00 EUR
+  Assets:Cash:Bar                40.00 EUR
+
