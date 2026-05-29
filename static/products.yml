@@ -293,13 +293,13 @@
   currency: CROQUE
   category: food
   visible: True
-- name: Hamburger
+- name: 1_Burger
   price: 6.00
   event_price: 6.00
   currency: 1BURGER
   category: food
   visible: True
-- name: 2_Hamburgers
+- name: 2_Burgers
   price: 10.00
   event_price: 10.00
   currency: 2BURGERS
