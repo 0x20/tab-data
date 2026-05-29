@@ -56,3 +56,11 @@
   Liabilities:Bar:Members:Frp   4.00 EUR
   Income:Bar                   -4.00 EUR
 
+2026-05-29 txn "DJefke bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-29 18:36:13.840229"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
