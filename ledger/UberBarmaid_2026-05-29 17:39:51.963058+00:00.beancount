@@ -402,3 +402,11 @@
   Assets:Cash:Bar        2.50 EUR
   Income:Bar            -2.50 EUR
 
+2026-05-29 txn "Hhat bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-29 22:06:19.197086"
+  Assets:Inventory:Bar             -1 ICE_CREAM
+  Liabilities:Bar:Members:Hhat      1 ICE_CREAM
+  Liabilities:Bar:Members:Hhat   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
