@@ -368,3 +368,11 @@
   Liabilities:Bar:Members:Frp   1.00 EUR
   Income:Bar                   -1.00 EUR
 
+2026-05-29 txn "Hhat bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-05-29 21:30:00.424761"
+  Assets:Inventory:Bar             -1 WATER
+  Liabilities:Bar:Members:Hhat      1 WATER
+  Liabilities:Bar:Members:Hhat   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
