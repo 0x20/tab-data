@@ -296,13 +296,13 @@
 - name: Hamburger
   price: 6.00
   event_price: 6.00
-  currency: FOOD
+  currency: 1BURGER
   category: food
   visible: True
 - name: 2_Hamburgers
   price: 10.00
   event_price: 10.00
-  currency: FOOD
+  currency: 2BURGERS
   category: food
   visible: True
 - name: Loempia
