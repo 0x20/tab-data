@@ -376,3 +376,11 @@
   Liabilities:Bar:Members:Hhat   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2026-05-29 txn "ON8LTE bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-05-29 21:32:37.911700"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:ON8LTE      1 SODA
+  Liabilities:Bar:Members:ON8LTE   2.50 EUR
+  Income:Bar                      -2.50 EUR
+
