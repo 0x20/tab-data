@@ -1,0 +1,10 @@
+2026-05-29 txn "Err0r bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2026-05-29 17:39:51.959665"
+  Assets:Inventory:Bar              -1 GERMAN20
+  Liabilities:Bar:Members:Err0r      1 GERMAN20
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Err0r      1 SODA
+  Liabilities:Bar:Members:Err0r   5.00 EUR
+  Income:Bar                     -5.00 EUR
+
