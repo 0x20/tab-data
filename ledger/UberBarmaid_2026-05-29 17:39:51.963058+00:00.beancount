@@ -134,3 +134,9 @@
   Liabilities:Bar:Members:DJ   5000.00 EUR
   Assets:Cash:Bar             -5000.00 EUR
 
+2026-05-29 txn "--CASH-- deposited €-1.00"
+  type: "deposit"
+  timestamp: "2026-05-29 19:08:26.827168"
+  Assets:Cash:Bar   1.00 EUR
+  Assets:Cash:Bar  -1.00 EUR
+
