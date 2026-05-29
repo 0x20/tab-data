@@ -324,3 +324,13 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2026-05-29 txn "DJ bought 3 items for €7.50"
+  type: "purchase"
+  timestamp: "2026-05-29 21:12:33.120364"
+  Assets:Inventory:Bar           -2 SODA
+  Liabilities:Bar:Members:DJ      2 SODA
+  Assets:Inventory:Bar           -1 BEER
+  Liabilities:Bar:Members:DJ      1 BEER
+  Liabilities:Bar:Members:DJ   7.50 EUR
+  Income:Bar                  -7.50 EUR
+
