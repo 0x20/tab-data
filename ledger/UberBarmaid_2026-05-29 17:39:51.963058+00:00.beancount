@@ -90,3 +90,9 @@
   Liabilities:Bar:Members:Err0r   6.50 EUR
   Income:Bar                     -6.50 EUR
 
+2026-05-29 txn "DJ deposited €5010.00"
+  type: "deposit"
+  timestamp: "2026-05-29 19:00:25.708350"
+  Liabilities:Bar:Members:DJ  -5010.00 EUR
+  Assets:Cash:Bar              5010.00 EUR
+
