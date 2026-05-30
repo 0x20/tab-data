@@ -1402,3 +1402,11 @@
   Assets:Cash:Bar        1.50 EUR
   Income:Bar            -1.50 EUR
 
+2026-05-30 txn "Yvan bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2026-05-30 15:36:19.207216"
+  Assets:Inventory:Bar             -2 SODA
+  Liabilities:Bar:Members:Yvan      2 SODA
+  Liabilities:Bar:Members:Yvan   5.00 EUR
+  Income:Bar                    -5.00 EUR
+
