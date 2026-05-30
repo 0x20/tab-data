@@ -472,3 +472,11 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-05-30 txn "Hhat bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 18:02:58.036475"
+  Assets:Inventory:Bar             -1 DUVEL
+  Liabilities:Bar:Members:Hhat      1 DUVEL
+  Liabilities:Bar:Members:Hhat   4.00 EUR
+  Income:Bar                    -4.00 EUR
+
