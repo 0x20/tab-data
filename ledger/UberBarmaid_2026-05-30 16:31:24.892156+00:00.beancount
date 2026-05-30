@@ -608,3 +608,13 @@
   Liabilities:Bar:Members:Mitch   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2026-05-30 txn "--CASH-- bought 2 items for €8.50"
+  type: "purchase"
+  timestamp: "2026-05-30 18:43:11.358219"
+  Assets:Inventory:Bar     -1 BURGER1
+  Assets:Cash:Bar           1 BURGER1
+  Assets:Inventory:Bar     -1 SODA
+  Assets:Cash:Bar           1 SODA
+  Assets:Cash:Bar        8.50 EUR
+  Income:Bar            -8.50 EUR
+
