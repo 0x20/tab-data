@@ -1292,3 +1292,11 @@
   Assets:Cash:Bar        2.50 EUR
   Income:Bar            -2.50 EUR
 
+2026-05-30 txn "Frp bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-05-30 14:56:30.640484"
+  Assets:Inventory:Bar            -1 SODA
+  Liabilities:Bar:Members:Frp      1 SODA
+  Liabilities:Bar:Members:Frp   2.50 EUR
+  Income:Bar                   -2.50 EUR
+
