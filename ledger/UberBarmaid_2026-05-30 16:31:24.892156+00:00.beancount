@@ -732,3 +732,11 @@
   Liabilities:Bar:Members:Johan   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2026-05-30 txn "qwaxys bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-05-30 19:14:27.008533"
+  Assets:Inventory:Bar             -1 WATER
+  Liabilities:Bar:Members:Bart      1 WATER
+  Liabilities:Bar:Members:Bart   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
