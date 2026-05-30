@@ -1426,3 +1426,13 @@
   Liabilities:Bar:Members:Merlijn   1.00 EUR
   Income:Bar                       -1.00 EUR
 
+2026-05-30 txn "Gust bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 15:55:26.444778"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Gust      1 SODA
+  Assets:Inventory:Bar             -1 ICE_CREAM
+  Liabilities:Bar:Members:Gust      1 ICE_CREAM
+  Liabilities:Bar:Members:Gust   4.00 EUR
+  Income:Bar                    -4.00 EUR
+
