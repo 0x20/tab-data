@@ -1160,3 +1160,11 @@
   Assets:Cash:Bar        3.50 EUR
   Income:Bar            -3.50 EUR
 
+2026-05-30 txn "Hhat bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-30 14:22:37.497565"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Hhat      1 SNACK
+  Liabilities:Bar:Members:Hhat   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
