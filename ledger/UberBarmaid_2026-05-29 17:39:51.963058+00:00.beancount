@@ -598,3 +598,11 @@
   Liabilities:Bar:Members:Hhat   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-05-30 txn "Gust bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 12:12:39.383018"
+  Assets:Inventory:Bar             -1 CM
+  Liabilities:Bar:Members:Gust      1 CM
+  Liabilities:Bar:Members:Gust   4.00 EUR
+  Income:Bar                    -4.00 EUR
+
