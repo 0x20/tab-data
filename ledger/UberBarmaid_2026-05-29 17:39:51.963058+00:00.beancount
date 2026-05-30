@@ -1463,8 +1463,8 @@
 2026-05-30 txn "On8wr bought 1 items for €10.00"
   type: "purchase"
   timestamp: "2026-05-30 16:00:56.624699"
-  Assets:Inventory:Bar              -1 2BURGERS
-  Liabilities:Bar:Members:On8wr      1 2BURGERS
+  Assets:Inventory:Bar              -1 BURGERS2
+  Liabilities:Bar:Members:On8wr      1 BURGERS2
   Liabilities:Bar:Members:On8wr   10.00 EUR
   Income:Bar                     -10.00 EUR
 
@@ -1509,8 +1509,8 @@
 2026-05-30 txn "DJefke bought 1 items for €10.00"
   type: "purchase"
   timestamp: "2026-05-30 16:13:33.197614"
-  Assets:Inventory:Bar               -1 2BURGERS
-  Liabilities:Bar:Members:DJefke      1 2BURGERS
+  Assets:Inventory:Bar               -1 BURGERS2
+  Liabilities:Bar:Members:DJefke      1 BURGERS2
   Liabilities:Bar:Members:DJefke   10.00 EUR
   Income:Bar                      -10.00 EUR
 
