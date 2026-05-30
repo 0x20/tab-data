@@ -876,3 +876,9 @@
   Liabilities:Bar:Members:Frp   2.50 EUR
   Assets:Cash:Bar              -2.50 EUR
 
+2026-05-30 txn "Frp deposited €5.00"
+  type: "deposit"
+  timestamp: "2026-05-30 20:11:48.865275"
+  Liabilities:Bar:Members:Frp  -5.00 EUR
+  Assets:Cash:Bar               5.00 EUR
+
