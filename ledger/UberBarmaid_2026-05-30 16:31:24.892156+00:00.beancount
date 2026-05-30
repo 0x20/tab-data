@@ -748,3 +748,11 @@
   Liabilities:Bar:Members:Mateo   3.50 EUR
   Income:Bar                     -3.50 EUR
 
+2026-05-30 txn "Mimor bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-05-30 19:32:37.623767"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mimor      1 SODA
+  Liabilities:Bar:Members:Mimor   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
