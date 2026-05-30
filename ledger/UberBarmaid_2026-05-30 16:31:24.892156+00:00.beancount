@@ -228,3 +228,13 @@
   Assets:Cash:Bar        10.00 EUR
   Income:Bar            -10.00 EUR
 
+2026-05-30 txn "Joren bought 2 items for €10.00"
+  type: "purchase"
+  timestamp: "2026-05-30 17:16:28.616429"
+  Assets:Inventory:Bar               -1 BURGER1
+  Liabilities:Bar:Members:Joren       1 BURGER1
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Joren       1 CM
+  Liabilities:Bar:Members:Joren   10.00 EUR
+  Income:Bar                     -10.00 EUR
+
