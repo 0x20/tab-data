@@ -88,3 +88,11 @@
   Assets:Cash:Bar        2.50 EUR
   Income:Bar            -2.50 EUR
 
+2026-05-30 txn "On8wr bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-30 16:54:18.551377"
+  Assets:Inventory:Bar              -1 ICE_CREAM
+  Liabilities:Bar:Members:On8wr      1 ICE_CREAM
+  Liabilities:Bar:Members:On8wr   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
