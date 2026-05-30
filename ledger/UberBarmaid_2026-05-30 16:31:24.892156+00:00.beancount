@@ -246,3 +246,11 @@
   Liabilities:Bar:Members:Numi   3.50 EUR
   Income:Bar                    -3.50 EUR
 
+2026-05-30 txn "--CASH-- bought 1 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-05-30 17:17:15.743455"
+  Assets:Inventory:Bar     -1 GERMAN
+  Assets:Cash:Bar           1 GERMAN
+  Assets:Cash:Bar        3.50 EUR
+  Income:Bar            -3.50 EUR
+
