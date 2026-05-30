@@ -504,3 +504,11 @@
   Liabilities:Bar:Members:Miker   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2026-05-30 txn "qwaxys bought 1 items for €6.00"
+  type: "purchase"
+  timestamp: "2026-05-30 18:15:35.378489"
+  Assets:Inventory:Bar             -1 BURGER1
+  Liabilities:Bar:Members:Bart      1 BURGER1
+  Liabilities:Bar:Members:Bart   6.00 EUR
+  Income:Bar                    -6.00 EUR
+
