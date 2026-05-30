@@ -562,3 +562,11 @@
   Liabilities:Bar:Members:Merlijn   3.50 EUR
   Income:Bar                       -3.50 EUR
 
+2026-05-30 txn "Ariana bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 11:22:46.087344"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Liabilities:Bar:Members:Ariana   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
