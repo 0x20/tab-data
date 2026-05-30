@@ -1260,3 +1260,11 @@
   Liabilities:Bar:Members:Gust   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2026-05-30 txn "--CASH-- bought 3 items for €12.00"
+  type: "purchase"
+  timestamp: "2026-05-30 14:54:03.526683"
+  Assets:Inventory:Bar      -3 CM
+  Assets:Cash:Bar            3 CM
+  Assets:Cash:Bar        12.00 EUR
+  Income:Bar            -12.00 EUR
+
