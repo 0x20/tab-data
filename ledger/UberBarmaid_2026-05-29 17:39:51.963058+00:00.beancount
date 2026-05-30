@@ -782,3 +782,11 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2026-05-30 txn "Merlijn bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-05-30 13:00:18.156508"
+  Assets:Inventory:Bar                -1 CROQUE
+  Liabilities:Bar:Members:Merlijn      1 CROQUE
+  Liabilities:Bar:Members:Merlijn   2.50 EUR
+  Income:Bar                       -2.50 EUR
+
