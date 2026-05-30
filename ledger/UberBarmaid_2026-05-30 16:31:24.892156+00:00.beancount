@@ -634,3 +634,11 @@
   Liabilities:Bar:Members:Gust   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2026-05-30 txn "Joren bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 18:45:26.147852"
+  Assets:Inventory:Bar              -1 DUVEL
+  Liabilities:Bar:Members:Joren      1 DUVEL
+  Liabilities:Bar:Members:Joren   4.00 EUR
+  Income:Bar                     -4.00 EUR
+
