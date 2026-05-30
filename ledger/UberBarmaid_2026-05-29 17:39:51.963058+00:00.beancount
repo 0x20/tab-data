@@ -1340,3 +1340,13 @@
   Liabilities:Bar:Members:Miker   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2026-05-30 txn "--CASH-- bought 2 items for €5.50"
+  type: "purchase"
+  timestamp: "2026-05-30 15:07:02.153325"
+  Assets:Inventory:Bar     -1 CM
+  Assets:Cash:Bar           1 CM
+  Assets:Inventory:Bar     -1 ICE_CREAM
+  Assets:Cash:Bar           1 ICE_CREAM
+  Assets:Cash:Bar        5.50 EUR
+  Income:Bar            -5.50 EUR
+
