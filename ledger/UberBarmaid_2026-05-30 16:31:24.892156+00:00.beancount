@@ -1048,3 +1048,11 @@
   Liabilities:Bar:Members:Hhat   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2026-05-30 txn "Johan bought 1 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-05-30 22:43:15.446250"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Johan      1 GERMAN
+  Liabilities:Bar:Members:Johan   3.50 EUR
+  Income:Bar                     -3.50 EUR
+
