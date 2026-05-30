@@ -1088,3 +1088,13 @@
   Liabilities:Bar:Members:Hhat   4.50 EUR
   Income:Bar                    -4.50 EUR
 
+2026-05-30 txn "Mimor bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 23:51:35.027251"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mimor      1 SNACK
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mimor      1 SODA
+  Liabilities:Bar:Members:Mimor   4.00 EUR
+  Income:Bar                     -4.00 EUR
+
