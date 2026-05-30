@@ -702,3 +702,13 @@
   Liabilities:Bar:Members:Merlijn   1.00 EUR
   Income:Bar                       -1.00 EUR
 
+2026-05-30 txn "Koen bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2026-05-30 12:44:41.963943"
+  Assets:Inventory:Bar             -1 BEER
+  Liabilities:Bar:Members:Koen      1 BEER
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   5.00 EUR
+  Income:Bar                    -5.00 EUR
+
