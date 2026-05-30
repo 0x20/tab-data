@@ -1200,3 +1200,13 @@
   Liabilities:Bar:Members:Koen  -0.40 EUR
   Assets:Cash:Bar                0.40 EUR
 
+2026-05-30 txn "--CASH-- bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2026-05-30 14:37:25.751476"
+  Assets:Inventory:Bar     -1 CROQUE
+  Assets:Cash:Bar           1 CROQUE
+  Assets:Inventory:Bar     -1 CHIP
+  Assets:Cash:Bar           1 CHIP
+  Assets:Cash:Bar        5.00 EUR
+  Income:Bar            -5.00 EUR
+
