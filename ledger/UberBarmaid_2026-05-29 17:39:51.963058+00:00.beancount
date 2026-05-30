@@ -638,3 +638,9 @@
   Liabilities:Bar:Members:Hhat   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2026-05-30 txn "Numi deposited €20.00"
+  type: "deposit"
+  timestamp: "2026-05-30 12:24:34.362108"
+  Liabilities:Bar:Members:Numi  -20.00 EUR
+  Assets:Cash:Bar                20.00 EUR
+
