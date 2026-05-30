@@ -1218,3 +1218,13 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2026-05-30 txn "Yvan bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 14:48:40.150063"
+  Assets:Inventory:Bar             -1 CROQUE
+  Liabilities:Bar:Members:Yvan      1 CROQUE
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   4.00 EUR
+  Income:Bar                    -4.00 EUR
+
