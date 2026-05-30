@@ -766,3 +766,11 @@
   Liabilities:Bar:Members:Numi  -6.00 EUR
   Assets:Cash:Bar                6.00 EUR
 
+2026-05-30 txn "Numi bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-05-30 12:53:53.609126"
+  Assets:Inventory:Bar             -1 CROQUE
+  Liabilities:Bar:Members:Numi      1 CROQUE
+  Liabilities:Bar:Members:Numi   2.50 EUR
+  Income:Bar                    -2.50 EUR
+
