@@ -580,3 +580,13 @@
   Liabilities:Bar:Members:Numi   4.00 EUR
   Income:Bar                    -4.00 EUR
 
+2026-05-30 txn "DJefke bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 11:59:02.351211"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
