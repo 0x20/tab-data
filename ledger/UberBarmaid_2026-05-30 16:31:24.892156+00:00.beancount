@@ -600,3 +600,11 @@
   Liabilities:Bar:Members:Merlijn   1.50 EUR
   Income:Bar                       -1.50 EUR
 
+2026-05-30 txn "Mitch bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-05-30 18:42:57.644719"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mitch      1 SODA
+  Liabilities:Bar:Members:Mitch   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
