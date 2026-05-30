@@ -1062,3 +1062,11 @@
   Liabilities:Bar:Members:Hhat  -20.00 EUR
   Assets:Cash:Bar                20.00 EUR
 
+2026-05-30 txn "Hhat bought 1 items for €15.00"
+  type: "purchase"
+  timestamp: "2026-05-30 22:44:38.916524"
+  Assets:Inventory:Bar              -1 TSHIRT
+  Liabilities:Bar:Members:Hhat       1 TSHIRT
+  Liabilities:Bar:Members:Hhat   15.00 EUR
+  Income:Bar                    -15.00 EUR
+
