@@ -1090,3 +1090,9 @@
   Assets:Cash:Bar        5.00 EUR
   Income:Bar            -5.00 EUR
 
+2026-05-30 txn "Joren deposited €5.00"
+  type: "deposit"
+  timestamp: "2026-05-30 14:05:33.872946"
+  Liabilities:Bar:Members:Joren  -5.00 EUR
+  Assets:Cash:Bar                 5.00 EUR
+
