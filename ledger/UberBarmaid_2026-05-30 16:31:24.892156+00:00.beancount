@@ -552,3 +552,11 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2026-05-30 txn "On8wr bought 1 items for €6.00"
+  type: "purchase"
+  timestamp: "2026-05-30 18:34:00.641457"
+  Assets:Inventory:Bar              -1 BURGER1
+  Liabilities:Bar:Members:On8wr      1 BURGER1
+  Liabilities:Bar:Members:On8wr   6.00 EUR
+  Income:Bar                     -6.00 EUR
+
