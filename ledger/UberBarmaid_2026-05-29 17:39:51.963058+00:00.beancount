@@ -1136,3 +1136,11 @@
   Liabilities:Bar:Members:Merlijn   1.00 EUR
   Income:Bar                       -1.00 EUR
 
+2026-05-30 txn "Mateo bought 2 items for €5.00"
+  type: "purchase"
+  timestamp: "2026-05-30 14:15:58.567544"
+  Assets:Inventory:Bar              -2 SODA
+  Liabilities:Bar:Members:Mateo      2 SODA
+  Liabilities:Bar:Members:Mateo   5.00 EUR
+  Income:Bar                     -5.00 EUR
+
