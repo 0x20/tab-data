@@ -948,3 +948,11 @@
   Liabilities:Bar:Members:Mitch  -5.00 EUR
   Assets:Cash:Bar                 5.00 EUR
 
+2026-05-30 txn "Mitch bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-05-30 13:29:22.664201"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Mitch      1 WATER
+  Liabilities:Bar:Members:Mitch   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
