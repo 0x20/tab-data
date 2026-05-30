@@ -136,3 +136,11 @@
   Liabilities:Bar:Members:Hhat   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2026-05-30 txn "Yvan bought 3 items for €18.00"
+  type: "purchase"
+  timestamp: "2026-05-30 16:59:49.151693"
+  Assets:Inventory:Bar              -3 BURGER1
+  Liabilities:Bar:Members:Yvan       3 BURGER1
+  Liabilities:Bar:Members:Yvan   18.00 EUR
+  Income:Bar                    -18.00 EUR
+
