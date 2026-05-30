@@ -606,3 +606,11 @@
   Liabilities:Bar:Members:Gust   4.00 EUR
   Income:Bar                    -4.00 EUR
 
+2026-05-30 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-30 12:14:14.903687"
+  Assets:Inventory:Bar               -1 ICE_CREAM
+  Liabilities:Bar:Members:DJefke      1 ICE_CREAM
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
