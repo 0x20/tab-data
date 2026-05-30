@@ -1444,3 +1444,11 @@
   Assets:Cash:Bar        2.50 EUR
   Income:Bar            -2.50 EUR
 
+2026-05-30 txn "Ariana bought 1 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-05-30 15:56:39.311747"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Ariana      1 GERMAN
+  Liabilities:Bar:Members:Ariana   3.50 EUR
+  Income:Bar                      -3.50 EUR
+
