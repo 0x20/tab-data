@@ -946,3 +946,11 @@
   Liabilities:Bar:Members:Mimor   5.00 EUR
   Income:Bar                     -5.00 EUR
 
+2026-05-30 txn "On8wr bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-05-30 21:37:25.009953"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:On8wr      1 WATER
+  Liabilities:Bar:Members:On8wr   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
