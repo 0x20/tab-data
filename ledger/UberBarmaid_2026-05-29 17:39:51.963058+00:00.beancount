@@ -676,3 +676,11 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2026-05-30 txn "--CASH-- bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-05-30 12:43:08.195492"
+  Assets:Inventory:Bar     -1 CROQUE
+  Assets:Cash:Bar           1 CROQUE
+  Assets:Cash:Bar        2.50 EUR
+  Income:Bar            -2.50 EUR
+
