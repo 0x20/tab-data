@@ -570,3 +570,13 @@
   Liabilities:Bar:Members:Ariana   4.00 EUR
   Income:Bar                      -4.00 EUR
 
+2026-05-30 txn "Numi bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-30 11:34:46.444623"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Numi      1 SODA
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Numi      1 SNACK
+  Liabilities:Bar:Members:Numi   4.00 EUR
+  Income:Bar                    -4.00 EUR
+
