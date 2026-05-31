@@ -1146,3 +1146,11 @@
   Assets:Cash:Bar        4.00 EUR
   Income:Bar            -4.00 EUR
 
+2026-05-31 txn "--CASH-- bought 1 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-05-31 10:50:08.925523"
+  Assets:Inventory:Bar     -1 CM
+  Assets:Cash:Bar           1 CM
+  Assets:Cash:Bar        4.00 EUR
+  Income:Bar            -4.00 EUR
+
