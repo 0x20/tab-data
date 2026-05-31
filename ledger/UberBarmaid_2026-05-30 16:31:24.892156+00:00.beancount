@@ -1668,3 +1668,13 @@
   Liabilities:Bar:Members:Ariana   12.00 EUR
   Income:Bar                      -12.00 EUR
 
+2026-05-31 txn "--CASH-- bought 2 items for €6.50"
+  type: "purchase"
+  timestamp: "2026-05-31 14:34:32.706762"
+  Assets:Inventory:Bar     -1 CROQUE
+  Assets:Cash:Bar           1 CROQUE
+  Assets:Inventory:Bar     -1 DUVEL
+  Assets:Cash:Bar           1 DUVEL
+  Assets:Cash:Bar        6.50 EUR
+  Income:Bar            -6.50 EUR
+
