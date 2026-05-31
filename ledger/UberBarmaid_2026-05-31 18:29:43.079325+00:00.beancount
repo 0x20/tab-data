@@ -6,3 +6,11 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2026-05-31 txn "Mitch bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-05-31 18:37:44.124220"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Mitch      1 WATER
+  Liabilities:Bar:Members:Mitch   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
