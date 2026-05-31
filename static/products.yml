@@ -97,7 +97,7 @@
   event_price: 25.00
   currency: HOODIE
   category: swag
-  visible: False
+  visible: True
 - name: Passport
   price: 2.50
   event_price: 3.60
