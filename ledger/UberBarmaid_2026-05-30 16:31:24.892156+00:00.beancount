@@ -1178,3 +1178,13 @@
   Liabilities:Bar:Members:Mitch  -4.00 EUR
   Assets:Cash:Bar                 4.00 EUR
 
+2026-05-31 txn "--CASH-- bought 2 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-05-31 11:05:35.598058"
+  Assets:Inventory:Bar     -1 WATER
+  Assets:Cash:Bar           1 WATER
+  Assets:Inventory:Bar     -1 BEER
+  Assets:Cash:Bar           1 BEER
+  Assets:Cash:Bar        3.50 EUR
+  Income:Bar            -3.50 EUR
+
