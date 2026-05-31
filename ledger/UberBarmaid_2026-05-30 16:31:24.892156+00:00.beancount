@@ -1792,3 +1792,11 @@
   Assets:Cash:Bar        1.00 EUR
   Income:Bar            -1.00 EUR
 
+2026-05-31 txn "--CASH-- bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-05-31 15:20:03.436172"
+  Assets:Inventory:Bar     -1 WATER
+  Assets:Cash:Bar           1 WATER
+  Assets:Cash:Bar        1.00 EUR
+  Income:Bar            -1.00 EUR
+
