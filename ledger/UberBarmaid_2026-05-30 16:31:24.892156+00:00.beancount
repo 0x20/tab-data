@@ -1172,3 +1172,9 @@
   Liabilities:Bar:Members:Mitch   8.00 EUR
   Income:Bar                     -8.00 EUR
 
+2026-05-31 txn "Mitch deposited €4.00"
+  type: "deposit"
+  timestamp: "2026-05-31 11:02:27.209104"
+  Liabilities:Bar:Members:Mitch  -4.00 EUR
+  Assets:Cash:Bar                 4.00 EUR
+
