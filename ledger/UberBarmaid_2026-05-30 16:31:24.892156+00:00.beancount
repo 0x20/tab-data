@@ -1324,3 +1324,13 @@
   Liabilities:Bar:Members:Gust   3.50 EUR
   Income:Bar                    -3.50 EUR
 
+2026-05-31 txn "--CASH-- bought 2 items for €6.00"
+  type: "purchase"
+  timestamp: "2026-05-31 12:14:07.501091"
+  Assets:Inventory:Bar     -1 CROQUE
+  Assets:Cash:Bar           1 CROQUE
+  Assets:Inventory:Bar     -1 GERMAN
+  Assets:Cash:Bar           1 GERMAN
+  Assets:Cash:Bar        6.00 EUR
+  Income:Bar            -6.00 EUR
+
