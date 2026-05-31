@@ -64,3 +64,9 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2026-05-31 txn "Johan gave Numi a gift of €22.00"
+  type: "transfer"
+  timestamp: "2026-05-31 20:26:49.483287"
+  Liabilities:Bar:Members:Johan   22.00 EUR
+  Liabilities:Bar:Members:Numi   -22.00 EUR
+
