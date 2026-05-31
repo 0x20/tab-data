@@ -1754,3 +1754,17 @@
   Assets:Cash:Bar        5.00 EUR
   Income:Bar            -5.00 EUR
 
+2026-05-31 txn "--CASH-- bought 9 items for €19.00"
+  type: "purchase"
+  timestamp: "2026-05-31 15:09:25.849238"
+  Assets:Inventory:Bar      -6 ICE_CREAM
+  Assets:Cash:Bar            6 ICE_CREAM
+  Assets:Inventory:Bar      -1 CM
+  Assets:Cash:Bar            1 CM
+  Assets:Inventory:Bar      -1 CROQUE
+  Assets:Cash:Bar            1 CROQUE
+  Assets:Inventory:Bar      -1 GERMAN
+  Assets:Cash:Bar            1 GERMAN
+  Assets:Cash:Bar        19.00 EUR
+  Income:Bar            -19.00 EUR
+
