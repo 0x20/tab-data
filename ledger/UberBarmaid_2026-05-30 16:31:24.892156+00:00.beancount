@@ -1658,3 +1658,13 @@
   Liabilities:Bar:Members:Matth   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2026-05-31 txn "Ariana bought 4 items for €12.00"
+  type: "purchase"
+  timestamp: "2026-05-31 14:33:03.975953"
+  Assets:Inventory:Bar                -2 GERMAN
+  Liabilities:Bar:Members:Ariana       2 GERMAN
+  Assets:Inventory:Bar                -2 CHIP
+  Liabilities:Bar:Members:Ariana       2 CHIP
+  Liabilities:Bar:Members:Ariana   12.00 EUR
+  Income:Bar                      -12.00 EUR
+
