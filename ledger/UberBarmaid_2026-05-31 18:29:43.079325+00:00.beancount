@@ -70,3 +70,11 @@
   Liabilities:Bar:Members:Johan   22.00 EUR
   Liabilities:Bar:Members:Numi   -22.00 EUR
 
+2026-05-31 txn "Hhat bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-05-31 20:32:36.949517"
+  Assets:Inventory:Bar             -1 WRISTBAND
+  Liabilities:Bar:Members:Hhat      1 WRISTBAND
+  Liabilities:Bar:Members:Hhat   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
