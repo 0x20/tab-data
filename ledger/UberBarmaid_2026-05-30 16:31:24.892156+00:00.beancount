@@ -1568,3 +1568,9 @@
   Liabilities:Bar:Members:Bart   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2026-05-31 txn "Matth deposited €20.00"
+  type: "deposit"
+  timestamp: "2026-05-31 13:56:36.469708"
+  Liabilities:Bar:Members:Matth  -20.00 EUR
+  Assets:Cash:Bar                 20.00 EUR
+
