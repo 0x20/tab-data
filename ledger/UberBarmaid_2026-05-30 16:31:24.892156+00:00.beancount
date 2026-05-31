@@ -1642,3 +1642,11 @@
   Assets:Cash:Bar        6.50 EUR
   Income:Bar            -6.50 EUR
 
+2026-05-31 txn "Frp bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-05-31 14:28:06.354735"
+  Assets:Inventory:Bar            -1 SNACK
+  Liabilities:Bar:Members:Frp      1 SNACK
+  Liabilities:Bar:Members:Frp   1.50 EUR
+  Income:Bar                   -1.50 EUR
+
