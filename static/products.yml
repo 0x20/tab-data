@@ -294,17 +294,17 @@
   category: food
   visible: True
 - name: 1_Burger
-  price: 6.00
+  price: 3.00
   event_price: 6.00
   currency: BURGER1
   category: food
-  visible: True
+  visible: False
 - name: 2_Burgers
-  price: 10.00
+  price: 5.00
   event_price: 10.00
   currency: BURGERS2
   category: food
-  visible: True
+  visible: False
 - name: Loempia
   price: 2.00
   event_price: 3.00
