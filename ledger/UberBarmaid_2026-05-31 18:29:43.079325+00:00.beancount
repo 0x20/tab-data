@@ -246,3 +246,11 @@
   Liabilities:Bar:Members:Miker   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2026-06-02 txn "Miker bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-06-02 13:03:58.190697"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
