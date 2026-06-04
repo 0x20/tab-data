@@ -452,3 +452,9 @@
   Liabilities:Bar:Members:Thijs   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2026-06-04 txn "Frp deposited €20.00"
+  type: "deposit"
+  timestamp: "2026-06-04 19:27:36.948429"
+  Liabilities:Bar:Members:Frp  -20.00 EUR
+  Assets:Cash:Bar               20.00 EUR
+
