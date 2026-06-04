@@ -432,3 +432,15 @@
   Assets:Cash:Bar        1.50 EUR
   Income:Bar            -1.50 EUR
 
+2026-06-04 txn "Johan bought 7 items for €8.50"
+  type: "purchase"
+  timestamp: "2026-06-04 18:03:56.869962"
+  Assets:Inventory:Bar              -3 SODA
+  Liabilities:Bar:Members:Johan      3 SODA
+  Assets:Inventory:Bar              -1 ICE_CREAM
+  Liabilities:Bar:Members:Johan      1 ICE_CREAM
+  Assets:Inventory:Bar              -3 SNACK
+  Liabilities:Bar:Members:Johan      3 SNACK
+  Liabilities:Bar:Members:Johan   8.50 EUR
+  Income:Bar                     -8.50 EUR
+
