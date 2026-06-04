@@ -492,3 +492,15 @@
   Liabilities:Bar:Members:Miker   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2026-06-04 txn "Thijs bought 3 items for €4.25"
+  type: "purchase"
+  timestamp: "2026-06-04 21:35:55.095257"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Thijs      1 GERMAN
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Thijs      1 WATER
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Thijs      1 SNACK
+  Liabilities:Bar:Members:Thijs   4.25 EUR
+  Income:Bar                     -4.25 EUR
+
