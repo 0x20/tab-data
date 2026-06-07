@@ -712,3 +712,11 @@
   Liabilities:Bar:Members:Thequux   2.50 EUR
   Income:Bar                       -2.50 EUR
 
+2026-06-07 txn "Yvan bought 2 items for €2.00"
+  type: "purchase"
+  timestamp: "2026-06-07 17:36:53.166385"
+  Assets:Inventory:Bar             -2 SNACK
+  Liabilities:Bar:Members:Yvan      2 SNACK
+  Liabilities:Bar:Members:Yvan   2.00 EUR
+  Income:Bar                    -2.00 EUR
+
