@@ -604,3 +604,11 @@
   Liabilities:Bar:Members:Numi   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2026-06-07 txn "Numi bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-06-07 10:24:14.095712"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Numi      1 SODA
+  Liabilities:Bar:Members:Numi   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
