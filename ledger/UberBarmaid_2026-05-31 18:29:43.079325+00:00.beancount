@@ -636,3 +636,13 @@
   Liabilities:Bar:Members:Mimor   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2026-06-07 txn "DJefke bought 3 items for €5.50"
+  type: "purchase"
+  timestamp: "2026-06-07 16:39:08.647275"
+  Assets:Inventory:Bar               -2 CROQUE
+  Liabilities:Bar:Members:DJefke      2 CROQUE
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:DJefke      1 GERMAN
+  Liabilities:Bar:Members:DJefke   5.50 EUR
+  Income:Bar                      -5.50 EUR
+
