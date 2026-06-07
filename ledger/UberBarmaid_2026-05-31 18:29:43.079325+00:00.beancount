@@ -836,3 +836,9 @@
   Liabilities:Bar:Members:Mimor   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2026-06-07 txn "Mimor deposited €50.00"
+  type: "deposit"
+  timestamp: "2026-06-07 20:28:48.686117"
+  Liabilities:Bar:Members:Mimor  -50.00 EUR
+  Assets:Cash:Bar                 50.00 EUR
+
