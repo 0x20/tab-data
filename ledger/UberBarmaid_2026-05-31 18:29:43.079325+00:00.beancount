@@ -678,3 +678,13 @@
   Liabilities:Bar:Members:Gust   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-06-07 txn "Mimor bought 2 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-06-07 17:02:23.350128"
+  Assets:Inventory:Bar              -1 GERMAN
+  Liabilities:Bar:Members:Mimor      1 GERMAN
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Mimor      1 SNACK
+  Liabilities:Bar:Members:Mimor   3.50 EUR
+  Income:Bar                     -3.50 EUR
+
