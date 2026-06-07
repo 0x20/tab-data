@@ -736,3 +736,13 @@
   Liabilities:Bar:Members:Miker   3.00 EUR
   Income:Bar                     -3.00 EUR
 
+2026-06-07 txn "Thomas bought 2 items for €4.00"
+  type: "purchase"
+  timestamp: "2026-06-07 17:50:16.295952"
+  Assets:Inventory:Bar               -1 GERMAN
+  Liabilities:Bar:Members:Thomas      1 GERMAN
+  Assets:Inventory:Bar               -1 CHIP
+  Liabilities:Bar:Members:Thomas      1 CHIP
+  Liabilities:Bar:Members:Thomas   4.00 EUR
+  Income:Bar                      -4.00 EUR
+
