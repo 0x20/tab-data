@@ -916,3 +916,11 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-06-08 txn "--CASH-- bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-06-08 15:15:01.932233"
+  Assets:Inventory:Bar     -1 SNACK
+  Assets:Cash:Bar           1 SNACK
+  Assets:Cash:Bar        1.00 EUR
+  Income:Bar            -1.00 EUR
+
