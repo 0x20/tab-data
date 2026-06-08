@@ -842,3 +842,9 @@
   Liabilities:Bar:Members:Mimor  -50.00 EUR
   Assets:Cash:Bar                 50.00 EUR
 
+2026-06-08 txn "Numi deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-06-08 00:51:22.743215"
+  Liabilities:Bar:Members:Numi  -10.00 EUR
+  Assets:Cash:Bar                10.00 EUR
+
