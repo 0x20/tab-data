@@ -1094,3 +1094,9 @@
   Liabilities:Bar:Members:Yvan     4.00 EUR
   Liabilities:Bar:Members:DJefke  -4.00 EUR
 
+2026-06-11 txn "--CASH-- gave Gust a gift of €99.66"
+  type: "transfer"
+  timestamp: "2026-06-11 21:14:57.571779"
+  Assets:Cash:Bar                99.66 EUR
+  Liabilities:Bar:Members:Gust  -99.66 EUR
+
