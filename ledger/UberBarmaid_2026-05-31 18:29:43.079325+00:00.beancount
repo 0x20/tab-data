@@ -1070,3 +1070,11 @@
   Liabilities:Bar:Members:Frp   1.00 EUR
   Income:Bar                   -1.00 EUR
 
+2026-06-11 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-06-11 20:44:51.071383"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
