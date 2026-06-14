@@ -1242,3 +1242,11 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2026-06-14 txn "Numi bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-06-14 19:56:06.809177"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Numi      1 SNACK
+  Liabilities:Bar:Members:Numi   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
