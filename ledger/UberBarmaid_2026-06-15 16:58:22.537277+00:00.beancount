@@ -272,3 +272,9 @@
   Liabilities:Bar:Members:Miker   1.00 EUR
   Income:Bar                     -1.00 EUR
 
+2026-06-18 txn "Anthonyvdg deposited €15.00"
+  type: "deposit"
+  timestamp: "2026-06-18 20:27:19.675903"
+  Liabilities:Bar:Members:Anthonyvdg  -15.00 EUR
+  Assets:Cash:Bar                      15.00 EUR
+
