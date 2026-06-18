@@ -134,3 +134,13 @@
   Liabilities:Bar:Members:Mateo   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2026-06-18 txn "Yvan bought 2 items for €3.50"
+  type: "purchase"
+  timestamp: "2026-06-18 14:18:55.299557"
+  Assets:Inventory:Bar             -1 GERMAN
+  Liabilities:Bar:Members:Yvan      1 GERMAN
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Yvan      1 SNACK
+  Liabilities:Bar:Members:Yvan   3.50 EUR
+  Income:Bar                    -3.50 EUR
+
