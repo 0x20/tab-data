@@ -286,3 +286,9 @@
   Liabilities:Bar:Members:Miker   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2026-06-19 txn "Numi deposited €20.00"
+  type: "deposit"
+  timestamp: "2026-06-19 11:52:41.805393"
+  Liabilities:Bar:Members:Numi  -20.00 EUR
+  Assets:Cash:Bar                20.00 EUR
+
