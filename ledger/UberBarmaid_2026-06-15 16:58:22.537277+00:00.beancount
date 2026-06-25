@@ -630,3 +630,11 @@
   Liabilities:Bar:Members:Thomas   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2026-06-25 txn "Miker bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-06-25 19:46:37.938527"
+  Assets:Inventory:Bar              -1 ICE_CREAM
+  Liabilities:Bar:Members:Miker      1 ICE_CREAM
+  Liabilities:Bar:Members:Miker   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
