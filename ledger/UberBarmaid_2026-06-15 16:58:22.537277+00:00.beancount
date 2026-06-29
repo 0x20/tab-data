@@ -818,3 +818,11 @@
   Liabilities:Bar:Members:Mateo  -10.00 EUR
   Assets:Cash:Bar                 10.00 EUR
 
+2026-06-29 txn "Numi bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-06-29 01:15:54.188581"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Numi      1 SNACK
+  Liabilities:Bar:Members:Numi   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
