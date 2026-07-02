@@ -1080,3 +1080,11 @@
   Liabilities:Bar:Members:DJefke   0.75 EUR
   Income:Bar                      -0.75 EUR
 
+2026-07-02 txn "Miker bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-07-02 22:38:47.779940"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
