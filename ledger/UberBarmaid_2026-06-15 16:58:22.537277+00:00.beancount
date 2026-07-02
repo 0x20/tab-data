@@ -1040,3 +1040,11 @@
   Liabilities:Bar:Members:Anthonyvdg   1.00 EUR
   Income:Bar                          -1.00 EUR
 
+2026-07-02 txn "Miker bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-07-02 21:00:09.594540"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Miker      1 CM
+  Liabilities:Bar:Members:Miker   3.00 EUR
+  Income:Bar                     -3.00 EUR
+
