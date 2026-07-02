@@ -1098,3 +1098,9 @@
   Liabilities:Bar:Members:Johan   3.50 EUR
   Income:Bar                     -3.50 EUR
 
+2026-07-02 txn "Mateo deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-07-02 22:58:35.215110"
+  Liabilities:Bar:Members:Mateo  -10.00 EUR
+  Assets:Cash:Bar                 10.00 EUR
+
