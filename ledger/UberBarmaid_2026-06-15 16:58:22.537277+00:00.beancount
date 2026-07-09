@@ -1258,3 +1258,9 @@
   Liabilities:Bar:Members:Numi   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-07-09 txn "Ariana deposited €20.00"
+  type: "deposit"
+  timestamp: "2026-07-09 18:53:01.134900"
+  Liabilities:Bar:Members:Ariana  -20.00 EUR
+  Assets:Cash:Bar                  20.00 EUR
+
