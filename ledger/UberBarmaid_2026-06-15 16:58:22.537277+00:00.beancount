@@ -1170,3 +1170,11 @@
   Liabilities:Bar:Members:Mateo   2.50 EUR
   Income:Bar                     -2.50 EUR
 
+2026-07-09 txn "Anthonyvdg bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-07-09 15:49:37.383485"
+  Assets:Inventory:Bar                   -1 SODA
+  Liabilities:Bar:Members:Anthonyvdg      1 SODA
+  Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
+  Income:Bar                          -1.50 EUR
+
