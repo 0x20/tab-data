@@ -1280,3 +1280,11 @@
   Liabilities:Bar:Members:Ariana   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-07-09 txn "Thijs bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-07-09 19:09:51.502969"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Thijs      1 WATER
+  Liabilities:Bar:Members:Thijs   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
