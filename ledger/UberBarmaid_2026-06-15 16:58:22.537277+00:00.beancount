@@ -1532,3 +1532,11 @@
   Liabilities:Bar:Members:Koen   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2026-07-16 txn "TQ bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-07-16 20:33:00.874201"
+  Assets:Inventory:Bar                -1 BEER
+  Liabilities:Bar:Members:Thequux      1 BEER
+  Liabilities:Bar:Members:Thequux   1.50 EUR
+  Income:Bar                       -1.50 EUR
+
