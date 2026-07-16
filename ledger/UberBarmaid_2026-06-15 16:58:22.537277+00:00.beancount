@@ -1556,3 +1556,11 @@
   Liabilities:Bar:Members:Mateo   0.75 EUR
   Income:Bar                     -0.75 EUR
 
+2026-07-16 txn "Mateo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-07-16 21:07:19.181130"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
