@@ -1760,3 +1760,11 @@
   Liabilities:Bar:Members:Anthonyvdg  -50.00 EUR
   Assets:Cash:Bar                      50.00 EUR
 
+2026-07-23 txn "Anthonyvdg bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-07-23 17:30:10.423324"
+  Assets:Inventory:Bar                   -1 SODA
+  Liabilities:Bar:Members:Anthonyvdg      1 SODA
+  Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
+  Income:Bar                          -1.50 EUR
+
