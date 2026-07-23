@@ -1746,3 +1746,11 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-07-23 txn "Gust bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-07-23 17:26:20.551959"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Gust      1 SODA
+  Liabilities:Bar:Members:Gust   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
