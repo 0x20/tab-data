@@ -1754,3 +1754,9 @@
   Liabilities:Bar:Members:Gust   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-07-23 txn "Anthonyvdg deposited €50.00"
+  type: "deposit"
+  timestamp: "2026-07-23 17:29:31.333661"
+  Liabilities:Bar:Members:Anthonyvdg  -50.00 EUR
+  Assets:Cash:Bar                      50.00 EUR
+
