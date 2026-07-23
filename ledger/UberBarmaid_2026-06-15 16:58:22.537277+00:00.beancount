@@ -1768,3 +1768,11 @@
   Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
   Income:Bar                          -1.50 EUR
 
+2026-07-23 txn "Anthonyvdg bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-07-23 17:32:04.510851"
+  Assets:Inventory:Bar                   -1 SNACK
+  Liabilities:Bar:Members:Anthonyvdg      1 SNACK
+  Liabilities:Bar:Members:Anthonyvdg   1.00 EUR
+  Income:Bar                          -1.00 EUR
+
