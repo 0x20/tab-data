@@ -2056,3 +2056,11 @@
   Liabilities:Bar:Members:Yvan   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2026-07-30 txn "DJefke bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-07-30 16:05:43.553329"
+  Assets:Inventory:Bar               -1 WATER
+  Liabilities:Bar:Members:DJefke      1 WATER
+  Liabilities:Bar:Members:DJefke   0.75 EUR
+  Income:Bar                      -0.75 EUR
+
