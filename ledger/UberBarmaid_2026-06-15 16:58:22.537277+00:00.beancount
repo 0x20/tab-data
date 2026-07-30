@@ -1992,3 +1992,11 @@
   Liabilities:Bar:Members:Yvan   3.00 EUR
   Income:Bar                    -3.00 EUR
 
+2026-07-30 txn "Yvan bought 2 items for €2.00"
+  type: "purchase"
+  timestamp: "2026-07-30 14:25:08.600367"
+  Assets:Inventory:Bar             -2 SNACK
+  Liabilities:Bar:Members:Yvan      2 SNACK
+  Liabilities:Bar:Members:Yvan   2.00 EUR
+  Income:Bar                    -2.00 EUR
+
