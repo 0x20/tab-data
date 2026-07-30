@@ -2096,3 +2096,11 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-07-30 txn "Numi bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-07-30 18:09:24.867166"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Numi      1 SNACK
+  Liabilities:Bar:Members:Numi   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
