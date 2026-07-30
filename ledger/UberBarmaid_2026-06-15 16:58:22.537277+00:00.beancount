@@ -1946,3 +1946,9 @@
   Liabilities:Bar:Members:DJefke   2.50 EUR
   Income:Bar                      -2.50 EUR
 
+2026-07-30 txn "--CASH-- gave DJefke a gift of €129.61"
+  type: "transfer"
+  timestamp: "2026-07-30 11:08:37.470697"
+  Assets:Cash:Bar                  129.61 EUR
+  Liabilities:Bar:Members:DJefke  -129.61 EUR
+
