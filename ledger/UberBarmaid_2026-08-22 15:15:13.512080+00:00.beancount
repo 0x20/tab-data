@@ -250,3 +250,11 @@
   Liabilities:Bar:Members:Bart  -5.00 EUR
   Assets:Cash:Bar                5.00 EUR
 
+2026-08-27 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-08-27 20:50:51.466214"
+  Assets:Inventory:Bar               -1 ICE_CREAM
+  Liabilities:Bar:Members:DJefke      1 ICE_CREAM
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
