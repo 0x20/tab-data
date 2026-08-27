@@ -86,3 +86,9 @@
   Liabilities:Bar:Members:Anthonyvdg   1.00 EUR
   Income:Bar                          -1.00 EUR
 
+2026-08-27 txn "DJefke gave Ariana a gift of €12.00"
+  type: "transfer"
+  timestamp: "2026-08-27 17:34:05.189199"
+  Liabilities:Bar:Members:DJefke   12.00 EUR
+  Liabilities:Bar:Members:Ariana  -12.00 EUR
+
