@@ -158,3 +158,11 @@
   Assets:Cash:Bar        2.50 EUR
   Income:Bar            -2.50 EUR
 
+2026-08-27 txn "Miker bought 1 items for €0.75"
+  type: "purchase"
+  timestamp: "2026-08-27 19:10:57.263859"
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   0.75 EUR
+  Income:Bar                     -0.75 EUR
+
