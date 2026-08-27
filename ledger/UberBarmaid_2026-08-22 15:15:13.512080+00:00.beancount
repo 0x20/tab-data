@@ -92,3 +92,11 @@
   Liabilities:Bar:Members:DJefke   12.00 EUR
   Liabilities:Bar:Members:Ariana  -12.00 EUR
 
+2026-08-27 txn "DJefke bought 1 items for €3.00"
+  type: "purchase"
+  timestamp: "2026-08-27 17:34:14.850196"
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:DJefke      1 CM
+  Liabilities:Bar:Members:DJefke   3.00 EUR
+  Income:Bar                      -3.00 EUR
+
