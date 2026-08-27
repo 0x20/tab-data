@@ -50,3 +50,9 @@
   Liabilities:Bar:Members:Fearless   4.00 EUR
   Income:Bar                        -4.00 EUR
 
+2026-08-27 txn "Fearless deposited €4.00"
+  type: "deposit"
+  timestamp: "2026-08-27 16:38:54.650944"
+  Liabilities:Bar:Members:Fearless  -4.00 EUR
+  Assets:Cash:Bar                    4.00 EUR
+
