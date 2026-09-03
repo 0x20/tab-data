@@ -402,3 +402,15 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2026-09-03 txn "Ariana bought 3 items for €5.50"
+  type: "purchase"
+  timestamp: "2026-09-03 16:56:26.723451"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:Ariana      1 SNACK
+  Assets:Inventory:Bar               -1 CM
+  Liabilities:Bar:Members:Ariana      1 CM
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Ariana      1 SODA
+  Liabilities:Bar:Members:Ariana   5.50 EUR
+  Income:Bar                      -5.50 EUR
+
