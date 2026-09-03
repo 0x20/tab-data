@@ -470,3 +470,13 @@
   Liabilities:Bar:Members:Frp   2.50 EUR
   Income:Bar                   -2.50 EUR
 
+2026-09-03 txn "Miker bought 2 items for €1.75"
+  type: "purchase"
+  timestamp: "2026-09-03 21:00:59.212615"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   1.75 EUR
+  Income:Bar                     -1.75 EUR
+
