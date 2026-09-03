@@ -386,3 +386,11 @@
   Liabilities:Bar:Members:DJefke   1.00 EUR
   Income:Bar                      -1.00 EUR
 
+2026-09-03 txn "DJefke bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-09-03 09:58:38.197458"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:DJefke      1 SODA
+  Liabilities:Bar:Members:DJefke   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
