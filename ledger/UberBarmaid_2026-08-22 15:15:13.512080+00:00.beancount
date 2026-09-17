@@ -960,3 +960,11 @@
   Liabilities:Bar:Members:DJefke  -23.40 EUR
   Assets:Cash:Bar                  23.40 EUR
 
+2026-09-17 txn "Miker bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-09-17 19:13:44.585016"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Liabilities:Bar:Members:Miker   1.00 EUR
+  Income:Bar                     -1.00 EUR
+
