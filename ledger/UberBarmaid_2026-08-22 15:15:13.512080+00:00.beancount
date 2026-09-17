@@ -1032,3 +1032,11 @@
   Liabilities:Bar:Members:Mateo   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2026-09-17 txn "Ariana bought 4 items for €6.00"
+  type: "purchase"
+  timestamp: "2026-09-17 21:17:25.045460"
+  Assets:Inventory:Bar               -4 BEER
+  Liabilities:Bar:Members:Ariana      4 BEER
+  Liabilities:Bar:Members:Ariana   6.00 EUR
+  Income:Bar                      -6.00 EUR
+
