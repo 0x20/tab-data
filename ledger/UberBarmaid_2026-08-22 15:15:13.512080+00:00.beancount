@@ -1006,3 +1006,11 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-09-17 txn "Koen bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-09-17 20:49:36.573132"
+  Assets:Inventory:Bar             -1 SODA
+  Liabilities:Bar:Members:Koen      1 SODA
+  Liabilities:Bar:Members:Koen   1.50 EUR
+  Income:Bar                    -1.50 EUR
+
