@@ -1170,3 +1170,11 @@
   Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
   Income:Bar                          -1.50 EUR
 
+2026-09-24 txn "Anthonyvdg bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-09-24 17:30:50.628595"
+  Assets:Inventory:Bar                   -1 CHIP
+  Liabilities:Bar:Members:Anthonyvdg      1 CHIP
+  Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
+  Income:Bar                          -1.50 EUR
+
