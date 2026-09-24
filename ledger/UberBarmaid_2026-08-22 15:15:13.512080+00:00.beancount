@@ -1210,3 +1210,11 @@
   Liabilities:Bar:Members:Ariana   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2026-09-24 txn "Frp bought 1 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-09-24 19:24:08.493737"
+  Assets:Inventory:Bar            -1 GERMAN
+  Liabilities:Bar:Members:Frp      1 GERMAN
+  Liabilities:Bar:Members:Frp   2.50 EUR
+  Income:Bar                   -2.50 EUR
+
