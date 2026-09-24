@@ -1226,3 +1226,11 @@
   Liabilities:Bar:Members:Ariana   3.00 EUR
   Income:Bar                      -3.00 EUR
 
+2026-09-24 txn "Mattttheo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-09-24 19:34:43.669940"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
