@@ -1476,3 +1476,11 @@
   Liabilities:Bar:Members:Miker   4.00 EUR
   Income:Bar                     -4.00 EUR
 
+2026-10-01 txn "Anthonyvdg bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-10-01 17:22:13.115470"
+  Assets:Inventory:Bar                   -1 SODA
+  Liabilities:Bar:Members:Anthonyvdg      1 SODA
+  Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
+  Income:Bar                          -1.50 EUR
+
