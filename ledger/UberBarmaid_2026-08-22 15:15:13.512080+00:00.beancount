@@ -1554,3 +1554,15 @@
   Liabilities:Bar:Members:Johan   2.00 EUR
   Income:Bar                     -2.00 EUR
 
+2026-10-01 txn "Miker bought 4 items for €5.75"
+  type: "purchase"
+  timestamp: "2026-10-01 23:52:54.000459"
+  Assets:Inventory:Bar              -1 CM
+  Liabilities:Bar:Members:Miker      1 CM
+  Assets:Inventory:Bar              -2 SNACK
+  Liabilities:Bar:Members:Miker      2 SNACK
+  Assets:Inventory:Bar              -1 WATER
+  Liabilities:Bar:Members:Miker      1 WATER
+  Liabilities:Bar:Members:Miker   5.75 EUR
+  Income:Bar                     -5.75 EUR
+
