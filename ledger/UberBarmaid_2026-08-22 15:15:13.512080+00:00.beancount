@@ -1848,3 +1848,13 @@
   Liabilities:Bar:Members:Koen  -5.00 EUR
   Assets:Cash:Bar                5.00 EUR
 
+2026-10-08 txn "Miker bought 2 items for €2.50"
+  type: "purchase"
+  timestamp: "2026-10-08 22:35:05.915303"
+  Assets:Inventory:Bar              -1 SNACK
+  Liabilities:Bar:Members:Miker      1 SNACK
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Miker      1 SODA
+  Liabilities:Bar:Members:Miker   2.50 EUR
+  Income:Bar                     -2.50 EUR
+
