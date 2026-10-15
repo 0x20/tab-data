@@ -70,3 +70,11 @@
   Liabilities:Bar:Members:Koen   1.00 EUR
   Income:Bar                    -1.00 EUR
 
+2026-10-15 txn "Anthonyvdg bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-10-15 18:29:21.705505"
+  Assets:Inventory:Bar                   -1 CHIP
+  Liabilities:Bar:Members:Anthonyvdg      1 CHIP
+  Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
+  Income:Bar                          -1.50 EUR
+
