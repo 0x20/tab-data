@@ -290,3 +290,11 @@
   Liabilities:Bar:Members:Anthonyvdg   1.50 EUR
   Income:Bar                          -1.50 EUR
 
+2026-10-22 txn "DJefke bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-10-22 20:12:22.344496"
+  Assets:Inventory:Bar               -1 SNACK
+  Liabilities:Bar:Members:DJefke      1 SNACK
+  Liabilities:Bar:Members:DJefke   1.00 EUR
+  Income:Bar                      -1.00 EUR
+
