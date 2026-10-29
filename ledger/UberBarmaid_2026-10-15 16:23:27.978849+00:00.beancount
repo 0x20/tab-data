@@ -474,3 +474,9 @@
   Liabilities:Bar:Members:Yvan   1.50 EUR
   Income:Bar                    -1.50 EUR
 
+2026-10-29 txn "--CASH-- gave DJefke a gift of €101.67"
+  type: "transfer"
+  timestamp: "2026-10-29 18:11:32.468819"
+  Assets:Cash:Bar                  101.67 EUR
+  Liabilities:Bar:Members:DJefke  -101.67 EUR
+
