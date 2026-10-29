@@ -564,3 +564,9 @@
   Liabilities:Bar:Members:Thijs   1.50 EUR
   Income:Bar                     -1.50 EUR
 
+2026-10-29 txn "qwaxys deposited €5.00"
+  type: "deposit"
+  timestamp: "2026-10-29 22:56:37.087902"
+  Liabilities:Bar:Members:Bart  -5.00 EUR
+  Assets:Cash:Bar                5.00 EUR
+
