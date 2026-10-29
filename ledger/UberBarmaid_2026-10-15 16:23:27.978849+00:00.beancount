@@ -432,3 +432,11 @@
   Liabilities:Bar:Members:DJefke   1.50 EUR
   Income:Bar                      -1.50 EUR
 
+2026-10-29 txn "Sander bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-10-29 17:21:57.241648"
+  Assets:Inventory:Bar               -1 SODA
+  Liabilities:Bar:Members:Sander      1 SODA
+  Liabilities:Bar:Members:Sander   1.50 EUR
+  Income:Bar                      -1.50 EUR
+
