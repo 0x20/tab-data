@@ -812,3 +812,9 @@
   Liabilities:Bar:Members:Mateo   9.00 EUR
   Liabilities:Bar:Members:Gust   -9.00 EUR
 
+2026-11-05 txn "Matttttttttheo deposited €20.00"
+  type: "deposit"
+  timestamp: "2026-11-05 21:54:24.947919"
+  Liabilities:Bar:Members:Mateo  -20.00 EUR
+  Assets:Cash:Bar                 20.00 EUR
+
