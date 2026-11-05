@@ -714,3 +714,9 @@
   Assets:Cash:Bar        1.00 EUR
   Income:Bar            -1.00 EUR
 
+2026-11-05 txn "Stefaan deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-11-05 20:05:52.480657"
+  Liabilities:Bar:Members:Stefaan  -10.00 EUR
+  Assets:Cash:Bar                   10.00 EUR
+
