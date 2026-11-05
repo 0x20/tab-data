@@ -770,3 +770,11 @@
   Liabilities:Bar:Members:Joris   3.50 EUR
   Income:Bar                     -3.50 EUR
 
+2026-11-05 txn "Gust bought 1 items for €1.00"
+  type: "purchase"
+  timestamp: "2026-11-05 20:42:27.998392"
+  Assets:Inventory:Bar             -1 SNACK
+  Liabilities:Bar:Members:Gust      1 SNACK
+  Liabilities:Bar:Members:Gust   1.00 EUR
+  Income:Bar                    -1.00 EUR
+
