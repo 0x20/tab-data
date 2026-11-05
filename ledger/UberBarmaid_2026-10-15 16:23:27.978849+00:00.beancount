@@ -806,3 +806,9 @@
   Assets:Cash:Bar        4.25 EUR
   Income:Bar            -4.25 EUR
 
+2026-11-05 txn "Matttttttttheo gave Gust a gift of €9.00"
+  type: "transfer"
+  timestamp: "2026-11-05 21:54:15.153554"
+  Liabilities:Bar:Members:Mateo   9.00 EUR
+  Liabilities:Bar:Members:Gust   -9.00 EUR
+
