@@ -1028,3 +1028,9 @@
   Liabilities:Bar:Members:Numi   2.50 EUR
   Income:Bar                    -2.50 EUR
 
+2026-11-14 txn "Numi deposited €10.00"
+  type: "deposit"
+  timestamp: "2026-11-14 17:04:25.451317"
+  Liabilities:Bar:Members:Numi  -10.00 EUR
+  Assets:Cash:Bar                10.00 EUR
+
