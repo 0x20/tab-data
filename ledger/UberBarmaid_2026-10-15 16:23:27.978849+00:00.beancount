@@ -1188,3 +1188,11 @@
   Liabilities:Bar:Members:Frp   1.00 EUR
   Income:Bar                   -1.00 EUR
 
+2026-11-19 txn "Matttttttttthhheo bought 1 items for €1.50"
+  type: "purchase"
+  timestamp: "2026-11-19 22:08:33.063891"
+  Assets:Inventory:Bar              -1 SODA
+  Liabilities:Bar:Members:Mateo      1 SODA
+  Liabilities:Bar:Members:Mateo   1.50 EUR
+  Income:Bar                     -1.50 EUR
+
